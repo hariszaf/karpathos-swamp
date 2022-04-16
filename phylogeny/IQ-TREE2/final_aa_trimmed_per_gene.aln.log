@@ -1,0 +1,892 @@
+IQ-TREE multicore version 2.0-rc1 for Linux 64-bit built Nov 21 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node-32 (AVX2, FMA3, 125 GB RAM)
+Command: /mnt/big/Phylogeny/iqtree-2.0-rc1-Linux/bin/iqtree -s final_aa_trimmed_per_gene.aln -m MFP -T AUTO
+Seed:    145841 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 15 14:13:46 2022
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file final_aa_trimmed_per_gene.aln ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 289 sequences with 8532 columns, 8387 distinct patterns
+6633 parsimony-informative, 1674 singleton sites, 225 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  bin_1     44.92%    failed      0.00%
+   2  bin_2     45.17%    passed     17.52%
+   3  bin_3     72.19%    passed      6.18%
+   4  bin_4     62.48%    failed      0.12%
+   5  bin_5     49.92%    failed      0.33%
+   6  bin_6     68.75%    failed      0.00%
+   7  bin_7     44.63%    failed      0.00%
+   8  bin_8     45.64%    passed      9.79%
+   9  bin_9     55.95%    failed      0.00%
+  10  bin_10    44.47%    failed      0.00%
+  11  bin_11    45.80%    failed      0.00%
+  12  bin_12    65.06%    failed      0.00%
+  13  bin_13    49.71%    failed      0.00%
+  14  bin_14    46.74%    failed      0.00%
+  15  bin_15    46.09%    failed      0.30%
+  16  bin_16    44.54%    failed      0.00%
+  17  bin_17    56.90%    failed      0.00%
+  18  bin_18    41.00%    failed      0.10%
+  19  bin_19    46.28%    failed      0.00%
+  20  bin_20    46.25%    failed      0.00%
+  21  bin_21    42.87%    failed      0.00%
+  22  bin_22    48.32%    failed      0.00%
+  23  bin_23    46.12%    failed      0.00%
+  24  bin_24    44.07%    failed      0.00%
+  25  bin_25    67.32%    failed      0.60%
+  26  bin_26    44.78%    passed     15.64%
+  27  bin_27    45.22%    failed      0.02%
+  28  bin_28    51.38%    failed      0.00%
+  29  bin_29    49.25%    failed      0.00%
+  30  bin_30    46.68%    failed      3.14%
+  31  bin_31    54.32%    failed      0.00%
+  32  bin_32    51.17%    failed      0.00%
+  33  bin_33    46.27%    failed      3.79%
+  34  bin_34    44.36%    failed      0.00%
+  35  bin_35    52.03%    failed      0.00%
+  36  bin_36    50.34%    failed      0.00%
+  37  bin_37    44.73%    failed      0.00%
+  38  bin_38    45.22%    failed      0.00%
+  39  bin_39    47.42%    failed      0.00%
+  40  bin_40    51.68%    failed      0.00%
+  41  bin_41    46.26%    failed      0.42%
+  42  bin_42    45.44%    failed      0.55%
+  43  bin_43    46.93%    failed      1.75%
+  44  bin_44    49.82%    failed      0.00%
+  45  bin_45    51.58%    failed      0.00%
+  46  bin_46    47.08%    failed      0.01%
+  47  bin_47    49.12%    failed      0.00%
+  48  bin_48    51.79%    failed      0.00%
+  49  bin_49    48.99%    passed     24.71%
+  50  bin_50    62.40%    failed      0.00%
+  51  bin_51    55.27%    failed      0.00%
+  52  bin_52    44.10%    passed      7.21%
+  53  bin_53    71.84%    failed      0.00%
+  54  bin_54    40.25%    failed      0.12%
+  55  bin_55    46.37%    passed      9.94%
+  56  bin_56    77.10%    failed      0.03%
+  57  bin_57    74.51%    failed      0.00%
+  58  bin_58    52.11%    failed      0.00%
+  59  bin_59    43.30%    failed      0.00%
+  60  bin_60    49.24%    passed     28.91%
+  61  bin_61    55.34%    failed      0.00%
+  62  bin_62    47.64%    passed     23.80%
+  63  bin_63    44.26%    passed     12.76%
+  64  bin_64    46.11%    failed      0.00%
+  65  bin_65    43.25%    failed      0.00%
+  66  bin_66    45.44%    failed      0.00%
+  67  bin_67    45.77%    failed      0.02%
+  68  bin_68    39.72%    failed      0.00%
+  69  bin_69    45.26%    passed     42.08%
+  70  bin_70    56.02%    passed     88.47%
+  71  bin_71    50.46%    failed      0.00%
+  72  bin_72    47.36%    failed      0.00%
+  73  bin_73    47.84%    failed      0.00%
+  74  bin_74    49.80%    failed      1.82%
+  75  bin_75    76.09%    failed      0.00%
+  76  bin_76    43.17%    failed      1.58%
+  77  bin_77    71.14%    failed      0.53%
+  78  bin_78    46.85%    failed      0.00%
+  79  bin_79    45.26%    failed      0.00%
+  80  bin_80    48.18%    failed      0.00%
+  81  bin_81    47.30%    failed      2.23%
+  82  bin_82    55.67%    passed      9.81%
+  83  bin_83    46.65%    failed      0.42%
+  84  bin_84    44.67%    failed      0.00%
+  85  bin_85    66.35%    failed      0.00%
+  86  bin_86    47.69%    failed      0.00%
+  87  bin_87    46.09%    failed      0.00%
+  88  bin_88    46.24%    failed      0.00%
+  89  bin_89    45.91%    failed      0.00%
+  90  bin_90    54.82%    failed      0.00%
+  91  bin_91    48.93%    failed      0.00%
+  92  bin_92    60.36%    failed      0.63%
+  93  bin_93    50.81%    passed     68.49%
+  94  bin_94    42.94%    failed      0.00%
+  95  bin_95    70.46%    failed      0.00%
+  96  bin_96    45.98%    failed      0.00%
+  97  bin_97    55.93%    failed      0.00%
+  98  bin_98    43.52%    failed      0.00%
+  99  bin_99    43.30%    failed      0.00%
+ 100  bin_100   44.16%    failed      1.79%
+ 101  bin_101   47.81%    failed      0.00%
+ 102  bin_102   45.80%    failed      0.00%
+ 103  bin_103   47.12%    failed      0.00%
+ 104  bin_104   79.03%    failed      0.00%
+ 105  bin_105   45.94%    failed      0.00%
+ 106  bin_106   47.66%    failed      0.01%
+ 107  bin_107   46.07%    failed      0.00%
+ 108  bin_108   45.39%    failed      0.00%
+ 109  bin_109   48.61%    passed     14.87%
+ 110  bin_110   46.26%    failed      0.00%
+ 111  bin_111   45.89%    failed      0.00%
+ 112  bin_112   45.26%    failed      0.01%
+ 113  bin_113   41.65%    failed      0.06%
+ 114  bin_114   47.49%    failed      0.00%
+ 115  bin_115   53.11%    failed      4.41%
+ 116  bin_116   59.96%    failed      0.05%
+ 117  bin_117   44.88%    failed      2.13%
+ 118  bin_118   48.21%    failed      0.00%
+ 119  bin_119   47.09%    failed      0.78%
+ 120  bin_120   51.43%    failed      0.00%
+ 121  bin_121   45.48%    failed      0.00%
+ 122  bin_122   56.32%    failed      0.00%
+ 123  bin_123   45.85%    failed      0.05%
+ 124  bin_124   56.80%    failed      4.04%
+ 125  bin_125   47.61%    failed      0.00%
+ 126  bin_126   79.76%    failed      0.10%
+ 127  bin_127   45.96%    failed      0.00%
+ 128  bin_128   50.23%    failed      0.00%
+ 129  bin_129   44.16%    failed      0.00%
+ 130  bin_130   47.37%    failed      0.00%
+ 131  bin_131   40.28%    failed      0.83%
+ 132  bin_132   53.94%    failed      0.00%
+ 133  bin_133   49.29%    failed      0.00%
+ 134  bin_134   53.42%    failed      0.00%
+ 135  bin_135   45.46%    passed     16.51%
+ 136  bin_136   56.42%    passed     23.44%
+ 137  bin_137   44.68%    failed      0.00%
+ 138  bin_138   46.27%    failed      0.02%
+ 139  bin_139   48.71%    failed      0.00%
+ 140  bin_140   45.25%    failed      0.00%
+ 141  bin_141   50.04%    failed      0.00%
+ 142  bin_142   41.15%    failed      0.00%
+ 143  bin_143   46.16%    failed      0.00%
+ 144  bin_144   45.21%    passed     64.83%
+ 145  bin_145   49.21%    passed     79.18%
+ 146  bin_146   47.44%    failed      0.00%
+ 147  bin_147   44.10%    failed      0.00%
+ 148  bin_148   48.11%    failed      0.00%
+ 149  bin_149   46.26%    failed      0.00%
+ 150  bin_150   47.46%    failed      0.00%
+ 151  bin_151   48.10%    failed      0.00%
+ 152  bin_152   71.53%    failed      0.00%
+ 153  bin_153   46.55%    failed      0.00%
+ 154  bin_154   46.16%    failed      0.00%
+ 155  bin_155   48.08%    failed      0.00%
+ 156  bin_156   55.17%    failed      0.00%
+ 157  bin_157   47.77%    failed      0.00%
+ 158  bin_158   49.04%    failed      0.00%
+ 159  bin_159   54.27%    passed     20.50%
+ 160  bin_160   44.83%    passed     40.56%
+ 161  bin_161   46.71%    failed      0.00%
+ 162  bin_162   58.03%    failed      0.00%
+ 163  bin_163   52.79%    failed      0.00%
+ 164  bin_164   46.51%    failed      0.04%
+ 165  bin_165   50.21%    failed      0.00%
+ 166  bin_166   58.31%    failed      0.00%
+ 167  bin_167   42.17%    failed      0.00%
+ 168  bin_168   47.01%    failed      0.00%
+ 169  bin_169   44.76%    failed      0.00%
+ 170  bin_170   47.05%    failed      0.00%
+ 171  bin_171   46.58%    failed      0.00%
+ 172  bin_172   45.89%    passed     35.30%
+ 173  bin_173   47.06%    failed      0.00%
+ 174  bin_174   49.73%    failed      0.00%
+ 175  bin_175   46.68%    failed      0.00%
+ 176  bin_176   57.65%    failed      0.00%
+ 177  bin_177   45.97%    failed      0.00%
+ 178  bin_178   55.20%    failed      0.00%
+ 179  bin_179   60.50%    failed      0.00%
+ 180  bin_180   54.38%    passed     10.06%
+ 181  bin_181   44.70%    failed      0.00%
+ 182  bin_182   81.75%    failed      0.00%
+ 183  bin_183   54.86%    passed     35.15%
+ 184  bin_184   43.14%    failed      0.00%
+ 185  bin_185   45.29%    failed      0.00%
+ 186  bin_186   45.69%    failed      0.09%
+ 187  bin_187   45.36%    failed      0.00%
+ 188  bin_188   44.29%    failed      0.00%
+ 189  bin_189   44.19%    failed      0.00%
+ 190  bin_190   49.93%    failed      0.00%
+ 191  bin_191   51.24%    failed      0.00%
+ 192  bin_192   46.28%    failed      0.00%
+ 193  bin_193   45.16%    failed      0.25%
+ 194  bin_194   45.71%    failed      0.50%
+ 195  bin_195   59.31%    failed      0.38%
+ 196  bin_196   47.39%    passed      7.61%
+ 197  bin_197   44.84%    failed      0.00%
+ 198  bin_198   53.28%    failed      0.00%
+ 199  bin_199   49.13%    failed      0.00%
+ 200  bin_200   49.26%    failed      3.24%
+ 201  bin_201   44.98%    failed      0.00%
+ 202  bin_202   66.13%    failed      0.00%
+ 203  bin_203   52.34%    failed      0.00%
+ 204  bin_204   46.89%    failed      0.00%
+ 205  bin_205   47.78%    failed      0.01%
+ 206  bin_206   53.81%    failed      0.02%
+ 207  bin_207   48.90%    failed      1.34%
+ 208  bin_208   58.13%    failed      0.02%
+ 209  bin_209   45.79%    failed      0.00%
+ 210  bin_210   58.01%    failed      0.00%
+ 211  bin_211   45.75%    failed      0.00%
+ 212  bin_212   45.90%    failed      0.88%
+ 213  bin_213   57.08%    failed      1.27%
+ 214  bin_214   47.00%    failed      0.20%
+ 215  bin_215   49.50%    failed      2.55%
+ 216  bin_216   43.99%    failed      0.00%
+ 217  bin_217   44.95%    failed      0.00%
+ 218  bin_218   38.33%    failed      0.00%
+ 219  bin_219   47.35%    failed      0.00%
+ 220  bin_220   47.12%    failed      0.00%
+ 221  bin_221   44.76%    failed      0.00%
+ 222  bin_222   46.45%    failed      0.00%
+ 223  bin_223   40.48%    failed      0.00%
+ 224  bin_224   45.43%    passed     18.86%
+ 225  bin_225   40.88%    failed      0.00%
+ 226  bin_226   45.23%    failed      2.56%
+ 227  bin_227   44.48%    failed      0.00%
+ 228  bin_228   47.71%    passed     37.63%
+ 229  bin_229   44.77%    failed      0.00%
+ 230  bin_230   45.26%    failed      0.00%
+ 231  bin_231   40.40%    failed      0.00%
+ 232  bin_232   41.37%    failed      0.00%
+ 233  bin_233   46.79%    passed     21.56%
+ 234  bin_234   47.71%    failed      0.00%
+ 235  bin_235   45.28%    failed      0.00%
+ 236  bin_236   45.79%    failed      0.00%
+ 237  bin_237   53.12%    failed      0.00%
+ 238  bin_238   49.62%    failed      0.05%
+ 239  bin_239   45.80%    failed      0.38%
+ 240  bin_240   41.60%    failed      0.00%
+ 241  bin_241   45.19%    failed      0.00%
+ 242  bin_242   44.74%    failed      0.78%
+ 243  bin_243   49.94%    failed      0.00%
+ 244  bin_244   48.00%    failed      1.12%
+ 245  bin_245   43.50%    failed      0.00%
+ 246  bin_246   50.20%    failed      0.19%
+ 247  bin_247   47.66%    failed      0.00%
+ 248  bin_248   47.08%    passed     19.68%
+ 249  bin_249   47.89%    failed      0.00%
+ 250  bin_250   40.81%    failed      0.00%
+ 251  bin_251   45.02%    passed     39.62%
+ 252  bin_252   44.54%    failed      0.00%
+ 253  bin_253   47.37%    failed      0.00%
+ 254  bin_254   43.96%    failed      0.00%
+ 255  bin_255   44.63%    failed      0.00%
+ 256  bin_256   45.97%    failed      1.39%
+ 257  bin_257   42.57%    failed      0.00%
+ 258  bin_258   43.73%    failed      0.00%
+ 259  bin_259   54.29%    failed      0.00%
+ 260  bin_260   46.89%    failed      0.00%
+ 261  bin_261   45.00%    failed      0.00%
+ 262  bin_262   65.45%    failed      0.00%
+ 263  bin_263   79.76%    failed      0.00%
+ 264  bin_264   47.88%    failed      0.00%
+ 265  bin_265   57.15%    failed      0.00%
+ 266  bin_266   39.35%    failed      0.00%
+ 267  bin_267   53.41%    failed      0.00%
+ 268  bin_268   56.22%    passed     90.67%
+ 269  bin_269   63.35%    failed      0.00%
+ 270  bin_270   52.53%    failed      0.00%
+ 271  bin_271   45.41%    failed      0.00%
+ 272  bin_272   41.97%    failed      0.00%
+ 273  bin_273   47.13%    failed      0.00%
+ 274  bin_274   47.55%    failed      0.00%
+ 275  bin_275   46.58%    failed      0.37%
+ 276  bin_276   43.08%    failed      0.00%
+ 277  bin_277   45.93%    failed      0.00%
+ 278  bin_278   48.72%    failed      1.61%
+ 279  bin_279   52.26%    failed      0.00%
+ 280  bin_280   54.88%    passed     20.52%
+ 281  bin_281   44.56%    failed      0.00%
+ 282  bin_282   44.94%    failed      0.00%
+ 283  bin_283   45.17%    failed      0.00%
+ 284  bin_284   45.99%    passed     70.83%
+ 285  bin_285   45.92%    failed      0.00%
+ 286  bin_286   46.85%    failed      0.00%
+ 287  bin_287   45.31%    failed      0.00%
+ 288  bin_288   43.48%    failed      0.00%
+ 289  bin_289   48.61%    failed      0.00%
+WARNING: 79 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     49.38%  256 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 2.398 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+4 trees examined
+Threads: 1 / Time: 23.187 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2173785
+Threads: 2 / Time: 11.423 sec / Speedup: 2.030 / Efficiency: 101% / LogL: -2173785
+Threads: 3 / Time: 7.971 sec / Speedup: 2.909 / Efficiency: 97% / LogL: -2173785
+Threads: 4 / Time: 6.071 sec / Speedup: 3.819 / Efficiency: 95% / LogL: -2173785
+Threads: 5 / Time: 5.119 sec / Speedup: 4.530 / Efficiency: 91% / LogL: -2173785
+Threads: 6 / Time: 4.284 sec / Speedup: 5.413 / Efficiency: 90% / LogL: -2173785
+Threads: 7 / Time: 3.796 sec / Speedup: 6.109 / Efficiency: 87% / LogL: -2173785
+Threads: 8 / Time: 3.631 sec / Speedup: 6.386 / Efficiency: 80% / LogL: -2173785
+Threads: 9 / Time: 3.342 sec / Speedup: 6.938 / Efficiency: 77% / LogL: -2173785
+Threads: 10 / Time: 3.061 sec / Speedup: 7.576 / Efficiency: 76% / LogL: -2173785
+Threads: 11 / Time: 2.841 sec / Speedup: 8.162 / Efficiency: 74% / LogL: -2173785
+Threads: 12 / Time: 2.602 sec / Speedup: 8.913 / Efficiency: 74% / LogL: -2173785
+Threads: 13 / Time: 2.403 sec / Speedup: 9.649 / Efficiency: 74% / LogL: -2173785
+Threads: 14 / Time: 2.355 sec / Speedup: 9.846 / Efficiency: 70% / LogL: -2173785
+Threads: 15 / Time: 2.194 sec / Speedup: 10.567 / Efficiency: 70% / LogL: -2173785
+Threads: 16 / Time: 2.079 sec / Speedup: 11.156 / Efficiency: 70% / LogL: -2173785
+Threads: 17 / Time: 1.995 sec / Speedup: 11.622 / Efficiency: 68% / LogL: -2173785
+Threads: 18 / Time: 1.904 sec / Speedup: 12.176 / Efficiency: 68% / LogL: -2173785
+Threads: 19 / Time: 1.835 sec / Speedup: 12.634 / Efficiency: 66% / LogL: -2173785
+Threads: 20 / Time: 1.801 sec / Speedup: 12.877 / Efficiency: 64% / LogL: -2173785
+BEST NUMBER OF THREADS: 20
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1551688.078
+Optimal log-likelihood: -1551687.557
+Proportion of invariable sites: 0.010
+Gamma shape alpha: 1.023
+Parameters optimization took 1 rounds (1.250 sec)
+Time for fast ML tree search: 12.572 seconds
+
+NOTE: ModelFinder requires 3754 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 8532) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            1651402.420  575 3303954.839  3304038.097  3308009.497
+  2  LG+I          1646324.751  576 3293801.502  3293885.060  3297863.212
+  3  LG+G4         1552424.198  576 3106000.396  3106083.954  3110062.106
+  4  LG+I+G4       1551687.522  577 3104529.045  3104612.903  3108597.806
+  5  LG+R2         1576380.401  577 3153914.802  3153998.661  3157983.564
+  6  LG+R3         1558320.122  579 3117798.244  3117882.706  3121881.108
+  7  LG+R4         1551727.602  581 3104617.203  3104702.270  3108714.170
+  8  LG+R5         1548955.308  583 3099076.615  3099162.290  3103187.686
+  9  LG+R6         1547291.034  585 3095752.068  3095838.353  3099877.242
+ 10  LG+R7         1546527.350  587 3094228.700  3094315.597  3098367.977
+ 11  LG+R8         1546098.920  589 3093375.839  3093463.351  3097529.219
+ 12  LG+R9         1545841.368  591 3092864.737  3092952.866  3097032.220
+ 13  LG+R10        1545699.361  593 3092584.723  3092673.471  3096766.309
+ 26  LG+F+R10      1546341.457  612 3093906.914  3094001.662  3098222.480
+ 39  WAG+R10       1552879.889  593 3106945.777  3107034.526  3111127.364
+ 52  WAG+F+R10     1552668.193  612 3106560.386  3106655.134  3110875.952
+ 65  JTT+R10       1566861.792  593 3134909.584  3134998.332  3139091.170
+ 78  JTT+F+R10     1567906.956  612 3137037.912  3137132.660  3141353.478
+ 91  JTTDCMut+R10  1566536.726  593 3134259.452  3134348.200  3138441.038
+104  JTTDCMut+F+R10 1567420.371  612 3136064.742  3136159.490  3140380.308
+117  DCMut+R10     1574846.543  593 3150879.087  3150967.835  3155060.673
+130  DCMut+F+R10   1569161.212  612 3139546.423  3139641.172  3143861.990
+143  VT+R10        1555372.645  593 3111931.291  3112020.039  3116112.877
+156  VT+F+R10      1555597.788  612 3112419.575  3112514.324  3116735.142
+169  PMB+R10       1564016.505  593 3129219.011  3129307.759  3133400.597
+182  PMB+F+R10     1561540.665  612 3124305.330  3124400.079  3128620.897
+195  Blosum62+R10  1561737.068  593 3124660.136  3124748.885  3128841.723
+208  Blosum62+F+R10 1560917.734  612 3123059.468  3123154.216  3127375.034
+221  Dayhoff+R10   1574819.506  593 3150825.012  3150913.760  3155006.598
+234  Dayhoff+F+R10 1569174.696  612 3139573.392  3139668.141  3143888.959
+247  mtREV+R10     1656639.148  593 3314464.296  3314553.045  3318645.883
+260  mtREV+F+R10   1588797.177  612 3178818.353  3178913.102  3183133.920
+273  mtART+R10     1674382.485  593 3349950.970  3350039.718  3354132.556
+286  mtART+F+R10   1601581.733  612 3204387.467  3204482.215  3208703.033
+299  mtZOA+R10     1628475.580  593 3258137.161  3258225.909  3262318.747
+312  mtZOA+F+R10   1582076.538  612 3165377.077  3165471.825  3169692.643
+325  mtMet+R10     1659304.994  593 3319795.988  3319884.736  3323977.574
+338  mtMet+F+R10   1592041.547  612 3185307.094  3185401.842  3189622.660
+351  mtVer+R10     1678462.138  593 3358110.277  3358199.025  3362291.863
+364  mtVer+F+R10   1620788.304  612 3242800.609  3242895.357  3247116.175
+377  mtInv+R10     1661145.410  593 3323476.820  3323565.568  3327658.406
+390  mtInv+F+R10   1575596.975  612 3152417.950  3152512.698  3156733.516
+403  mtMAM+R10     1701471.998  593 3404129.996  3404218.744  3408311.582
+416  mtMAM+F+R10   1633706.116  612 3268636.232  3268730.980  3272951.799
+429  HIVb+R10      1610273.428  593 3221732.855  3221821.603  3225914.441
+442  HIVb+F+R10    1610607.296  612 3222438.591  3222533.339  3226754.157
+455  HIVw+R10      1681544.178  593 3364274.355  3364363.104  3368455.942
+468  HIVw+F+R10    1663299.985  612 3327823.969  3327918.717  3332139.535
+481  FLU+R10       1598572.028  593 3198330.056  3198418.805  3202511.643
+494  FLU+F+R10     1596898.403  612 3195020.806  3195115.554  3199336.372
+507  rtREV+R10     1560240.932  593 3121667.864  3121756.612  3125849.450
+520  rtREV+F+R10   1550324.920  612 3101873.840  3101968.589  3106189.407
+533  cpREV+R10     1566765.001  593 3134716.003  3134804.751  3138897.589
+546  cpREV+F+R10   1567266.020  612 3135756.039  3135850.787  3140071.605
+Akaike Information Criterion:           LG+R10
+Corrected Akaike Information Criterion: LG+R10
+Bayesian Information Criterion:         LG+R10
+Best-fit model: LG+R10 chosen according to BIC
+
+All model information printed to final_aa_trimmed_per_gene.aln.model.gz
+CPU time for ModelFinder: 111686.106 seconds (31h:1m:26s)
+Wall-clock time for ModelFinder: 5709.881 seconds (1h:35m:9s)
+
+NOTE: 3754 MB RAM (3 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1545699.361
+Optimal log-likelihood: -1545699.257
+Site proportion and rates:  (0.034,0.014) (0.051,0.070) (0.078,0.156) (0.110,0.289) (0.123,0.455) (0.143,0.680) (0.138,0.991) (0.130,1.406) (0.121,2.019) (0.071,3.278)
+Parameters optimization took 1 rounds (4.476 sec)
+Computing ML distances based on estimated model parameters... 39.704 sec
+Computing BIONJ tree...
+0.070 seconds
+Log-likelihood of BIONJ tree: -1547903.942
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 253.221 second
+Computing log-likelihood of 98 initial trees ... 110.315 seconds
+Current best score: -1545699.257
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1545692.289
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -1545257.027
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -1544782.738
+Iteration 10 / LogL: -1544968.522 / Time: 0h:13m:59s
+Iteration 20 / LogL: -1545142.778 / Time: 0h:18m:16s
+Finish initializing candidate tree set (20)
+Current best tree score: -1544782.738 / CPU time: 1040.490
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -1544727.505
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -1544675.292
+Iteration 30 / LogL: -1544778.174 / Time: 0h:25m:52s (1h:26m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -1544650.903
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -1544637.285
+Iteration 40 / LogL: -1544637.285 / Time: 0h:29m:51s (1h:16m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -1544612.298
+Iteration 50 / LogL: -1544645.461 / Time: 0h:34m:15s (1h:3m:36s left)
+Iteration 60 / LogL: -1544643.851 / Time: 0h:37m:51s (0h:51m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -1544603.590
+Iteration 70 / LogL: -1544615.953 / Time: 0h:41m:43s (0h:59m:15s left)
+Iteration 80 / LogL: -1544613.836 / Time: 0h:45m:8s (0h:50m:17s left)
+Iteration 90 / LogL: -1544700.366 / Time: 0h:48m:38s (0h:42m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -1544601.212
+Iteration 100 / LogL: -1544626.123 / Time: 0h:52m:15s (0h:51m:44s left)
+Iteration 110 / LogL: -1544623.411 / Time: 0h:55m:43s (0h:44m:59s left)
+Iteration 120 / LogL: -1544617.362 / Time: 0h:59m:10s (0h:38m:47s left)
+Iteration 130 / LogL: -1544697.908 / Time: 1h:2m:34s (0h:32m:59s left)
+Iteration 140 / LogL: -1544723.425 / Time: 1h:6m:1s (0h:27m:32s left)
+Iteration 150 / LogL: -1544605.325 / Time: 1h:9m:28s (0h:22m:22s left)
+Iteration 160 / LogL: -1544695.268 / Time: 1h:12m:53s (0h:17m:25s left)
+Iteration 170 / LogL: -1544651.566 / Time: 1h:16m:19s (0h:12m:38s left)
+Iteration 180 / LogL: -1544628.123 / Time: 1h:19m:43s (0h:8m:1s left)
+
+******************************************************
+CHECKPOINT: Resuming analysis from final_aa_trimmed_per_gene.aln.ckp.gz
+
+IQ-TREE multicore version 2.0-rc1 for Linux 64-bit built Nov 21 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node-32 (AVX2, FMA3, 125 GB RAM)
+Command: /mnt/big/Phylogeny/iqtree-2.0-rc1-Linux/bin/iqtree -s final_aa_trimmed_per_gene.aln -m LG+R10 -alrt 1000 -B 1000 -T AUTO
+Seed:    307551 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 15 17:15:18 2022
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+WARNING: Command-line argument `LG+R10` differs from checkpoint `MFP`
+WARNING: Command-line argument `-alrt` differs from checkpoint `-T`
+WARNING: Command-line argument `1000` differs from checkpoint `AUTO`
+WARNING: Number of command-line arguments differs from checkpoint
+WARNING: Command-line differs from checkpoint!
+Reading alignment file final_aa_trimmed_per_gene.aln ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 289 sequences with 8532 columns, 8387 distinct patterns
+6633 parsimony-informative, 1674 singleton sites, 225 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  bin_1     44.92%    failed      0.00%
+   2  bin_2     45.17%    passed     17.52%
+   3  bin_3     72.19%    passed      6.18%
+   4  bin_4     62.48%    failed      0.12%
+   5  bin_5     49.92%    failed      0.33%
+   6  bin_6     68.75%    failed      0.00%
+   7  bin_7     44.63%    failed      0.00%
+   8  bin_8     45.64%    passed      9.79%
+   9  bin_9     55.95%    failed      0.00%
+  10  bin_10    44.47%    failed      0.00%
+  11  bin_11    45.80%    failed      0.00%
+  12  bin_12    65.06%    failed      0.00%
+  13  bin_13    49.71%    failed      0.00%
+  14  bin_14    46.74%    failed      0.00%
+  15  bin_15    46.09%    failed      0.30%
+  16  bin_16    44.54%    failed      0.00%
+  17  bin_17    56.90%    failed      0.00%
+  18  bin_18    41.00%    failed      0.10%
+  19  bin_19    46.28%    failed      0.00%
+  20  bin_20    46.25%    failed      0.00%
+  21  bin_21    42.87%    failed      0.00%
+  22  bin_22    48.32%    failed      0.00%
+  23  bin_23    46.12%    failed      0.00%
+  24  bin_24    44.07%    failed      0.00%
+  25  bin_25    67.32%    failed      0.60%
+  26  bin_26    44.78%    passed     15.64%
+  27  bin_27    45.22%    failed      0.02%
+  28  bin_28    51.38%    failed      0.00%
+  29  bin_29    49.25%    failed      0.00%
+  30  bin_30    46.68%    failed      3.14%
+  31  bin_31    54.32%    failed      0.00%
+  32  bin_32    51.17%    failed      0.00%
+  33  bin_33    46.27%    failed      3.79%
+  34  bin_34    44.36%    failed      0.00%
+  35  bin_35    52.03%    failed      0.00%
+  36  bin_36    50.34%    failed      0.00%
+  37  bin_37    44.73%    failed      0.00%
+  38  bin_38    45.22%    failed      0.00%
+  39  bin_39    47.42%    failed      0.00%
+  40  bin_40    51.68%    failed      0.00%
+  41  bin_41    46.26%    failed      0.42%
+  42  bin_42    45.44%    failed      0.55%
+  43  bin_43    46.93%    failed      1.75%
+  44  bin_44    49.82%    failed      0.00%
+  45  bin_45    51.58%    failed      0.00%
+  46  bin_46    47.08%    failed      0.01%
+  47  bin_47    49.12%    failed      0.00%
+  48  bin_48    51.79%    failed      0.00%
+  49  bin_49    48.99%    passed     24.71%
+  50  bin_50    62.40%    failed      0.00%
+  51  bin_51    55.27%    failed      0.00%
+  52  bin_52    44.10%    passed      7.21%
+  53  bin_53    71.84%    failed      0.00%
+  54  bin_54    40.25%    failed      0.12%
+  55  bin_55    46.37%    passed      9.94%
+  56  bin_56    77.10%    failed      0.03%
+  57  bin_57    74.51%    failed      0.00%
+  58  bin_58    52.11%    failed      0.00%
+  59  bin_59    43.30%    failed      0.00%
+  60  bin_60    49.24%    passed     28.91%
+  61  bin_61    55.34%    failed      0.00%
+  62  bin_62    47.64%    passed     23.80%
+  63  bin_63    44.26%    passed     12.76%
+  64  bin_64    46.11%    failed      0.00%
+  65  bin_65    43.25%    failed      0.00%
+  66  bin_66    45.44%    failed      0.00%
+  67  bin_67    45.77%    failed      0.02%
+  68  bin_68    39.72%    failed      0.00%
+  69  bin_69    45.26%    passed     42.08%
+  70  bin_70    56.02%    passed     88.47%
+  71  bin_71    50.46%    failed      0.00%
+  72  bin_72    47.36%    failed      0.00%
+  73  bin_73    47.84%    failed      0.00%
+  74  bin_74    49.80%    failed      1.82%
+  75  bin_75    76.09%    failed      0.00%
+  76  bin_76    43.17%    failed      1.58%
+  77  bin_77    71.14%    failed      0.53%
+  78  bin_78    46.85%    failed      0.00%
+  79  bin_79    45.26%    failed      0.00%
+  80  bin_80    48.18%    failed      0.00%
+  81  bin_81    47.30%    failed      2.23%
+  82  bin_82    55.67%    passed      9.81%
+  83  bin_83    46.65%    failed      0.42%
+  84  bin_84    44.67%    failed      0.00%
+  85  bin_85    66.35%    failed      0.00%
+  86  bin_86    47.69%    failed      0.00%
+  87  bin_87    46.09%    failed      0.00%
+  88  bin_88    46.24%    failed      0.00%
+  89  bin_89    45.91%    failed      0.00%
+  90  bin_90    54.82%    failed      0.00%
+  91  bin_91    48.93%    failed      0.00%
+  92  bin_92    60.36%    failed      0.63%
+  93  bin_93    50.81%    passed     68.49%
+  94  bin_94    42.94%    failed      0.00%
+  95  bin_95    70.46%    failed      0.00%
+  96  bin_96    45.98%    failed      0.00%
+  97  bin_97    55.93%    failed      0.00%
+  98  bin_98    43.52%    failed      0.00%
+  99  bin_99    43.30%    failed      0.00%
+ 100  bin_100   44.16%    failed      1.79%
+ 101  bin_101   47.81%    failed      0.00%
+ 102  bin_102   45.80%    failed      0.00%
+ 103  bin_103   47.12%    failed      0.00%
+ 104  bin_104   79.03%    failed      0.00%
+ 105  bin_105   45.94%    failed      0.00%
+ 106  bin_106   47.66%    failed      0.01%
+ 107  bin_107   46.07%    failed      0.00%
+ 108  bin_108   45.39%    failed      0.00%
+ 109  bin_109   48.61%    passed     14.87%
+ 110  bin_110   46.26%    failed      0.00%
+ 111  bin_111   45.89%    failed      0.00%
+ 112  bin_112   45.26%    failed      0.01%
+ 113  bin_113   41.65%    failed      0.06%
+ 114  bin_114   47.49%    failed      0.00%
+ 115  bin_115   53.11%    failed      4.41%
+ 116  bin_116   59.96%    failed      0.05%
+ 117  bin_117   44.88%    failed      2.13%
+ 118  bin_118   48.21%    failed      0.00%
+ 119  bin_119   47.09%    failed      0.78%
+ 120  bin_120   51.43%    failed      0.00%
+ 121  bin_121   45.48%    failed      0.00%
+ 122  bin_122   56.32%    failed      0.00%
+ 123  bin_123   45.85%    failed      0.05%
+ 124  bin_124   56.80%    failed      4.04%
+ 125  bin_125   47.61%    failed      0.00%
+ 126  bin_126   79.76%    failed      0.10%
+ 127  bin_127   45.96%    failed      0.00%
+ 128  bin_128   50.23%    failed      0.00%
+ 129  bin_129   44.16%    failed      0.00%
+ 130  bin_130   47.37%    failed      0.00%
+ 131  bin_131   40.28%    failed      0.83%
+ 132  bin_132   53.94%    failed      0.00%
+ 133  bin_133   49.29%    failed      0.00%
+ 134  bin_134   53.42%    failed      0.00%
+ 135  bin_135   45.46%    passed     16.51%
+ 136  bin_136   56.42%    passed     23.44%
+ 137  bin_137   44.68%    failed      0.00%
+ 138  bin_138   46.27%    failed      0.02%
+ 139  bin_139   48.71%    failed      0.00%
+ 140  bin_140   45.25%    failed      0.00%
+ 141  bin_141   50.04%    failed      0.00%
+ 142  bin_142   41.15%    failed      0.00%
+ 143  bin_143   46.16%    failed      0.00%
+ 144  bin_144   45.21%    passed     64.83%
+ 145  bin_145   49.21%    passed     79.18%
+ 146  bin_146   47.44%    failed      0.00%
+ 147  bin_147   44.10%    failed      0.00%
+ 148  bin_148   48.11%    failed      0.00%
+ 149  bin_149   46.26%    failed      0.00%
+ 150  bin_150   47.46%    failed      0.00%
+ 151  bin_151   48.10%    failed      0.00%
+ 152  bin_152   71.53%    failed      0.00%
+ 153  bin_153   46.55%    failed      0.00%
+ 154  bin_154   46.16%    failed      0.00%
+ 155  bin_155   48.08%    failed      0.00%
+ 156  bin_156   55.17%    failed      0.00%
+ 157  bin_157   47.77%    failed      0.00%
+ 158  bin_158   49.04%    failed      0.00%
+ 159  bin_159   54.27%    passed     20.50%
+ 160  bin_160   44.83%    passed     40.56%
+ 161  bin_161   46.71%    failed      0.00%
+ 162  bin_162   58.03%    failed      0.00%
+ 163  bin_163   52.79%    failed      0.00%
+ 164  bin_164   46.51%    failed      0.04%
+ 165  bin_165   50.21%    failed      0.00%
+ 166  bin_166   58.31%    failed      0.00%
+ 167  bin_167   42.17%    failed      0.00%
+ 168  bin_168   47.01%    failed      0.00%
+ 169  bin_169   44.76%    failed      0.00%
+ 170  bin_170   47.05%    failed      0.00%
+ 171  bin_171   46.58%    failed      0.00%
+ 172  bin_172   45.89%    passed     35.30%
+ 173  bin_173   47.06%    failed      0.00%
+ 174  bin_174   49.73%    failed      0.00%
+ 175  bin_175   46.68%    failed      0.00%
+ 176  bin_176   57.65%    failed      0.00%
+ 177  bin_177   45.97%    failed      0.00%
+ 178  bin_178   55.20%    failed      0.00%
+ 179  bin_179   60.50%    failed      0.00%
+ 180  bin_180   54.38%    passed     10.06%
+ 181  bin_181   44.70%    failed      0.00%
+ 182  bin_182   81.75%    failed      0.00%
+ 183  bin_183   54.86%    passed     35.15%
+ 184  bin_184   43.14%    failed      0.00%
+ 185  bin_185   45.29%    failed      0.00%
+ 186  bin_186   45.69%    failed      0.09%
+ 187  bin_187   45.36%    failed      0.00%
+ 188  bin_188   44.29%    failed      0.00%
+ 189  bin_189   44.19%    failed      0.00%
+ 190  bin_190   49.93%    failed      0.00%
+ 191  bin_191   51.24%    failed      0.00%
+ 192  bin_192   46.28%    failed      0.00%
+ 193  bin_193   45.16%    failed      0.25%
+ 194  bin_194   45.71%    failed      0.50%
+ 195  bin_195   59.31%    failed      0.38%
+ 196  bin_196   47.39%    passed      7.61%
+ 197  bin_197   44.84%    failed      0.00%
+ 198  bin_198   53.28%    failed      0.00%
+ 199  bin_199   49.13%    failed      0.00%
+ 200  bin_200   49.26%    failed      3.24%
+ 201  bin_201   44.98%    failed      0.00%
+ 202  bin_202   66.13%    failed      0.00%
+ 203  bin_203   52.34%    failed      0.00%
+ 204  bin_204   46.89%    failed      0.00%
+ 205  bin_205   47.78%    failed      0.01%
+ 206  bin_206   53.81%    failed      0.02%
+ 207  bin_207   48.90%    failed      1.34%
+ 208  bin_208   58.13%    failed      0.02%
+ 209  bin_209   45.79%    failed      0.00%
+ 210  bin_210   58.01%    failed      0.00%
+ 211  bin_211   45.75%    failed      0.00%
+ 212  bin_212   45.90%    failed      0.88%
+ 213  bin_213   57.08%    failed      1.27%
+ 214  bin_214   47.00%    failed      0.20%
+ 215  bin_215   49.50%    failed      2.55%
+ 216  bin_216   43.99%    failed      0.00%
+ 217  bin_217   44.95%    failed      0.00%
+ 218  bin_218   38.33%    failed      0.00%
+ 219  bin_219   47.35%    failed      0.00%
+ 220  bin_220   47.12%    failed      0.00%
+ 221  bin_221   44.76%    failed      0.00%
+ 222  bin_222   46.45%    failed      0.00%
+ 223  bin_223   40.48%    failed      0.00%
+ 224  bin_224   45.43%    passed     18.86%
+ 225  bin_225   40.88%    failed      0.00%
+ 226  bin_226   45.23%    failed      2.56%
+ 227  bin_227   44.48%    failed      0.00%
+ 228  bin_228   47.71%    passed     37.63%
+ 229  bin_229   44.77%    failed      0.00%
+ 230  bin_230   45.26%    failed      0.00%
+ 231  bin_231   40.40%    failed      0.00%
+ 232  bin_232   41.37%    failed      0.00%
+ 233  bin_233   46.79%    passed     21.56%
+ 234  bin_234   47.71%    failed      0.00%
+ 235  bin_235   45.28%    failed      0.00%
+ 236  bin_236   45.79%    failed      0.00%
+ 237  bin_237   53.12%    failed      0.00%
+ 238  bin_238   49.62%    failed      0.05%
+ 239  bin_239   45.80%    failed      0.38%
+ 240  bin_240   41.60%    failed      0.00%
+ 241  bin_241   45.19%    failed      0.00%
+ 242  bin_242   44.74%    failed      0.78%
+ 243  bin_243   49.94%    failed      0.00%
+ 244  bin_244   48.00%    failed      1.12%
+ 245  bin_245   43.50%    failed      0.00%
+ 246  bin_246   50.20%    failed      0.19%
+ 247  bin_247   47.66%    failed      0.00%
+ 248  bin_248   47.08%    passed     19.68%
+ 249  bin_249   47.89%    failed      0.00%
+ 250  bin_250   40.81%    failed      0.00%
+ 251  bin_251   45.02%    passed     39.62%
+ 252  bin_252   44.54%    failed      0.00%
+ 253  bin_253   47.37%    failed      0.00%
+ 254  bin_254   43.96%    failed      0.00%
+ 255  bin_255   44.63%    failed      0.00%
+ 256  bin_256   45.97%    failed      1.39%
+ 257  bin_257   42.57%    failed      0.00%
+ 258  bin_258   43.73%    failed      0.00%
+ 259  bin_259   54.29%    failed      0.00%
+ 260  bin_260   46.89%    failed      0.00%
+ 261  bin_261   45.00%    failed      0.00%
+ 262  bin_262   65.45%    failed      0.00%
+ 263  bin_263   79.76%    failed      0.00%
+ 264  bin_264   47.88%    failed      0.00%
+ 265  bin_265   57.15%    failed      0.00%
+ 266  bin_266   39.35%    failed      0.00%
+ 267  bin_267   53.41%    failed      0.00%
+ 268  bin_268   56.22%    passed     90.67%
+ 269  bin_269   63.35%    failed      0.00%
+ 270  bin_270   52.53%    failed      0.00%
+ 271  bin_271   45.41%    failed      0.00%
+ 272  bin_272   41.97%    failed      0.00%
+ 273  bin_273   47.13%    failed      0.00%
+ 274  bin_274   47.55%    failed      0.00%
+ 275  bin_275   46.58%    failed      0.37%
+ 276  bin_276   43.08%    failed      0.00%
+ 277  bin_277   45.93%    failed      0.00%
+ 278  bin_278   48.72%    failed      1.61%
+ 279  bin_279   52.26%    failed      0.00%
+ 280  bin_280   54.88%    passed     20.52%
+ 281  bin_281   44.56%    failed      0.00%
+ 282  bin_282   44.94%    failed      0.00%
+ 283  bin_283   45.17%    failed      0.00%
+ 284  bin_284   45.99%    passed     70.83%
+ 285  bin_285   45.92%    failed      0.00%
+ 286  bin_286   46.85%    failed      0.00%
+ 287  bin_287   45.31%    failed      0.00%
+ 288  bin_288   43.48%    failed      0.00%
+ 289  bin_289   48.61%    failed      0.00%
+WARNING: 79 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     49.38%  256 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 3.806 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 307551)...
+
+NOTE: 3786 MB RAM (3 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+2 trees examined
+Threads: 1 / Time: 33.672 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2169738
+Threads: 2 / Time: 15.753 sec / Speedup: 2.138 / Efficiency: 107% / LogL: -2169738
+Threads: 3 / Time: 11.185 sec / Speedup: 3.010 / Efficiency: 100% / LogL: -2169738
+Threads: 4 / Time: 8.195 sec / Speedup: 4.109 / Efficiency: 103% / LogL: -2169738
+Threads: 5 / Time: 7.281 sec / Speedup: 4.624 / Efficiency: 92% / LogL: -2169738
+Threads: 6 / Time: 6.114 sec / Speedup: 5.507 / Efficiency: 92% / LogL: -2169738
+Threads: 7 / Time: 5.395 sec / Speedup: 6.241 / Efficiency: 89% / LogL: -2169738
+Threads: 8 / Time: 4.871 sec / Speedup: 6.913 / Efficiency: 86% / LogL: -2169738
+Threads: 9 / Time: 4.423 sec / Speedup: 7.612 / Efficiency: 85% / LogL: -2169738
+Threads: 10 / Time: 3.897 sec / Speedup: 8.641 / Efficiency: 86% / LogL: -2169738
+Threads: 11 / Time: 3.577 sec / Speedup: 9.414 / Efficiency: 86% / LogL: -2169738
+Threads: 12 / Time: 3.374 sec / Speedup: 9.980 / Efficiency: 83% / LogL: -2169738
+Threads: 13 / Time: 3.171 sec / Speedup: 10.620 / Efficiency: 82% / LogL: -2169738
+Threads: 14 / Time: 3.051 sec / Speedup: 11.035 / Efficiency: 79% / LogL: -2169738
+Threads: 15 / Time: 2.933 sec / Speedup: 11.479 / Efficiency: 77% / LogL: -2169738
+Threads: 16 / Time: 2.660 sec / Speedup: 12.659 / Efficiency: 79% / LogL: -2169738
+Threads: 17 / Time: 2.567 sec / Speedup: 13.115 / Efficiency: 77% / LogL: -2169738
+Threads: 18 / Time: 2.458 sec / Speedup: 13.698 / Efficiency: 76% / LogL: -2169738
+Threads: 19 / Time: 2.348 sec / Speedup: 14.343 / Efficiency: 75% / LogL: -2169738
+Threads: 20 / Time: 2.222 sec / Speedup: 15.156 / Efficiency: 76% / LogL: -2169738
+BEST NUMBER OF THREADS: 20
+
+CHECKPOINT: Model parameters restored, LogL: -1544601.212
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -1544601.212
+Finish initializing candidate tree set (20)
+Current best tree score: -1544601.212 / CPU time: 0.008
+Number of iterations: 0
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -1544595.454
+Iteration 10 / LogL: -1544615.875 / Time: 0h:6m:14s
+Iteration 20 / LogL: -1544636.912 / Time: 0h:9m:48s
+Iteration 30 / LogL: -1544603.726 / Time: 0h:13m:36s (0h:35m:27s left)
+Iteration 40 / LogL: -1544625.539 / Time: 0h:16m:57s (0h:28m:34s left)
+Iteration 50 / LogL: -1544655.748 / Time: 0h:20m:26s (0h:23m:16s left)
+Log-likelihood cutoff on original alignment: -1544689.120
+Iteration 60 / LogL: -1544671.879 / Time: 0h:23m:51s (0h:18m:32s left)
+Iteration 70 / LogL: -1544617.821 / Time: 0h:26m:58s (0h:14m:2s left)
+Iteration 80 / LogL: -1544607.294 / Time: 0h:30m:27s (0h:10m:0s left)
+Iteration 90 / LogL: -1544611.391 / Time: 0h:33m:57s (0h:6m:5s left)
+Iteration 100 / LogL: -1544623.431 / Time: 0h:37m:25s (0h:2m:15s left)
+Log-likelihood cutoff on original alignment: -1544690.270
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 107 ITERATIONS / Time: 0h:39m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1544595.454
+2. Current log-likelihood: -1544595.314
+3. Current log-likelihood: -1544595.184
+4. Current log-likelihood: -1544595.080
+5. Current log-likelihood: -1544595.015
+6. Current log-likelihood: -1544594.968
+7. Current log-likelihood: -1544594.946
+Optimal log-likelihood: -1544594.928
+Site proportion and rates:  (0.035,0.014) (0.051,0.070) (0.076,0.155) (0.108,0.284) (0.125,0.450) (0.146,0.678) (0.143,1.000) (0.130,1.432) (0.117,2.050) (0.069,3.343)
+Parameters optimization took 7 rounds (41.599 sec)
+BEST SCORE FOUND : -1544594.928
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -1544592.370 > -1544594.928
+5.653 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file final_aa_trimmed_per_gene.aln.splits.nex
+Total tree length: 193.066
+
+Total number of iterations: 107
+CPU time used for tree search: 44663.264 sec (12h:24m:23s)
+Wall-clock time used for tree search: 2256.036 sec (0h:37m:36s)
+Total CPU time used: 46376.366 sec (12h:52m:56s)
+Total wall-clock time used: 2440.873 sec (0h:40m:40s)
+
+Computing bootstrap consensus tree...
+Reading input file final_aa_trimmed_per_gene.aln.splits.nex...
+289 taxa and 781 splits.
+Consensus tree written to final_aa_trimmed_per_gene.aln.contree
+Reading input trees file final_aa_trimmed_per_gene.aln.contree
+Log-likelihood of consensus tree: -1544594.366
+
+Analysis results written to: 
+  IQ-TREE report:                final_aa_trimmed_per_gene.aln.iqtree
+  Maximum-likelihood tree:       final_aa_trimmed_per_gene.aln.treefile
+  Likelihood distances:          final_aa_trimmed_per_gene.aln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          final_aa_trimmed_per_gene.aln.splits.nex
+  Consensus tree:                final_aa_trimmed_per_gene.aln.contree
+  Screen log file:               final_aa_trimmed_per_gene.aln.log
+
+Date and Time: Fri Apr 15 17:56:51 2022
