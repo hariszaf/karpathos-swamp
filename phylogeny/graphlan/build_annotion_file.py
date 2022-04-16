@@ -8,17 +8,17 @@ annotation_file = open("annotations.txt", "w")
 
 annotation_file.write(
 "title\tMAGs phylogeny\n\
-title_font_size\t25\n\
-total_plotted_degrees\t340\n\
-start_rotation\t90\n\
-class_legend_font_size\t12\n\
-annotation_legend_font_size\t11\n\
-branch_bracket_depth\t0.0\n\
-clade_marker_size\t3.0\n\
-annotation_background_separation\t-.24\n\
-annotation_background_offset\t-0.01\n\
-annotation_background_width\t0.03\n\
-ignore_branch_len\t10\n"
+title_font_size	25\n\
+total_plotted_degrees	340\n\
+start_rotation	270\n\
+class_legend_font_size	12\n\
+annotation_legend_font_size	11\n\
+clade_marker_size	3.0\n\
+clade_separation	0.75\n\
+annotation_background_separation	0.1\n\
+annotation_background_offset	0.05\n\
+annotation_background_width	0.1\n\
+ignore_branch_len	0\n"
 )
 
 
@@ -27,35 +27,42 @@ ring_separator_color	1	#696969\n\
 ring_label	1	Phylum\n\
 ring_label_color	1	#696969\n")
 
+# EMPTY RING
 annotation_file.write("ring_internal_separator_thickness	2	0.5\n\
 ring_separator_color	2	#696969\n\
-ring_label	2	top sediment\n\
-ring_label_color	2	#696969\n")
+ring_label_color	2	white\n")
 
+
+# SAMPLES' ABUNDANCES
 annotation_file.write("ring_internal_separator_thickness	3	0.5\n\
 ring_separator_color	3	#696969\n\
-ring_label	3	bottom sediment\n\
+ring_label	3	top sediment\n\
 ring_label_color	3	#696969\n")
 
 annotation_file.write("ring_internal_separator_thickness	4	0.5\n\
 ring_separator_color	4	#696969\n\
-ring_label	4	orange aggreg\n\
+ring_label	4	bottom sediment\n\
 ring_label_color	4	#696969\n")
 
 annotation_file.write("ring_internal_separator_thickness	5	0.5\n\
 ring_separator_color	5	#696969\n\
-ring_label	5	pink aggreg\n\
+ring_label	5	orange aggreg\n\
 ring_label_color	5	#696969\n")
 
 annotation_file.write("ring_internal_separator_thickness	6	0.5\n\
 ring_separator_color	6	#696969\n\
-ring_label	6	combined\n\
+ring_label	6	pink aggreg\n\
 ring_label_color	6	#696969\n")
 
 annotation_file.write("ring_internal_separator_thickness	7	0.5\n\
 ring_separator_color	7	#696969\n\
-ring_label	7	orange carpet\n\
+ring_label	7	combined\n\
 ring_label_color	7	#696969\n")
+
+annotation_file.write("ring_internal_separator_thickness	8	0.5\n\
+ring_separator_color	8	#696969\n\
+ring_label	8	orange carpet\n\
+ring_label_color	8	#696969\n")
 
 
 
@@ -102,38 +109,49 @@ for line in data:
     annotation_file.write(bin_name + "\t" + "ring_width\t" + "1" + "\t" + "1.0" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height\t" + "1" + "\t" + "0.3" + "\n")    
 
-    # ABUNDANCE - SAMPLE 1
-    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "2" + "\t" + str(abundance_1) + "\n")
-    annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "2" + "\t" + "#AA00AA" + "\n")
-    annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "2" + "\t" + "0.3" + "\n")
+    # LEAVE EMPTY RING
+    annotation_file.write(bin_name + "\t" + "ring_color\t" + "2" + "\t" + "white" + "\n")
+    annotation_file.write(bin_name + "\t" + "ring_width\t" + "2" + "\t" + "1.0" + "\n")
+    annotation_file.write(bin_name + "\t" + "ring_height\t" + "2" + "\t" + "0.3" + "\n")    
 
-    # ABUNDANCE - SAMPLE 2
-    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "3" + "\t" + str(abundance_2) + "\n")
+
+    # ABUNDANCE - SAMPLE 1
+    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "3" + "\t" + str(abundance_1) + "\n")
     annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "3" + "\t" + "#AA00AA" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "3" + "\t" + "0.3" + "\n")
 
-    # ABUNDANCE - SAMPLE 3
-    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "4" + "\t" + str(abundance_3) + "\n")
+    # ABUNDANCE - SAMPLE 2
+    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "4" + "\t" + str(abundance_2) + "\n")
     annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "4" + "\t" + "#AA00AA" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "4" + "\t" + "0.3" + "\n")
 
-    # ABUNDANCE - SAMPLE 4
-    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "5" + "\t" + str(abundance_4) + "\n")
+    # ABUNDANCE - SAMPLE 3
+    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "5" + "\t" + str(abundance_3) + "\n")
     annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "5" + "\t" + "#AA00AA" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "5" + "\t" + "0.3" + "\n")
 
-    # ABUNDANCE - SAMPLE 5
-    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "6" + "\t" + str(abundance_5) + "\n")
+    # ABUNDANCE - SAMPLE 4
+    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "6" + "\t" + str(abundance_4) + "\n")
     annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "6" + "\t" + "#AA00AA" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "6" + "\t" + "0.3" + "\n")
 
-    # ABUNDANCE - SAMPLE 6
-    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "7" + "\t" + str(abundance_6) + "\n")
+    # ABUNDANCE - SAMPLE 5
+    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "7" + "\t" + str(abundance_5) + "\n")
     annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "7" + "\t" + "#AA00AA" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "7" + "\t" + "0.3" + "\n")
 
+    # ABUNDANCE - SAMPLE 6
+    annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "8" + "\t" + str(abundance_6) + "\n")
+    annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "8" + "\t" + "#AA00AA" + "\n")
+    annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "8" + "\t" + "0.3" + "\n")
 
 
+    # BIN NAME 
+    annotation_file.write(bin_name + "\t" + "annotation" + "\t" + bin_name + "\n")
+    annotation_file.write(bin_name + "\t" + "annotation_rotation" + "\t" + "90" + "\n")
+    annotation_file.write(bin_name + "\t" + "annotation_background_color" + "\t" + "#f3f6f4" + "\n")
+    annotation_file.write(bin_name + "\t" + "annotation_background_edge_color" + "\t" + "#f3f6f4" + "\n")
+    
 
 
 
@@ -144,6 +162,5 @@ for phylum, color in phyla_colors.items():
     annotation_file.write(phylum + "\t" + "annotation" + "\t" + phylum + "\n")
     annotation_file.write(phylum + "\tclade_marker_color\t" + color + "\n")
     annotation_file.write(phylum + "\tclade_marker_size\t" + "75\n")
-
 
 
