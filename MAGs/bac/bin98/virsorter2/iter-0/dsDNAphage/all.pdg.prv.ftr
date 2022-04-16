@@ -1,0 +1,2 @@
+seqname	trim_orf_index_start	trim_orf_index_end	gene_size	gene_overlap_perc	density	strand_switch_perc	atg_perc	gtg_perc	ttg_perc	gc_mean	gc_sd	rbs_DoubleA	rbs_DoubleT	rbs_NoA	rbs_None	rbs_OnlyA	rbs_OnlyT	rbs_Other	rbs_Other_GA	rbs_SD_Bacteroidetes	rbs_SD_Canonical	rbs_TATATA_3-6	arc	bac	euk	vir	mix	unaligned	hallmark
+k141_2464524_length_9530_cov_69.0388||rbs:common	1	10	1021.250	11.111	1.050	11.111	87.500	12.500	0.000	68.210	3.821	0.000	0.000	0.000	12.500	0.000	0.000	25.000	0.000	0.000	62.500	0.000	0.000	0.000	0.000	70.000	0.000	30.000	0.000
