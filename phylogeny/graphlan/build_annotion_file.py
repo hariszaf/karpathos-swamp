@@ -7,14 +7,14 @@ data = open("data.csv", "r")
 annotation_file = open("annotations.txt", "w")
 
 annotation_file.write(
-"title\tMAGs phylogeny\n\
+"title	MAGs phylogeny\n\
 title_font_size	25\n\
 total_plotted_degrees	340\n\
 start_rotation	270\n\
 class_legend_font_size	12\n\
 annotation_legend_font_size	11\n\
 clade_marker_size	3.0\n\
-clade_separation	0.75\n\
+clade_separation	0.35\n\
 annotation_background_separation	0.1\n\
 annotation_background_offset	0.05\n\
 annotation_background_width	0.1\n\
@@ -30,7 +30,7 @@ ring_label_color	1	#696969\n")
 # EMPTY RING
 annotation_file.write("ring_internal_separator_thickness	2	0.5\n\
 ring_separator_color	2	#696969\n\
-ring_label_color	2	white\n")
+ring_label_color	2	#FFFFFF\n")
 
 
 # SAMPLES' ABUNDANCES
@@ -86,7 +86,7 @@ phyla_counter = 0
 
 for line in data:
 
-    line = line.split("\t")
+    line = line.split(",")
 
     bin_name    = line[0]
     
@@ -98,6 +98,7 @@ for line in data:
     abundance_6 = line[6]
 
     phylum      = line[8]
+    complet     = line[14]
 
     if phylum not in phyla_colors: 
         phylum_color = colors[phyla_counter]
@@ -110,10 +111,9 @@ for line in data:
     annotation_file.write(bin_name + "\t" + "ring_height\t" + "1" + "\t" + "0.3" + "\n")    
 
     # LEAVE EMPTY RING
-    annotation_file.write(bin_name + "\t" + "ring_color\t" + "2" + "\t" + "white" + "\n")
+    annotation_file.write(bin_name + "\t" + "ring_color\t" + "2" + "\t" + "#FFFFFF" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_width\t" + "2" + "\t" + "1.0" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height\t" + "2" + "\t" + "0.3" + "\n")    
-
 
     # ABUNDANCE - SAMPLE 1
     annotation_file.write(bin_name + "\t" + "ring_alpha" + "\t" + "3" + "\t" + str(abundance_1) + "\n")
@@ -145,16 +145,25 @@ for line in data:
     annotation_file.write(bin_name + "\t" + "ring_color" + "\t" + "8" + "\t" + "#AA00AA" + "\n")
     annotation_file.write(bin_name + "\t" + "ring_height"+ "\t" + "8" + "\t" + "0.3" + "\n")
 
-
     # BIN NAME 
     annotation_file.write(bin_name + "\t" + "annotation" + "\t" + bin_name + "\n")
     annotation_file.write(bin_name + "\t" + "annotation_rotation" + "\t" + "90" + "\n")
     annotation_file.write(bin_name + "\t" + "annotation_background_color" + "\t" + "#f3f6f4" + "\n")
     annotation_file.write(bin_name + "\t" + "annotation_background_edge_color" + "\t" + "#f3f6f4" + "\n")
-    
 
+    # CHECK COMPLET
+    if "1" in complet:
+        annotation_file.write(bin_name + "\t" "clade_marker_shape" + "\t" + "*" + "\n")
+        annotation_file.write(bin_name + "\t" "clade_marker_size" + "\t" + "30" + "\n")
+        annotation_file.write(bin_name + "\t" "clade_marker_color" + "\t" + "#2c8f4a" + "\n")
 
+    # CHECK FOR NOTABLE TAXA
+    if phylum == "p__Afoulota":
 
+        annotation_file.write(bin_name + "\t" "annotation" + "\t" + bin_name + "|" + phylum  + "\n")
+        annotation_file.write(bin_name + "\t" + "annotation_rotation" + "\t" + "90" + "\n")
+        annotation_file.write(bin_name + "\t" + "annotation_background_color" + "\t" + "grey" + "\n")
+        annotation_file.write(bin_name + "\t" + "annotation_background_edge_color" + "\t" + "grey" + "\n")
 
 
 for phylum, color in phyla_colors.items(): 
@@ -164,3 +173,7 @@ for phylum, color in phyla_colors.items():
     annotation_file.write(phylum + "\tclade_marker_size\t" + "75\n")
 
 
+annotation_file.write(">90% completeness" + "\tclade_marker_shape\t" + "*" + "\n")
+annotation_file.write(">90% completeness" + "\tclade_marker_size\t" + "75\n")
+#annotation_file.write(">90% completeness" + "\tclade_marker_edge_color\t" + "#2c8f4a\n")
+annotation_file.write(">90% completeness" + "\tclade_marker_color\t" + "#2c8f4a\n")
