@@ -83,7 +83,7 @@ colors = [
 
 phyla_colors = {}
 phyla_counter = 0 
-
+max_abundance = 0
 for line in data:
 
     line = line.split(",")
@@ -166,6 +166,12 @@ for line in data:
         annotation_file.write(bin_name + "\t" + "annotation_background_edge_color" + "\t" + "grey" + "\n")
 
 
+    # MAX ABUNDANCE VALUE 
+    max_bin_abund = max(float(abundance_1), float(abundance_2), float(abundance_3), float(abundance_4), float(abundance_5), float(abundance_6))
+    if max_bin_abund > max_abundance: 
+        max_abundance = max_bin_abund
+
+
 for phylum, color in phyla_colors.items(): 
 
     annotation_file.write(phylum + "\t" + "annotation" + "\t" + phylum + "\n")
@@ -175,5 +181,30 @@ for phylum, color in phyla_colors.items():
 
 annotation_file.write(">90% completeness" + "\tclade_marker_shape\t" + "*" + "\n")
 annotation_file.write(">90% completeness" + "\tclade_marker_size\t" + "75\n")
-#annotation_file.write(">90% completeness" + "\tclade_marker_edge_color\t" + "#2c8f4a\n")
 annotation_file.write(">90% completeness" + "\tclade_marker_color\t" + "#2c8f4a\n")
+
+
+# ABUNDANCE RANGE
+step = max_abundance / 10
+palette = ["#FFFFFF", "#F5E2F5", "#ECC6EC", "#E2AAE2", "#D98DD9", "#CF71CF", "#C655C6", "#BC38BC", "#B31CB3", "#AA00AA" ]
+
+for i in range(10): 
+    annotation_file.write(str(int(i*step)) + "\tannotation\t" + "abund:" + str(int(i*step)) + "\n")
+    annotation_file.write(str(int(i*step)) + "\tclade_marker_shape\t" + "s" + "\n")
+    annotation_file.write(str(int(i*step)) + "\tclade_marker_size\t" + "105\n")
+    annotation_file.write(str(int(i*step)) + "\tclade_marker_color\t" + palette[i] + "\n")
+
+
+
+# #FFFFFF --> (255, 255, 255)
+# #F5E2F5 --> (245, 226, 245)
+# #ECC6EC --> (236, 198, 236)
+# #E2AAE2 --> (226, 170, 226)
+# #D98DD9 --> (217, 141, 217)
+# #CF71CF --> (207, 113, 207)
+# #C655C6 --> (198, 85, 198)
+# #BC38BC --> (188, 56, 188)
+# #B31CB3 --> (179, 28, 179)
+# #AA00AA --> (170, 0, 170)
+
+#palette = [(255, 255, 255), (245, 226, 245), (236, 198, 236), (226, 170, 226), (217, 141, 217), (207, 113, 207), (198, 85, 198), (188, 56, 188), (179, 28, 179), (170, 0, 170)]

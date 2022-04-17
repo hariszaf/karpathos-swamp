@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="1166.4pt" version="1.1" viewBox="0 0 280.8 1166.4" width="280.8pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-04-17T19:47:05.314146</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1166.4 
+L 280.8 1166.4 
+L 280.8 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="legend_1">
+   <g id="PathCollection_1">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m25fd7b1d12" style="stroke:#ffffff;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.5;" x="103.72875" xlink:href="#m25fd7b1d12" y="16.768125"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 19.918125)" x="118.12875" y="19.918125">0</text>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m2a30b20b27" style="stroke:#ecc6ec;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#ecc6ec;stroke:#ecc6ec;stroke-width:0.5;" x="103.72875" xlink:href="#m2a30b20b27" y="29.581875"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 32.731875)" x="118.12875" y="32.731875">11</text>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="mac46c1a1d1" style="stroke:#e2aae2;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e2aae2;stroke:#e2aae2;stroke-width:0.5;" x="103.72875" xlink:href="#mac46c1a1d1" y="42.395625"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 45.545625)" x="118.12875" y="45.545625">17</text>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m43ab6f61bd" style="stroke:#d98dd9;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#d98dd9;stroke:#d98dd9;stroke-width:0.5;" x="103.72875" xlink:href="#m43ab6f61bd" y="55.209375"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 58.359375)" x="118.12875" y="58.359375">22</text>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m00027de8ff" style="stroke:#cf71cf;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#cf71cf;stroke:#cf71cf;stroke-width:0.5;" x="103.72875" xlink:href="#m00027de8ff" y="68.023125"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 71.173125)" x="118.12875" y="71.173125">28</text>
+   </g>
+   <g id="PathCollection_6">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m5d80608b56" style="stroke:#c655c6;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#c655c6;stroke:#c655c6;stroke-width:0.5;" x="103.72875" xlink:href="#m5d80608b56" y="80.836875"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 83.986875)" x="118.12875" y="83.986875">34</text>
+   </g>
+   <g id="PathCollection_7">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m7c0109fa9b" style="stroke:#bc38bc;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#bc38bc;stroke:#bc38bc;stroke-width:0.5;" x="103.72875" xlink:href="#m7c0109fa9b" y="93.650625"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 96.800625)" x="118.12875" y="96.800625">39</text>
+   </g>
+   <g id="PathCollection_8">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m9a73a765b4" style="stroke:#b31cb3;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#b31cb3;stroke:#b31cb3;stroke-width:0.5;" x="103.72875" xlink:href="#m9a73a765b4" y="106.464375"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 109.614375)" x="118.12875" y="109.614375">45</text>
+   </g>
+   <g id="PathCollection_9">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="ma0ad64767e" style="stroke:#f5e2f5;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#f5e2f5;stroke:#f5e2f5;stroke-width:0.5;" x="103.72875" xlink:href="#ma0ad64767e" y="119.278125"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 122.428125)" x="118.12875" y="122.428125">5</text>
+   </g>
+   <g id="PathCollection_10">
+    <defs>
+     <path d="M -5.123475 5.123475 
+L 5.123475 5.123475 
+L 5.123475 -5.123475 
+L -5.123475 -5.123475 
+z
+" id="m0f2c14ba92" style="stroke:#aa00aa;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#aa00aa;stroke:#aa00aa;stroke-width:0.5;" x="103.72875" xlink:href="#m0f2c14ba92" y="132.091875"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 135.241875)" x="118.12875" y="135.241875">51</text>
+   </g>
+   <g id="PathCollection_11">
+    <defs>
+     <path d="M 0 -4.330127 
+L -0.972174 -1.338083 
+L -4.118196 -1.338083 
+L -1.573011 0.511102 
+L -2.545185 3.503146 
+L -0 1.653961 
+L 2.545185 3.503146 
+L 1.573011 0.511102 
+L 4.118196 -1.338083 
+L 0.972174 -1.338083 
+z
+" id="m938e3dd034" style="stroke:#2c8f4a;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#2c8f4a;stroke:#2c8f4a;stroke-width:0.5;" x="103.72875" xlink:href="#m938e3dd034" y="144.905625"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 148.055625)" x="118.12875" y="148.055625">&gt;90% completeness</text>
+   </g>
+   <g id="PathCollection_12">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m7999bdb8d0" style="stroke:#fff2ae;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fff2ae;stroke:#fff2ae;stroke-width:0.5;" x="103.72875" xlink:href="#m7999bdb8d0" y="157.719375"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 160.869375)" x="118.12875" y="160.869375">p__AABM5-125-24</text>
+   </g>
+   <g id="PathCollection_13">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mda4cefdec2" style="stroke:#f0027f;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#f0027f;stroke:#f0027f;stroke-width:0.5;" x="103.72875" xlink:href="#mda4cefdec2" y="170.866875"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 174.016875)" x="118.12875" y="174.016875">p__Acidobacteriota</text>
+   </g>
+   <g id="PathCollection_14">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m00e609efd6" style="stroke:#666666;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#666666;stroke:#666666;stroke-width:0.5;" x="103.72875" xlink:href="#m00e609efd6" y="184.014375"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 187.164375)" x="118.12875" y="187.164375">p__Actinobacteriota</text>
+   </g>
+   <g id="PathCollection_15">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m87b7d47882" style="stroke:#f2f2f2;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.5;" x="103.72875" xlink:href="#m87b7d47882" y="197.161875"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 200.311875)" x="118.12875" y="200.311875">p__Aenigmatarchaeota_A</text>
+   </g>
+   <g id="PathCollection_16">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="ma87897cc76" style="stroke:#ccebc5;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#ccebc5;stroke:#ccebc5;stroke-width:0.5;" x="103.72875" xlink:href="#ma87897cc76" y="210.309375"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 213.459375)" x="118.12875" y="213.459375">p__Afoulota</text>
+   </g>
+   <g id="PathCollection_17">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mcf09f26a99" style="stroke:#4daf4a;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#4daf4a;stroke:#4daf4a;stroke-width:0.5;" x="103.72875" xlink:href="#mcf09f26a99" y="223.456875"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 226.606875)" x="118.12875" y="226.606875">p__Altarchaeota</text>
+   </g>
+   <g id="PathCollection_18">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m4d609eb7c5" style="stroke:#e7298a;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e7298a;stroke:#e7298a;stroke-width:0.5;" x="103.72875" xlink:href="#m4d609eb7c5" y="236.604375"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 239.754375)" x="118.12875" y="239.754375">p__Asgardarchaeota</text>
+   </g>
+   <g id="PathCollection_19">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m0af391c498" style="stroke:#7fc97f;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#7fc97f;stroke:#7fc97f;stroke-width:0.5;" x="103.72875" xlink:href="#m0af391c498" y="249.751875"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 252.901875)" x="118.12875" y="252.901875">p__Bacteroidota</text>
+   </g>
+   <g id="PathCollection_20">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mcdd9438b2e" style="stroke:#a6cee3;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#a6cee3;stroke:#a6cee3;stroke-width:0.5;" x="103.72875" xlink:href="#mcdd9438b2e" y="262.899375"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 266.049375)" x="118.12875" y="266.049375">p__Bipolaricaulota</text>
+   </g>
+   <g id="PathCollection_21">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m73444cb51e" style="stroke:#ffff99;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#ffff99;stroke:#ffff99;stroke-width:0.5;" x="103.72875" xlink:href="#m73444cb51e" y="276.046875"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 279.196875)" x="118.12875" y="279.196875">p__Caldatribacteriota</text>
+   </g>
+   <g id="PathCollection_22">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m241bfb71a9" style="stroke:#decbe4;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#decbe4;stroke:#decbe4;stroke-width:0.5;" x="103.72875" xlink:href="#m241bfb71a9" y="289.194375"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 292.344375)" x="118.12875" y="292.344375">p__Campylobacterota</text>
+   </g>
+   <g id="PathCollection_23">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mac74745d29" style="stroke:#fb9a99;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fb9a99;stroke:#fb9a99;stroke-width:0.5;" x="103.72875" xlink:href="#mac74745d29" y="302.341875"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 305.491875)" x="118.12875" y="305.491875">p__Chlamydiota</text>
+   </g>
+   <g id="PathCollection_24">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m337bbed757" style="stroke:#fdc086;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fdc086;stroke:#fdc086;stroke-width:0.5;" x="103.72875" xlink:href="#m337bbed757" y="315.489375"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 318.639375)" x="118.12875" y="318.639375">p__Chloroflexota</text>
+   </g>
+   <g id="PathCollection_25">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m0f4bfbca80" style="stroke:#e6f5c9;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e6f5c9;stroke:#e6f5c9;stroke-width:0.5;" x="103.72875" xlink:href="#m0f4bfbca80" y="328.636875"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 331.786875)" x="118.12875" y="331.786875">p__Cloacimonadota</text>
+   </g>
+   <g id="PathCollection_26">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m733c91c840" style="stroke:#a6761d;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#a6761d;stroke:#a6761d;stroke-width:0.5;" x="103.72875" xlink:href="#m733c91c840" y="341.784375"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 344.934375)" x="118.12875" y="344.934375">p__Cyanobacteria</text>
+   </g>
+   <g id="PathCollection_27">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m443f7ffaf0" style="stroke:#f4cae4;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#f4cae4;stroke:#f4cae4;stroke-width:0.5;" x="103.72875" xlink:href="#m443f7ffaf0" y="354.931875"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 358.081875)" x="118.12875" y="358.081875">p__Deinococcota</text>
+   </g>
+   <g id="PathCollection_28">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m60d226be85" style="stroke:#7570b3;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#7570b3;stroke:#7570b3;stroke-width:0.5;" x="103.72875" xlink:href="#m60d226be85" y="368.079375"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 371.229375)" x="118.12875" y="371.229375">p__Desulfobacterota</text>
+   </g>
+   <g id="PathCollection_29">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m38bf54b936" style="stroke:#ff7f00;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#ff7f00;stroke:#ff7f00;stroke-width:0.5;" x="103.72875" xlink:href="#m38bf54b936" y="381.226875"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 384.376875)" x="118.12875" y="384.376875">p__Eisenbacteria</text>
+   </g>
+   <g id="PathCollection_30">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mc24c6d143c" style="stroke:#e6ab02;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e6ab02;stroke:#e6ab02;stroke-width:0.5;" x="103.72875" xlink:href="#mc24c6d143c" y="394.374375"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 397.524375)" x="118.12875" y="397.524375">p__FCPU426</text>
+   </g>
+   <g id="PathCollection_31">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m605a45b368" style="stroke:#66a61e;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#66a61e;stroke:#66a61e;stroke-width:0.5;" x="103.72875" xlink:href="#m605a45b368" y="407.521875"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 410.671875)" x="118.12875" y="410.671875">p__Fermentibacterota</text>
+   </g>
+   <g id="PathCollection_32">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m418c2f57fc" style="stroke:#e41a1c;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e41a1c;stroke:#e41a1c;stroke-width:0.5;" x="103.72875" xlink:href="#m418c2f57fc" y="420.669375"/>
+    </g>
+   </g>
+   <g id="text_32">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 423.819375)" x="118.12875" y="423.819375">p__Fibrobacterota</text>
+   </g>
+   <g id="PathCollection_33">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m980894298a" style="stroke:#fddaec;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fddaec;stroke:#fddaec;stroke-width:0.5;" x="103.72875" xlink:href="#m980894298a" y="433.816875"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 436.966875)" x="118.12875" y="436.966875">p__Firmicutes_A</text>
+   </g>
+   <g id="PathCollection_34">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mb4a50a537c" style="stroke:#fed9a6;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fed9a6;stroke:#fed9a6;stroke-width:0.5;" x="103.72875" xlink:href="#mb4a50a537c" y="446.964375"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 450.114375)" x="118.12875" y="450.114375">p__Firmicutes_F</text>
+   </g>
+   <g id="PathCollection_35">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="ma9f711f2d0" style="stroke:#b3e2cd;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#b3e2cd;stroke:#b3e2cd;stroke-width:0.5;" x="103.72875" xlink:href="#ma9f711f2d0" y="460.111875"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 463.261875)" x="118.12875" y="463.261875">p__Gemmatimonadota</text>
+   </g>
+   <g id="PathCollection_36">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mfbdd2dcce6" style="stroke:#386cb0;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#386cb0;stroke:#386cb0;stroke-width:0.5;" x="103.72875" xlink:href="#mfbdd2dcce6" y="473.259375"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 476.409375)" x="118.12875" y="476.409375">p__Halobacteriota</text>
+   </g>
+   <g id="PathCollection_37">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="maf0019694d" style="stroke:#1f78b4;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#1f78b4;stroke:#1f78b4;stroke-width:0.5;" x="103.72875" xlink:href="#maf0019694d" y="486.406875"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 489.556875)" x="118.12875" y="489.556875">p__Hydrogenedentota</text>
+   </g>
+   <g id="PathCollection_38">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m15081d2588" style="stroke:#ffffcc;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#ffffcc;stroke:#ffffcc;stroke-width:0.5;" x="103.72875" xlink:href="#m15081d2588" y="499.554375"/>
+    </g>
+   </g>
+   <g id="text_38">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 502.704375)" x="118.12875" y="502.704375">p__KSB1</text>
+   </g>
+   <g id="PathCollection_39">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m3f763ee2cc" style="stroke:#fbb4ae;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fbb4ae;stroke:#fbb4ae;stroke-width:0.5;" x="103.72875" xlink:href="#m3f763ee2cc" y="512.701875"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 515.851875)" x="118.12875" y="515.851875">p__Krumholzibacteriota</text>
+   </g>
+   <g id="PathCollection_40">
+    <g>
+     <use style="fill:#ffff99;stroke:#ffff99;stroke-width:0.5;" x="103.72875" xlink:href="#m73444cb51e" y="525.849375"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 528.999375)" x="118.12875" y="528.999375">p__Latescibacterota</text>
+   </g>
+   <g id="PathCollection_41">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="macac85740b" style="stroke:#beaed4;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#beaed4;stroke:#beaed4;stroke-width:0.5;" x="103.72875" xlink:href="#macac85740b" y="538.996875"/>
+    </g>
+   </g>
+   <g id="text_41">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 542.146875)" x="118.12875" y="542.146875">p__Marinisomatota</text>
+   </g>
+   <g id="PathCollection_42">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m594721f917" style="stroke:#984ea3;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#984ea3;stroke:#984ea3;stroke-width:0.5;" x="103.72875" xlink:href="#m594721f917" y="552.144375"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 555.294375)" x="118.12875" y="555.294375">p__Micrarchaeota</text>
+   </g>
+   <g id="PathCollection_43">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mea79ba8abb" style="stroke:#b15928;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#b15928;stroke:#b15928;stroke-width:0.5;" x="103.72875" xlink:href="#mea79ba8abb" y="565.291875"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 568.441875)" x="118.12875" y="568.441875">p__Myxococcota</text>
+   </g>
+   <g id="PathCollection_44">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mec6bf0af92" style="stroke:#b2df8a;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#b2df8a;stroke:#b2df8a;stroke-width:0.5;" x="103.72875" xlink:href="#mec6bf0af92" y="578.439375"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 581.589375)" x="118.12875" y="581.589375">p__Nanoarchaeota</text>
+   </g>
+   <g id="PathCollection_45">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m4b6c6de21d" style="stroke:#e5d8bd;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e5d8bd;stroke:#e5d8bd;stroke-width:0.5;" x="103.72875" xlink:href="#m4b6c6de21d" y="591.586875"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 594.736875)" x="118.12875" y="594.736875">p__Nanohaloarchaeota</text>
+   </g>
+   <g id="PathCollection_46">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="ma1ace99038" style="stroke:#d95f02;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#d95f02;stroke:#d95f02;stroke-width:0.5;" x="103.72875" xlink:href="#ma1ace99038" y="604.734375"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 607.884375)" x="118.12875" y="607.884375">p__OLB16</text>
+   </g>
+   <g id="PathCollection_47">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m0ed69474d0" style="stroke:#cccccc;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#cccccc;stroke:#cccccc;stroke-width:0.5;" x="103.72875" xlink:href="#m0ed69474d0" y="617.881875"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 621.031875)" x="118.12875" y="621.031875">p__Omnitrophota</text>
+   </g>
+   <g id="PathCollection_48">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="md45b329f4e" style="stroke:#f1e2cc;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#f1e2cc;stroke:#f1e2cc;stroke-width:0.5;" x="103.72875" xlink:href="#md45b329f4e" y="631.029375"/>
+    </g>
+   </g>
+   <g id="text_48">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 634.179375)" x="118.12875" y="634.179375">p__PWEA01</text>
+   </g>
+   <g id="PathCollection_49">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mddf36fe1ff" style="stroke:#b3cde3;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#b3cde3;stroke:#b3cde3;stroke-width:0.5;" x="103.72875" xlink:href="#mddf36fe1ff" y="644.176875"/>
+    </g>
+   </g>
+   <g id="text_49">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 647.326875)" x="118.12875" y="647.326875">p__Patescibacteria</text>
+   </g>
+   <g id="PathCollection_50">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m43760219ea" style="stroke:#bf5b17;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#bf5b17;stroke:#bf5b17;stroke-width:0.5;" x="103.72875" xlink:href="#m43760219ea" y="657.324375"/>
+    </g>
+   </g>
+   <g id="text_50">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 660.474375)" x="118.12875" y="660.474375">p__Planctomycetota</text>
+   </g>
+   <g id="PathCollection_51">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mbf78f7cf15" style="stroke:#cab2d6;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#cab2d6;stroke:#cab2d6;stroke-width:0.5;" x="103.72875" xlink:href="#mbf78f7cf15" y="670.471875"/>
+    </g>
+   </g>
+   <g id="text_51">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 673.621875)" x="118.12875" y="673.621875">p__Proteobacteria</text>
+   </g>
+   <g id="PathCollection_52">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mdef6e6cfb0" style="stroke:#377eb8;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#377eb8;stroke:#377eb8;stroke-width:0.5;" x="103.72875" xlink:href="#mdef6e6cfb0" y="683.619375"/>
+    </g>
+   </g>
+   <g id="text_52">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 686.769375)" x="118.12875" y="686.769375">p__QNDG01</text>
+   </g>
+   <g id="PathCollection_53">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="ma1346f1434" style="stroke:#cbd5e8;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#cbd5e8;stroke:#cbd5e8;stroke-width:0.5;" x="103.72875" xlink:href="#ma1346f1434" y="696.766875"/>
+    </g>
+   </g>
+   <g id="text_53">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 699.916875)" x="118.12875" y="699.916875">p__RBG-13-61-14</text>
+   </g>
+   <g id="PathCollection_54">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mde7c8d91bb" style="stroke:#6a3d9a;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#6a3d9a;stroke:#6a3d9a;stroke-width:0.5;" x="103.72875" xlink:href="#mde7c8d91bb" y="709.914375"/>
+    </g>
+   </g>
+   <g id="text_54">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 713.064375)" x="118.12875" y="713.064375">p__Spirochaetota</text>
+   </g>
+   <g id="PathCollection_55">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m0a44d30385" style="stroke:#33a02c;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#33a02c;stroke:#33a02c;stroke-width:0.5;" x="103.72875" xlink:href="#m0a44d30385" y="723.061875"/>
+    </g>
+   </g>
+   <g id="text_55">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 726.211875)" x="118.12875" y="726.211875">p__Sumerlaeota</text>
+   </g>
+   <g id="PathCollection_56">
+    <g>
+     <use style="fill:#ff7f00;stroke:#ff7f00;stroke-width:0.5;" x="103.72875" xlink:href="#m38bf54b936" y="736.209375"/>
+    </g>
+   </g>
+   <g id="text_56">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 739.359375)" x="118.12875" y="739.359375">p__Thermoplasmatota</text>
+   </g>
+   <g id="PathCollection_57">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m5dd054b224" style="stroke:#e31a1c;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#e31a1c;stroke:#e31a1c;stroke-width:0.5;" x="103.72875" xlink:href="#m5dd054b224" y="749.356875"/>
+    </g>
+   </g>
+   <g id="text_57">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 752.506875)" x="118.12875" y="752.506875">p__Thermoproteota</text>
+   </g>
+   <g id="PathCollection_58">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m42dbb744c1" style="stroke:#1b9e77;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#1b9e77;stroke:#1b9e77;stroke-width:0.5;" x="103.72875" xlink:href="#m42dbb744c1" y="762.504375"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 765.654375)" x="118.12875" y="765.654375">p__UBP14</text>
+   </g>
+   <g id="PathCollection_59">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="mc14108ae88" style="stroke:#fdcdac;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fdcdac;stroke:#fdcdac;stroke-width:0.5;" x="103.72875" xlink:href="#mc14108ae88" y="775.651875"/>
+    </g>
+   </g>
+   <g id="text_59">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 778.801875)" x="118.12875" y="778.801875">p__UBP15</text>
+   </g>
+   <g id="PathCollection_60">
+    <g>
+     <use style="fill:#666666;stroke:#666666;stroke-width:0.5;" x="103.72875" xlink:href="#m00e609efd6" y="788.799375"/>
+    </g>
+   </g>
+   <g id="text_60">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 791.949375)" x="118.12875" y="791.949375">p__Verrucomicrobiota</text>
+   </g>
+   <g id="PathCollection_61">
+    <defs>
+     <path d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" id="m8fadbb62ad" style="stroke:#fdbf6f;stroke-width:0.5;"/>
+    </defs>
+    <g>
+     <use style="fill:#fdbf6f;stroke:#fdbf6f;stroke-width:0.5;" x="103.72875" xlink:href="#m8fadbb62ad" y="801.946875"/>
+    </g>
+   </g>
+   <g id="text_61">
+    <text style="font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 118.12875, 805.096875)" x="118.12875" y="805.096875">p__Zixibacteria</text>
+   </g>
+  </g>
+ </g>
+</svg>
