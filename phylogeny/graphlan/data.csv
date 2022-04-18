@@ -53,7 +53,7 @@ bin_261,0.017322,1.029869,0,1.862781,0.183615,0,d__Bacteria,p__Bacteroidota,c__B
 bin_83,0.015547,4.317585,4.025565,0.0014,0.005105,0.399188,d__Bacteria,p__Bacteroidota,c__Bacteroidia,o__Flavobacteriales,f__Schleiferiaceae,g__,s__,1
 bin_138,0.003418,0.230452,0,5.220315,0.180524,0.001271,d__Bacteria,p__Krumholzibacteriota,c__Krumholzibacteria,o__Krumholzibacteriales,f__Krumholzibacteriaceae,g__,s__,1
 bin_141,0.245427,0.018698,0.00899,0.005147,2.933266,0.003238,d__Bacteria,p__Patescibacteria,c__ABY1,o__BM507,f__BM507,g__,s__,
-bin_202,0,0.189063,0,0.018336,1.30725,0,d__Bacteria,p__Afoulota,c__,o__,f__,g__,s__,
+bin_202,0,0.189063,0,0.018336,1.30725,0,d__Bacteria,p__Candidate_phylum,c__,o__,f__,g__,s__,
 bin_177,0.058909,0.82401,0.049497,0,0.001139,0.806222,d__Bacteria,p__Bacteroidota,c__Bacteroidia,o__CAILMK01,f__JAAYUY01,g__,s__,1
 bin_8,0.258637,0.944565,0.003842,0.084491,1.075812,0.088353,d__Bacteria,p__OLB16,c__,o__,f__,g__,s__,1
 bin_148,0.867129,0.003902,0.608347,0.003158,0.249269,0.049268,d__Bacteria,p__Campylobacterota,c__Campylobacteria,o__Campylobacterales,f__Arcobacteraceae,g__,s__,1
