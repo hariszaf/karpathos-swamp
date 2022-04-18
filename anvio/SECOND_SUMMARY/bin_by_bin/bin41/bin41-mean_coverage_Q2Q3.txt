@@ -1,0 +1,2 @@
+bin	profileElos1	profileElos10	profileElos12	profileElos2	profileElos3	profileElos7
+mean_coverage_Q2Q3	0.5283180610597815	3.972786542991513	0.0	0.0	0.2978130499281938	6.353406798194996

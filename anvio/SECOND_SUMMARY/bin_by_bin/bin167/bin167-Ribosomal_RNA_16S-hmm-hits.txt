@@ -1,0 +1,2 @@
+contigs	hmm_profile	unique_identifier
+c_000000119696_split_00001	16S_rRNA_arc	41a9dad097cedc73ab849c00628f533ff39a2e795a060ce38fbf0d7d

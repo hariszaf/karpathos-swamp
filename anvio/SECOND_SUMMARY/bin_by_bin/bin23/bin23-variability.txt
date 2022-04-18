@@ -1,0 +1,2 @@
+bin	profileElos1	profileElos10	profileElos12	profileElos2	profileElos3	profileElos7
+variability	0.17222801624267178	1.0982095566755306	0.0	0.24685257281809628	0.0	0.04777791731963154

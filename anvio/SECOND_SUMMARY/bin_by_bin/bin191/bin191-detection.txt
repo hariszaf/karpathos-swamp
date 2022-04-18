@@ -1,0 +1,2 @@
+bin	profileElos1	profileElos10	profileElos12	profileElos2	profileElos3	profileElos7
+detection	1.0	0.015158446984964677	0.9981674038956275	0.8335331390142084	0.9999585268208345	1.0

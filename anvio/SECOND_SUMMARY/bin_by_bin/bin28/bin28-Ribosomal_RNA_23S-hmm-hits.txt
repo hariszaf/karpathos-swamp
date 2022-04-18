@@ -1,0 +1,2 @@
+contigs	hmm_profile	unique_identifier
+c_000000075273_split_00001	23S_rRNA_bac	47bc6e4f88ce403b60bca4206243f66341b21c8386342b841e177771

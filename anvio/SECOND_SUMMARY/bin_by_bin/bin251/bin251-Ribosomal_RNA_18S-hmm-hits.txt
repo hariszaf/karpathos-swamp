@@ -1,0 +1,2 @@
+contigs	hmm_profile	unique_identifier
+c_000000804740_split_00001	18S_rRNA_euk	15411b00507da3a26945f7bebfc924b572e6b8c8776d5b5f9e5303d3
