@@ -191,8 +191,43 @@ palette = ["#FFFFFF", "#F5E2F5", "#ECC6EC", "#E2AAE2", "#D98DD9", "#CF71CF", "#C
 for i in range(10): 
     annotation_file.write(str(int(i*step)) + "\tannotation\t" + "abund:" + str(int(i*step)) + "\n")
     annotation_file.write(str(int(i*step)) + "\tclade_marker_shape\t" + "s" + "\n")
-    annotation_file.write(str(int(i*step)) + "\tclade_marker_size\t" + "105\n")
+    annotation_file.write(str(int(i*step)) + "\tclade_marker_size\t" + "75\n")
     annotation_file.write(str(int(i*step)) + "\tclade_marker_color\t" + palette[i] + "\n")
+
+
+bs_clades = open("clade_names.txt", "r")
+for clade in bs_clades: 
+
+    uf_bs_clade = clade.split("/")[1]
+    uf_bs_value = float(uf_bs_clade)
+
+    if uf_bs_value <70:
+        annotation_file.write(clade[:-1] + "\t" + "clade_marker_color" + "\t" + "b" + "\n")
+
+    elif uf_bs_value < 90: 
+        annotation_file.write(clade[:-1] + "\t" + "clade_marker_color" + "\t" + "g" + "\n")
+
+    else: 
+        annotation_file.write(clade[:-1] + "\t" + "clade_marker_color" + "\t" + "k" + "\n")
+
+
+
+annotation_file.write("bootstrap < 70" + "\tannotation\t" + "bootstrap < 70" + "\n")
+annotation_file.write("bootstrap < 70" + "\tclade_marker_shape\t" + "_" + "\n")
+annotation_file.write("bootstrap < 70" + "\tclade_marker_size\t" + "105\n")
+annotation_file.write("bootstrap < 70" + "\tclade_marker_color\t" + "b" + "\n")
+
+annotation_file.write("bootstrap < 90" + "\tannotation\t" + "bootstrap < 90" + "\n")
+annotation_file.write("bootstrap < 90" + "\tclade_marker_shape\t" + "_" + "\n")
+annotation_file.write("bootstrap < 90" + "\tclade_marker_size\t" + "105\n")
+annotation_file.write("bootstrap < 90" + "\tclade_marker_color\t" + "g" + "\n")
+
+
+annotation_file.write("bootstrap > 90" + "\tannotation\t" + "bootstrap > 90" + "\n")
+annotation_file.write("bootstrap > 90" + "\tclade_marker_shape\t" + "_" + "\n")
+annotation_file.write("bootstrap > 90" + "\tclade_marker_size\t" + "105\n")
+annotation_file.write("bootstrap > 90" + "\tclade_marker_color\t" + "k" + "\n")
+
 
 
 
