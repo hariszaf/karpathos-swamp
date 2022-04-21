@@ -1,0 +1,44 @@
+####################################################################################
+#               '||'''|,          '||'''|,  .|';                                   #
+#                ||   ||           ||   ||  ||                                     #
+#                ||...|' '||  ||`  ||...|' '||'   '''|.  '||),,(|,                 #
+#                ||       `|..||   ||       ||   .|''||   || || ||                 #
+#               .||           ||  .||      .||.  `|..||. .||    ||.                #
+#                          ,  |'                                                   #
+#                           ''                                                     #
+#                                                                                  #
+#       This program is free software: you can redistribute it and/or modify       #
+#       it under the terms of the GNU General Public License as published by       #
+#        the Free Software Foundation, either version 3 of the License, or         #
+#                       (at your option) any later version.                        #
+#         This program is distributed in the hope that it will be useful,          #
+#          but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#                   GNU General Public License for more details.                   #
+#        You should have received a copy of the GNU General Public License         #
+#       along with this program. If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                                  #
+#    PyPfam is a Python (lite) port of the PfamSearch scripts written in Perl.     #
+#  Perl authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),   #
+#                           Rob Finn (rdf@sanger.ac.uk)                            #
+#                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
+# ================================================================================ #
+# Execution time:           2022-04-21 11:15:25.860868
+# Query sequence file:      /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/200/MAG_200/Protologger/GTDB-TK-Results/identify/intermediate_results/marker_genes/bin200-contigs/bin200-contigs_protein.faa
+# CPU threads:              20
+# Searching against:        /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/markers/pfam/Pfam-A.hmm
+# Resolve clan overlaps:    on
+# ================================================================================ #
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan> 
+c_000000011435_28      4    133      4    133 PF00410.20  Ribosomal_S8      Domain     1   126   126    172.2   5.5e-52   1 No_clan  
+c_000000011435_39     47    143     42    170 PF01000.27  RNA_pol_A_bac     Domain    13   110   112     72.0   6.8e-21   1 No_clan  
+c_000000016888_21     30    397     12    398 PF00368.19  HMG-CoA_red       Family    15   366   367    315.1   8.1e-95   1 No_clan  
+c_000000017329_13    183    341    177    356 PF01496.20  V_ATPase_I        Family   241   412   812     42.1   4.1e-12   1 No_clan  
+c_000000022349_16     31    220     29    220 PF00687.22  Ribosomal_L1      Domain     2   204   204    163.0     1e-48   1 No_clan  
+c_000000022349_17      1    100      1    100 PF00466.21  Ribosomal_L10     Family     1   100   100     77.7   7.8e-23   1 No_clan  
+c_000000038006_1      12     75     10     76 PF02576.18  DUF150            Domain     3    72    73     35.5   1.4e-09   1 No_clan  
+c_000000040932_8      15    181     12    231 PF13685.7   Fe-ADH_2          Family     5   162   251     30.4   4.6e-08   1 CL0224   
+c_000000094257_6     326    423    326    423 PF02978.20  SRP_SPB           Domain     1   100   100    116.8   7.5e-35   1 CL0123   
+c_000000114265_5       8    128      8    128 PF00380.20  Ribosomal_S9      Family     1   121   121    163.6   3.4e-49   1 CL0329   
+c_000000118698_10      2     31      1     31 PF00380.20  Ribosomal_S9      Family    92   121   121     46.5   6.5e-13   1 CL0329   
+c_000000158985_3      20    184      2    185 PF01025.20  GrpE              Family    20   165   166    134.2   4.5e-40   1 No_clan  
