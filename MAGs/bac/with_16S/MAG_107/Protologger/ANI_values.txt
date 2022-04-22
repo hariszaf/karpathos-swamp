@@ -1,0 +1,3 @@
+bin107-contigs.fa	Spiribacter_curvatus--RS_GCF_000485905.1	81.068	398	697
+bin107-contigs.fa	Spiribacter_salinus--RS_GCF_000319575.2	78.064	186	697
+bin107-contigs.fa	Arhodomonas_aquaeolei--RS_GCF_000374645.1	77.3585	190	697
