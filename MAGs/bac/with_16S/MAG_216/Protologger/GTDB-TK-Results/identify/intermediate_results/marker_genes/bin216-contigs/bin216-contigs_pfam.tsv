@@ -1,0 +1,41 @@
+####################################################################################
+#               '||'''|,          '||'''|,  .|';                                   #
+#                ||   ||           ||   ||  ||                                     #
+#                ||...|' '||  ||`  ||...|' '||'   '''|.  '||),,(|,                 #
+#                ||       `|..||   ||       ||   .|''||   || || ||                 #
+#               .||           ||  .||      .||.  `|..||. .||    ||.                #
+#                          ,  |'                                                   #
+#                           ''                                                     #
+#                                                                                  #
+#       This program is free software: you can redistribute it and/or modify       #
+#       it under the terms of the GNU General Public License as published by       #
+#        the Free Software Foundation, either version 3 of the License, or         #
+#                       (at your option) any later version.                        #
+#         This program is distributed in the hope that it will be useful,          #
+#          but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#                   GNU General Public License for more details.                   #
+#        You should have received a copy of the GNU General Public License         #
+#       along with this program. If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                                  #
+#    PyPfam is a Python (lite) port of the PfamSearch scripts written in Perl.     #
+#  Perl authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),   #
+#                           Rob Finn (rdf@sanger.ac.uk)                            #
+#                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
+# ================================================================================ #
+# Execution time:           2022-04-20 23:23:44.294695
+# Query sequence file:      /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/200/MAG_216/Protologger/GTDB-TK-Results/identify/intermediate_results/marker_genes/bin216-contigs/bin216-contigs_protein.faa
+# CPU threads:              20
+# Searching against:        /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/markers/pfam/Pfam-A.hmm
+# Resolve clan overlaps:    on
+# ================================================================================ #
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan> 
+c_000000000885_62      54    208      9    209 PF01025.20  GrpE              Family    12   165   166    139.1   1.9e-41   1 No_clan  
+c_000000001752_10       2     83      1    102 PF00466.21  Ribosomal_L10     Family     2    84   100     57.0   2.8e-16   1 No_clan  
+c_000000001752_2       17    237     16    246 PF13685.7   Fe-ADH_2          Family     2   203   251     52.1   1.3e-14   1 CL0224   
+c_000000001752_22      66    157     59    178 PF01000.27  RNA_pol_A_bac     Domain    15   110   112     79.7   3.4e-23   1 No_clan  
+c_000000001752_32       5    131      5    131 PF00410.20  Ribosomal_S8      Domain     1   125   126    152.0   1.3e-45   1 No_clan  
+c_000000001752_9       31    220     30    220 PF00687.22  Ribosomal_L1      Domain     2   204   204    152.6   1.9e-45   1 No_clan  
+c_000000004732_27      61    181     61    181 PF00380.20  Ribosomal_S9      Family     1   121   121    151.4   2.7e-45   1 CL0329   
+c_000000006792_29     239    329    238    330 PF03726.15  PNPase            Domain     2    82    83     34.5   3.7e-09   1 No_clan  
+c_000000014273_14     343    438    342    442 PF02978.20  SRP_SPB           Domain     2    99   100     97.1   1.3e-28   1 CL0123   
