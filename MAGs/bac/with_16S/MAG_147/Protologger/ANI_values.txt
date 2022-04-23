@@ -1,0 +1,3 @@
+bin147-contigs.fa	Salinibacter_ruber--RS_GCF_000013045.1	80.8995	630	1252
+bin147-contigs.fa	Salinibacter_altiplanensis--RS_GCF_002894645.1	79.7436	559	1252
+bin147-contigs.fa	Salinivenus_iranica--RS_GCF_002894665.1	79.3668	451	1252
