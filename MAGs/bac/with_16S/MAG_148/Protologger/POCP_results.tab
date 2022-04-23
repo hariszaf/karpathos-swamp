@@ -1,0 +1,32 @@
+#Matching species	POCP (%)
+POCP suggests seperate genus between the input genome and Campylobacter_coli--RS_GCF_000254135.1 as POCP was;	34.45885509838998%
+POCP suggests seperate genus between the input genome and Campylobacter_iguaniorum--RS_GCF_000736415.1 as POCP was;	38.654111162149746%
+POCP suggests seperate genus between the input genome and Campylobacter_ureolyticus--RS_GCF_013372225.1 as POCP was;	34.9862258953168%
+POCP suggests seperate genus between the input genome and Sulfurospirillum_multivorans--RS_GCF_000568815.1 as POCP was;	42.26962457337884%
+POCP suggests seperate genus between the input genome and Sulfurospirillum_arcachonense--RS_GCF_000597725.1 as POCP was;	48.586266589728794%
+POCP suggests the input genome and Arcobacter_lacus--RS_GCF_003063295.1 belong to the same genus with a POCP was;	60.84945332211943%
+POCP suggests the input genome and Arcobacter_defluvii--RS_GCF_013201725.1 belong to the same genus with a POCP was;	64.60369163952225%
+POCP suggests the input genome and Arcobacter_cloacae--RS_GCF_013201935.1 belong to the same genus with a POCP was;	67.55896667914638%
+POCP suggests the input genome and Arcobacter_venerupis--RS_GCF_013201665.1 belong to the same genus with a POCP was;	65.53851577648511%
+POCP suggests the input genome and Arcobacter_caeni--RS_GCF_003063245.1 belong to the same genus with a POCP was;	67.62253406548709%
+POCP suggests the input genome and Arcobacter_nitrofigilis--RS_GCF_000092245.1 belong to the same genus with a POCP was;	62.362011564745046%
+POCP suggests seperate genus between the input genome and Sulfurovum_lithotrophicum--RS_GCF_000987835.1 as POCP was;	40.960809102402024%
+POCP suggests seperate genus between the input genome and Campylobacter_pinnipediorum--RS_GCF_002022005.1 as POCP was;	34.847426042394595%
+POCP suggests seperate genus between the input genome and Sulfurospirillum_halorespirans--RS_GCF_001723605.1 as POCP was;	44.58804523424879%
+POCP suggests seperate genus between the input genome and Sulfurospirillum_deleyianum--RS_GCF_000024885.1 as POCP was;	45.146633622470056%
+POCP suggests the input genome and Arcobacter_aquimarinus--RS_GCF_013177635.1 belong to the same genus with a POCP was;	69.51098792318354%
+POCP suggests the input genome and Arcobacter_suis--RS_GCF_003544815.1 belong to the same genus with a POCP was;	67.01010886469673%
+POCP suggests the input genome and Arcobacter_ellisii--RS_GCF_003544915.1 belong to the same genus with a POCP was;	68.00298340481073%
+POCP suggests the input genome and Poseidonibacter_antarcticus--RS_GCF_003667345.1 belong to the same genus with a POCP was;	66.27175120325805%
+POCP suggests the input genome and Arcobacter_anaerophilus--RS_GCF_006459125.1 belong to the same genus with a POCP was;	64.30255759114819%
+POCP suggests seperate genus between the input genome and Nitratifractor_salsuginis--RS_GCF_000186245.1 as POCP was;	37.87781350482315%
+POCP suggests seperate genus between the input genome and Campylobacter_novaezeelandiae--RS_GCF_004323845.1 as POCP was;	34.2781007751938%
+POCP suggests seperate genus between the input genome and Campylobacter_armoricus--RS_GCF_013372105.1 as POCP was;	35.39865513928914%
+POCP suggests seperate genus between the input genome and Campylobacter_peloridis--RS_GCF_000816785.1 as POCP was;	34.66981132075472%
+POCP suggests seperate genus between the input genome and Campylobacter_volucris--RS_GCF_008245045.1 as POCP was;	36.116552399608224%
+POCP suggests seperate genus between the input genome and Campylobacter_ornithocola--RS_GCF_013201605.1 as POCP was;	35.67153459420636%
+POCP suggests seperate genus between the input genome and Campylobacter_lari--RS_GCF_004357905.1 as POCP was;	36.42839597150577%
+POCP suggests seperate genus between the input genome and Campylobacter_subantarcticus--RS_GCF_000816305.1 as POCP was;	33.36349242252884%
+POCP suggests seperate genus between the input genome and Campylobacter_hepaticus--RS_GCF_009362725.1 as POCP was;	35.95061728395062%
+POCP suggests seperate genus between the input genome and Campylobacter_insulaenigrae--RS_GCF_000816185.1 as POCP was;	35.908865775136206%
+POCP suggests seperate genus between the input genome and Campylobacter_jejuni--RS_GCF_001457695.1 as POCP was;	34.88797439414723%

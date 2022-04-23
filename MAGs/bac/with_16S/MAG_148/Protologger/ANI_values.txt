@@ -1,0 +1,11 @@
+bin148-contigs.fa	Arcobacter_ellisii--RS_GCF_003544915.1	79.3289	375	847
+bin148-contigs.fa	Arcobacter_cloacae--RS_GCF_013201935.1	78.9623	365	847
+bin148-contigs.fa	Poseidonibacter_antarcticus--RS_GCF_003667345.1	78.9279	355	847
+bin148-contigs.fa	Arcobacter_defluvii--RS_GCF_013201725.1	78.9245	352	847
+bin148-contigs.fa	Arcobacter_suis--RS_GCF_003544815.1	78.9006	332	847
+bin148-contigs.fa	Arcobacter_lacus--RS_GCF_003063295.1	78.8961	282	847
+bin148-contigs.fa	Arcobacter_caeni--RS_GCF_003063245.1	78.8026	327	847
+bin148-contigs.fa	Arcobacter_venerupis--RS_GCF_013201665.1	78.782	357	847
+bin148-contigs.fa	Arcobacter_aquimarinus--RS_GCF_013177635.1	78.7376	358	847
+bin148-contigs.fa	Arcobacter_nitrofigilis--RS_GCF_000092245.1	78.262	309	847
+bin148-contigs.fa	Arcobacter_anaerophilus--RS_GCF_006459125.1	77.5971	267	847
