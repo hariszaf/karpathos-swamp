@@ -1,0 +1,19 @@
+#Matching species	POCP (%)
+POCP suggests seperate genus between the input genome and Chromatium_okenii--RS_GCF_002958735.1 as POCP was;	37.43779777660138%
+POCP suggests seperate genus between the input genome and Thiorhodococcus_mannitoliphagus--RS_GCF_010915725.1 as POCP was;	47.9778028592927%
+POCP suggests seperate genus between the input genome and Allochromatium_humboldtianum--RS_GCF_013385175.1 as POCP was;	43.78355164268843%
+POCP suggests seperate genus between the input genome and Marichromatium_purpuratum--RS_GCF_000224005.2 as POCP was;	47.43589743589743%
+POCP suggests seperate genus between the input genome and Marichromatium_bheemlicum--RS_GCF_012276755.1 as POCP was;	47.31830782210438%
+POCP suggests the input genome and Thiocapsa_rosea--RS_GCF_003634315.1 belong to the same genus with a POCP was;	52.24331727590441%
+POCP suggests the input genome and Thiocapsa_marina--RS_GCF_000223985.1 belong to the same genus with a POCP was;	52.96395591301758%
+POCP suggests seperate genus between the input genome and Lamprocystis_purpurea--RS_GCF_000379525.1 as POCP was;	46.30343220718702%
+POCP suggests seperate genus between the input genome and Thioflavicoccus_mobilis--RS_GCF_000327045.1 as POCP was;	48.879630672221595%
+POCP suggests seperate genus between the input genome and Thioalbus_denitrificans--RS_GCF_003337735.1 as POCP was;	37.655832591273374%
+POCP suggests seperate genus between the input genome and Thiobaca_trueperi--RS_GCF_004342175.1 as POCP was;	43.816375471051735%
+POCP suggests the input genome and Thiorhodococcus_minor--RS_GCF_010820565.1 belong to the same genus with a POCP was;	50.14185738604123%
+POCP suggests seperate genus between the input genome and Allochromatium_vinosum--RS_GCF_000025485.1 as POCP was;	45.065906661916635%
+POCP suggests seperate genus between the input genome and Marichromatium_gracile--RS_GCF_004343155.1 as POCP was;	47.41867043847242%
+POCP suggests seperate genus between the input genome and Imhoffiella_purpurea--RS_GCF_000585215.1 as POCP was;	46.98159905305068%
+POCP suggests the input genome and Thiocapsa_roseopersicina--RS_GCF_900106925.1 belong to the same genus with a POCP was;	51.43827407111466%
+POCP suggests the input genome and Thiohalocapsa_marina--RS_GCF_008632335.1 belong to the same genus with a POCP was;	53.75224014336918%
+POCP suggests seperate genus between the input genome and Thiorhodospira_sibirica--RS_GCF_000227725.1 as POCP was;	31.049943953169763%
