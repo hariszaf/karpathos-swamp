@@ -10,7 +10,7 @@ The GTDB-Tk assignment supported the presence of a novel family too, but within 
 The genome completeness was 87.11% and the contamination 0.0%. 
 The UBA1280 order has currently only 19 genomes and this is probably the reason why the 16S analysis 
 suggested otherwise. 
-
+No representative of the UBA1280 order is present on the All-Species Living Tree project version currently used by Protologger.
 
 
 ## Description of gen. nov 
