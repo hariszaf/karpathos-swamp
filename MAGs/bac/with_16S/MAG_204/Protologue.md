@@ -1,4 +1,4 @@
-## Description of   
+## Description of Candidatus  order 
 
 The best match was to; Desulfuromonas acetoxidans--Desulfuromonadaceae--AAEW02000008 (Valid) (81.74778761061947%)
 
@@ -11,8 +11,16 @@ on the All-Species Living Tree project version currently used by Protologger.
 
 
 
-## (MAG_204)
 
+## Description of Candidatus  fam. nov
+
+
+
+## Description of Candidatus  gen. nov
+
+
+
+## Description of Candidatus  sp. nov (MAG_204)
 
 KEGG analysis predicted 
 Sulfide and L-serine to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47).
