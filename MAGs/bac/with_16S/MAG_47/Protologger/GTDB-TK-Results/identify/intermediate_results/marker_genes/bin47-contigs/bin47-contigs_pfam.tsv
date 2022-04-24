@@ -1,0 +1,41 @@
+####################################################################################
+#               '||'''|,          '||'''|,  .|';                                   #
+#                ||   ||           ||   ||  ||                                     #
+#                ||...|' '||  ||`  ||...|' '||'   '''|.  '||),,(|,                 #
+#                ||       `|..||   ||       ||   .|''||   || || ||                 #
+#               .||           ||  .||      .||.  `|..||. .||    ||.                #
+#                          ,  |'                                                   #
+#                           ''                                                     #
+#                                                                                  #
+#       This program is free software: you can redistribute it and/or modify       #
+#       it under the terms of the GNU General Public License as published by       #
+#        the Free Software Foundation, either version 3 of the License, or         #
+#                       (at your option) any later version.                        #
+#         This program is distributed in the hope that it will be useful,          #
+#          but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#                   GNU General Public License for more details.                   #
+#        You should have received a copy of the GNU General Public License         #
+#       along with this program. If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                                  #
+#    PyPfam is a Python (lite) port of the PfamSearch scripts written in Perl.     #
+#  Perl authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),   #
+#                           Rob Finn (rdf@sanger.ac.uk)                            #
+#                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
+# ================================================================================ #
+# Execution time:           2022-04-22 07:13:51.652142
+# Query sequence file:      /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/rest/MAG_47/Protologger/GTDB-TK-Results/identify/intermediate_results/marker_genes/bin47-contigs/bin47-contigs_protein.faa
+# CPU threads:              20
+# Searching against:        /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/markers/pfam/Pfam-A.hmm
+# Resolve clan overlaps:    on
+# ================================================================================ #
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan> 
+c_000000000041_15     242    319    216    319 PF03726.15  PNPase            Domain     2    83    83     56.4   2.8e-16   1 No_clan  
+c_000000000041_216     12     89     11     89 PF02576.18  DUF150            Domain     2    73    73     60.1   1.8e-17   1 No_clan  
+c_000000000041_76      39    211      8    211 PF01025.20  GrpE              Family     5   166   166    163.8   2.4e-49   1 No_clan  
+c_000000000114_142     21    141     21    141 PF00380.20  Ribosomal_S9      Family     1   121   121    153.2   3.7e-46   1 CL0329   
+c_000000000283_17       5    132      5    132 PF00410.20  Ribosomal_S8      Domain     1   126   126    151.0   1.2e-45   1 No_clan  
+c_000000000283_29      66    159     59    178 PF01000.27  RNA_pol_A_bac     Domain    13   110   112     88.8   2.7e-26   1 No_clan  
+c_000000000559_95     326    426    326    426 PF02978.20  SRP_SPB           Domain     1   100   100    100.1   7.9e-30   1 CL0123   
+c_000000029506_7       30    220     30    220 PF00687.22  Ribosomal_L1      Domain     1   204   204    177.7     2e-53   1 No_clan  
+c_000000029506_8        1     98      1     98 PF00466.21  Ribosomal_L10     Family     1   100   100     92.5   1.3e-27   1 No_clan  
