@@ -1,0 +1,47 @@
+####################################################################################
+#               '||'''|,          '||'''|,  .|';                                   #
+#                ||   ||           ||   ||  ||                                     #
+#                ||...|' '||  ||`  ||...|' '||'   '''|.  '||),,(|,                 #
+#                ||       `|..||   ||       ||   .|''||   || || ||                 #
+#               .||           ||  .||      .||.  `|..||. .||    ||.                #
+#                          ,  |'                                                   #
+#                           ''                                                     #
+#                                                                                  #
+#       This program is free software: you can redistribute it and/or modify       #
+#       it under the terms of the GNU General Public License as published by       #
+#        the Free Software Foundation, either version 3 of the License, or         #
+#                       (at your option) any later version.                        #
+#         This program is distributed in the hope that it will be useful,          #
+#          but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#                   GNU General Public License for more details.                   #
+#        You should have received a copy of the GNU General Public License         #
+#       along with this program. If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                                  #
+#    PyPfam is a Python (lite) port of the PfamSearch scripts written in Perl.     #
+#  Perl authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),   #
+#                           Rob Finn (rdf@sanger.ac.uk)                            #
+#                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
+# ================================================================================ #
+# Execution time:           2022-04-25 04:35:49.596832
+# Query sequence file:      /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/100/MAG_192/Protologger/GTDB-TK-Results/identify/intermediate_results/marker_genes/bin192-contigs/bin192-contigs_protein.faa
+# CPU threads:              20
+# Searching against:        /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/markers/pfam/Pfam-A.hmm
+# Resolve clan overlaps:    on
+# ================================================================================ #
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan> 
+c_000000002299_51     66    159     63    178 PF01000.27  RNA_pol_A_bac     Domain    13   110   112     74.5   1.7e-21   1 No_clan  
+c_000000002299_64      4    130      4    131 PF00410.20  Ribosomal_S8      Domain     1   125   126    161.3     2e-48   1 No_clan  
+c_000000002911_31    239    318    238    318 PF03726.15  PNPase            Domain     2    83    83     53.8   4.1e-15   1 No_clan  
+c_000000006141_25     30    195      6    195 PF01025.20  GrpE              Family    11   166   166    141.9     3e-42   1 No_clan  
+c_000000008175_19     18    190     17    277 PF13685.7   Fe-ADH_2          Family     2   163   251     51.5   2.4e-14   1 CL0224   
+c_000000021440_13      7     87      7     97 PF01990.18  ATP-synt_F        Family     1    81    91     30.8   5.7e-08   1 No_clan  
+c_000000021633_6     224    313    202    320 PF01864.18  CarS-like         Family    47   138   175     21.9     3e-05   1 CL0234   
+c_000000023561_2       2     98      1    100 PF00466.21  Ribosomal_L10     Family     2    98   100     56.8   4.1e-16   1 No_clan  
+c_000000023561_3      35    220     29    220 PF00687.22  Ribosomal_L1      Domain     6   204   204    173.3   1.1e-51   1 No_clan  
+c_000000024715_1      71    264     45    310 PF01496.20  V_ATPase_I        Family   227   420   812     86.1     3e-25   1 No_clan  
+c_000000024715_1     436    532    432    533 PF01496.20  V_ATPase_I        Family   707   811   812     42.5   4.7e-12   1 No_clan  
+c_000000024715_3       4     83      3     92 PF01990.18  ATP-synt_F        Family     2    81    91     60.2     4e-17   1 No_clan  
+c_000000027123_9     327    423    326    423 PF02978.20  SRP_SPB           Domain     2   100   100    109.2   2.8e-32   1 CL0123   
+c_000000046946_3      92    209     73    281 PF13685.7   Fe-ADH_2          Family    61   174   251     32.0   2.2e-08   1 CL0224   
+c_000000089426_4      10    130     10    130 PF00380.20  Ribosomal_S9      Family     1   121   121    157.2     5e-47   1 CL0329   
