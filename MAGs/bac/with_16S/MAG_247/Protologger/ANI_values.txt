@@ -1,0 +1,6 @@
+bin247-contigs.fa	Truepera_radiovictrix--RS_GCF_000092425.1	76.4079	159	701
+bin247-contigs.fa	Blastococcus_aggregatus--RS_GCF_900221005.1	74.8731	143	701
+bin247-contigs.fa	Saccharothrix_australiensis--RS_GCF_003634935.1	74.8101	190	701
+bin247-contigs.fa	Saccharothrix_texasensis--RS_GCF_003752005.1	74.7684	194	701
+bin247-contigs.fa	Klenkia_soli--RS_GCF_900103975.1	74.7575	155	701
+bin247-contigs.fa	Modestobacter_marinus--RS_GCF_000306785.1	74.7066	162	701
