@@ -1,20 +1,32 @@
-## Description of the ** sp. nov (MAG_109)
+## Description of the ** fam. nov 
+
+Etymology:
 
 
-Inconsistency in taxonomic assignment was observed between methods
-as the highest match based on 16S rRNA gene sequence similarity was
-Lysobacter mobilis--Lysobacteraceae--JQ608331 (Valid) (77.1%)
-while the genome based assignment via GTDB-TK placed the genome 
-at the SLFT01 genus of the Hydrogenedentiales order. 
-The 16S rRNA gene was determined to be 44.51 complete compared to its closest relative.
-
-No POCP values >50% were identified, indicating the input genome represents a novel genus.
+Based on 16S rRNA gene sequence analysis, its closest relatives are members of the Acidimicrobiaceae family 
+*Acidiferrimicrobium australe* (84.46%) and
+*Acidimicrobium ferrooxidans* (84.36%) suggesting for a novel family. 
+Genome based assignment via GTDB-TK placed the genome as a member of the UBA5794 order of the Acidimicrobiia class
+supporting further that the strain represents a novel family.
 
 
-Within the genome, 392 CAZymes were identified along with the utilisation of 
-cellulose and starch.
+ANI identified the input genome as novel, with the best match being to *Marmoricola aurantiacus* with a value of 75.29% of the Propionibacteriales order 
+and had an equivalent hit (74.89%) with the *Saccharothrix syringae* Mycobacteriales order.
+<!-- This could be a sign of a novel order within the c__Actinomycetia class? -->
 
-Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47)
-and L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-).
+## Description of the ** gen. nov 
 
-The G+C content of genomic DNA is 51.1%.
+Etymology:
+
+## Description of the ** sp. nov (MAG 165)
+
+Etymology:
+
+KEGG analysis predicted 
+L-glutamate production from ammonia via L-glutamine (EC:6.3.1.2, 1.4.1.-).
+A total of 91 CAZymes were identified and 
+starch was predicted to be utilised as carbon source.
+
+
+The G+C content of the genomic DNA is 71.39%.
+
