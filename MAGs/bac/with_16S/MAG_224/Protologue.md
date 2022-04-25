@@ -1,4 +1,4 @@
-## Description of   (MAG_224)
+## Description of  gen. nov
 
 Etymology:
 
@@ -18,7 +18,7 @@ and GTDB.
 As genome completeness is 100.0% and contamination is 1.77% the genome based assignmed was selected.
 
 
-## Description of  sp. nov (MAG_224)
+## Description of  sp. nov (MAG 224)
 
 Etymology:
 
