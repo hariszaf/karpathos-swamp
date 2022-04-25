@@ -17,6 +17,9 @@ GTDB-Tk supported the creation of a novel species, placing
 the genome under the JAAAPH01 genus of the Salinibacteraceae family. 
 with no ANI valuescalculated,
 due to the low similarity of the input genome to its closest relatives.
+The ANI value between the genome and MAG 181 that were placed with the exact same taxonomy
+by the GTDB-Tk was 81.20 confirming that they are distinct species. 
+
 
 KEGG analysis predicted 
 propionate production from propanoyl-CoA (EC:2.8.3.1)
