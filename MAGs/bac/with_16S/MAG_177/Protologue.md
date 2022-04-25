@@ -1,20 +1,25 @@
-## Description of the ** sp. nov (MAG_109)
+## Description of the ** gen. nov
 
+Etymology:
 
-Inconsistency in taxonomic assignment was observed between methods
-as the highest match based on 16S rRNA gene sequence similarity was
-Lysobacter mobilis--Lysobacteraceae--JQ608331 (Valid) (77.1%)
-while the genome based assignment via GTDB-TK placed the genome 
-at the SLFT01 genus of the Hydrogenedentiales order. 
-The 16S rRNA gene was determined to be 44.51 complete compared to its closest relative.
+Based on 16S rRNA gene sequence similarity
+the closest relatives are
+members of the Hymenobacteraceae family;
+*Rufibacter roseus* (84.24%)
+*Rufibacter glacialis* (84.06%)
+*Hymenobacter algoricola* (83.90%), 
+suggesting for a novel family. 
+*Flexithrix dorotheae* of the Flammeovirgaceae family, had a similar similarity score too	(84.17%). 
+Genome based assignment via GTDB-TK though, placed the genome as a member of the JAAYUY01 family 
+and POCP analysis confirmed that the strain represents a distinct genus as all POCP values to close relatives were below 30%.
 
-No POCP values >50% were identified, indicating the input genome represents a novel genus.
+## Description of the ** sp. nov (MAG 177)
 
+Etymology:
 
-Within the genome, 392 CAZymes were identified along with the utilisation of 
-cellulose and starch.
-
-Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47)
-and L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-).
-
-The G+C content of genomic DNA is 51.1%.
+KEGG analysis predicted
+Folate (vitamin B9) biosynthesis from 7,8-dihydrofolate (EC:1.5.1.3)
+and
+Cbb3-type cytochrome C oxidase based on the presence of sub-units I/II (ccoNO), III and IV.
+A total of 136 CAZymes were identified within the genome too. 
+The G+C content of the genomic DNA is 37.52%.
