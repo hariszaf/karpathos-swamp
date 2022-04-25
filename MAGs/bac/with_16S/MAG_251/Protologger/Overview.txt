@@ -1,0 +1,166 @@
+Protologger v1.1; Run date: 2022-04-24
+Quality check
+-------------
+
+The input 16S rRNA gene is acceptable at 91.6214587100663% complete compared to its closest relative
+The input 16S rRNA gene was not identified as a chimera.
+The input genome is of high quality and suitable for analysis
+Genome completeness is ;100.0
+Genome contamination is ;1.52
+
+
+16S rRNA gene analysis
+-------------------------
+
+The input 16S rRNA determined the isolate to be; sp. nov.
+The best match was to; Phaeodactylibacter xiamenensis--Lewinellaceae--JPOS01000002 (Valid) (94.67105263157895%)
+
+
+Genome analysis
+---------------
+
+Genome based assignment via GTDB-TK placed the genome as; d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Saprospiraceae;g__Phaeodactylibacter;s__
+GTDB-TK was unable to matched the input genome to that of a previously sequenced genome via FastANI
+The genome size is; 7.06Mbp base pairs
+G+C percentage is; 52.72%
+Due to the low similarity of the input genome to its closest relatives, no ANI values were able to be calculated.
+No valid species with a sequenced genome within the GTDB-TK database was identified to have a ANI value >95% with the studied genome
+The input genome was assigned to Phaeodactylibacter with a POCP value of 64.94474428167565%
+CRISPR arrays identified; 10
+Coding sequences identified; 5541
+
+
+Functional analysis
+-------------------
+
+Number of transporters; 130
+Number of secretion genes; 16
+Number of unique enzymes; 834
+The following carbon sources were predicted to be utilised; starch, cellulose
+Sulfide and L-serine are predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47)
+L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-)
+Folate (vitamin B9) biosynthesis predicted from 7,8-dihydrofolate (EC:1.5.1.3)
+Cbb3-type cytochrome C oxidase was predicted based on the presence of sub-units I/II (ccoNO), III and IV
+
+
+Antibiotic resistance analysis
+------------------------------
+
+No antibiotic resistance genes were identified within the genome.
+
+
+CAZyme analysis
+---------------
+
+In total the following number of CAZymes were identified within the genome; 310
+The following occurances of glycoside hydrolase families were identified within the genome; 
+GH35;5
+GH13;14
+GH65;4
+GH19;3
+GH3;6
+GH25;2
+GH16;9
+GH6;3
+GH0;13
+GH28;3
+GH2;3
+GH73;7
+GH23;6
+GH10;1
+GH63;1
+GH33;1
+GH99;1
+GH32;3
+GH97;2
+GH1;1
+GH144;2
+GH18;1
+GH5;4
+GH31;3
+GH101;1
+GH43;2
+GH17;5
+GH37;1
+GH38;1
+GH113;1
+GH15;1
+GH158;1
+GH102;1
+GH55;1
+GH109;1
+GH57;1
+The following occurances of glycoside transferase families were identified within the genome; 
+GT2;42
+GT4;42
+GT30;3
+GT9;2
+GT105;1
+GT5;2
+GT51;4
+GT83;3
+GT0;6
+GT22;1
+GT19;1
+GT20;2
+GT26;1
+GT1;2
+GT32;2
+GT35;2
+GT28;3
+GT13;1
+The following occurances of polysaccharise lyase families were identified within the genome; 
+PL1;2
+The following occurances of carbohydrate esterase families were identified within the genome; 
+CE11;4
+CE4;5
+CE1;4
+CE12;2
+CE3;2
+CE14;2
+CE0;1
+The following occurances of carbohydrate-binding module (CBM) families were identified within the genome; 
+CBM57;2
+CBM13;7
+CBM50;18
+CBM12;3
+CBM5;7
+CBM6;4
+CBM4;4
+CBM48;5
+CBM38;1
+CBM32;3
+CBM20;2
+CBM26;1
+CBM35;1
+CBM37;1
+CBM9;2
+CBM2;1
+CBM51;3
+
+
+Ecological analysis
+-------------------
+
+No metagenomic reconstructed genomes (MAGs) matching your genome were identified.
+
+
+The isolate was detected in 0.00% of 1,000 amplicon samples from the marine metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the insect gut metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the human lung metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.10% of 1,000 amplicon samples from the activated sludge metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the human skin metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the marine sediment metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the human gut metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the pig gut metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the bovine gut metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the plant metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the mouse gut metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the human vaginal metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the wastewater metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the human oral metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the freshwater metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the coral metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the chicken gut metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the soil metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
+The isolate was detected in 0.00% of 1,000 amplicon samples from the rhizosphere metagenome at a mean relative abundance of 0.00% with a standard deviation of 0.00%.
