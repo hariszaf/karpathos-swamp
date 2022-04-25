@@ -1,4 +1,4 @@
-## Description of the ** gen. nov 
+## Description of the ** fam. nov 
 
 Etymology:
 
@@ -14,6 +14,9 @@ ANI identified the input genome as novel, with the best match being to *Marmoric
 and had an equivalent hit (74.89%) with the *Saccharothrix syringae* Mycobacteriales order.
 <!-- This could be a sign of a novel order within the c__Actinomycetia class? -->
 
+## Description of the ** gen. nov 
+
+Etymology:
 
 ## Description of the ** sp. nov (MAG 165)
 
