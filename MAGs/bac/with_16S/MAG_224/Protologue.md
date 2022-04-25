@@ -1,27 +1,17 @@
-## Description of  gen. nov
+## Description of DT-110 ... sp. nov (MAG 224)
 
 Etymology:
 
 The species was identified as a member of the genus 
-*Pontibacter roseus*--Hymenobacteraceae--ARDO01000013 (Valid) 
-based on 
-16S rRNA gene sequence similarity of 84.43%
-suggesting for a novel family.
-The input 16S rRNA gene is acceptable at 93.08% complete compared to *Pontibacter roseus*.
-
-However, genome based assignment via GTDB-TK placed the genome under the DT-110 genus of the 
-Saprospiraceae family. 
-
-Both the Hymenobacteraceae and the Saprospiraceae families are present on both the All-Species Living Tree project version currently used by Protologger
-and GTDB.
-
-As genome completeness is 100.0% and contamination is 1.77% the genome based assignmed was selected.
-
-
-## Description of  sp. nov (MAG 224)
-
-Etymology:
-
+Hymenobacteraceae family based on 
+16S rRNA gene sequence similarity; the top hit had a score of 84.43% - *Pontibacter roseus*.
+Genome based assignment via GTDB-TK placed the genome under the DT-110 genus of the  Saprospiraceae family
+suggesting the genome representing a novel species.
+POCP analysis confirmed that as no POCP values >50% were identified, indicating the input genome represents a novel genus.
+As MAGs 144, 224 and 228 of the present study had the exact same GTDB-Tk assignment, 
+ANI values of among them were calcualted and a value of 77.61% between 
+MAG 228 and MAG 224 confirmed that they are distinct species. 
+The ANI value between MAG 224 and 214 was <50%.
 
 KEGG analysis predicted sulfide and L-serine to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47). 
 On top of that, L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-)
