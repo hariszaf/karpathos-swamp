@@ -1,4 +1,4 @@
-## Description of   (MAG_222)
+## Description of ..  gen. nov
 
 Etymology: 
 
@@ -9,7 +9,7 @@ Anaerolineae class of the Chloroflexota phylum suggesting for a novel genus as
 no POCP values >50% were identified with any of its closest relatives.
 
 
-## Description of  sp. nov (MAG_222)
+## Description of ... sp. nov (MAG_222)
 
 Etymology: 
 
