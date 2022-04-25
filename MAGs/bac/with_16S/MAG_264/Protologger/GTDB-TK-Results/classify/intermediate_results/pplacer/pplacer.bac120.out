@@ -1,0 +1,9 @@
+Running pplacer v1.1.alpha19-0-g807f6f3 analysis on /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/200/MAG_264/Protologger/GTDB-TK-Results/align/gtdbtk.bac120.user_msa.fasta...
+Didn't find any reference sequences in given alignment file. Using supplied reference alignment.
+Pre-masking sequences... sequence length cut from 5037 to 3923.
+Determining figs... figs disabled.
+Allocating memory for internal nodes... done.
+Caching likelihood information on reference tree... done.
+Pulling exponents... done.
+Preparing the edges for baseball... done.
+working on bin264-contigs (1/1)...
