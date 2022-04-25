@@ -1,0 +1,2 @@
+bin254-contigs.fa	Algisphaera_agarilytica--RS_GCF_014207595.1	77.5547	284	1250
+bin254-contigs.fa	Phycisphaera_mikurensis--RS_GCF_000284115.1	76.4381	337	1250
