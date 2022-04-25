@@ -1,0 +1,1 @@
+bin176-contigs.fa	Thiohalorhabdus_denitrificans--RS_GCF_001399755.1	81.0613	429	825
