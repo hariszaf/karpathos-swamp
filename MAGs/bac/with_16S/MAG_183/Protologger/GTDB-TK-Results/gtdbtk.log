@@ -1,0 +1,35 @@
+[2022-04-24 18:05:16] INFO: GTDB-Tk v1.5.0
+[2022-04-24 18:05:16] INFO: gtdbtk classify_wf --genome_dir /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/100/MAG_183/Protologger --out_dir /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/100/MAG_183/Protologger/GTDB-TK-Results --cpus 20
+[2022-04-24 18:05:16] INFO: Using GTDB-Tk reference data version r202: /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/
+[2022-04-24 18:05:16] INFO: Identifying markers in 1 genomes with 20 threads.
+[2022-04-24 18:05:16] TASK: Running Prodigal V2.6.3 to identify genes.
+[2022-04-24 18:05:23] INFO: Completed 1 genome in 7.49 seconds (7.49 seconds/genome).
+[2022-04-24 18:05:23] TASK: Identifying TIGRFAM protein families.
+[2022-04-24 18:05:28] INFO: Completed 1 genome in 5.21 seconds (5.21 seconds/genome).
+[2022-04-24 18:05:28] TASK: Identifying Pfam protein families.
+[2022-04-24 18:05:29] INFO: Completed 1 genome in 0.77 seconds (1.30 genomes/second).
+[2022-04-24 18:05:29] INFO: Annotations done using HMMER 3.1b2 (February 2015).
+[2022-04-24 18:05:29] TASK: Summarising identified marker genes.
+[2022-04-24 18:05:29] INFO: Completed 1 genome in 0.02 seconds (43.31 genomes/second).
+[2022-04-24 18:05:29] INFO: Done.
+[2022-04-24 18:05:29] INFO: Aligning markers in 1 genomes with 20 CPUs.
+[2022-04-24 18:05:30] INFO: Processing 1 genomes identified as bacterial.
+[2022-04-24 18:05:34] INFO: Read concatenated alignment for 45,555 GTDB genomes.
+[2022-04-24 18:05:34] TASK: Generating concatenated alignment for each marker.
+[2022-04-24 18:05:35] INFO: Completed 1 genome in 0.02 seconds (53.95 genomes/second).
+[2022-04-24 18:05:35] TASK: Aligning 92 identified markers using hmmalign 3.1b2 (February 2015).
+[2022-04-24 18:05:36] INFO: Completed 92 markers in 0.14 seconds (647.25 markers/second).
+[2022-04-24 18:05:36] TASK: Masking columns of bacterial multiple sequence alignment using canonical mask.
+[2022-04-24 18:06:36] INFO: Completed 45,556 sequences in 1.01 minutes (45,234.74 sequences/minute).
+[2022-04-24 18:06:36] INFO: Masked bacterial alignment from 41,084 to 5,037 AAs.
+[2022-04-24 18:06:36] INFO: 0 bacterial user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2022-04-24 18:06:36] INFO: Creating concatenated alignment for 45,556 bacterial GTDB and user genomes.
+[2022-04-24 18:06:38] INFO: Creating concatenated alignment for 1 bacterial user genomes.
+[2022-04-24 18:06:38] INFO: Done.
+[2022-04-24 18:06:39] TASK: Placing 1 bacterial genomes into reference tree with pplacer using 20 CPUs (be patient).
+[2022-04-24 18:06:39] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2022-04-24 18:30:24] INFO: Calculating RED values based on reference tree.
+[2022-04-24 18:30:32] TASK: Traversing tree to determine classification method.
+[2022-04-24 18:30:32] INFO: Completed 1 genome in 0.00 seconds (616.72 genomes/second).
+[2022-04-24 18:30:32] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2022-04-24 18:30:32] INFO: Done.
