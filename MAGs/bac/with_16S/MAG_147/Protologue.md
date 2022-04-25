@@ -1,4 +1,4 @@
-## Description of Salinibacter (MAG_147)
+## Description of *Salinibacter ..* sp. nov (MAG_147)
 
 Based on 16S rRNA gene sequence similiraty, multiple species of the *Salinibacter* genus 
 were among the closest relatives to it, supporting for a novel species within the genus.
