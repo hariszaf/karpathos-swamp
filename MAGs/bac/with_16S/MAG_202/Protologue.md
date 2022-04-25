@@ -1,11 +1,19 @@
 ## Description of Candidatus phylum
 
-The best match was to; Rubrobacter xylanophilus--Rubrobacteraceae--CP000386 (Valid) (80.58252427184466%)
+The best match was to; Rubrobacter xylanophilus--Rubrobacteraceae--CP000386 (Valid) (80.58%)
+Multiple hits from a range of families had equivalent similarity scores;
+*Limnochorda pilosa* of the Limnochordaceae family	(79.6%)
+*Arboricoccus pini* of the Geminicoccaceae family (79.22%)
+*Desertihabitans brevis* of the Propionibacteriaceae family	(78.90%) and so on. 
+Moreover, the input 16S rRNA gene was determined to be 27.09% complete compared to its closest relative.
+This inconsistency indicating a higher novel taxonomic group was sterngthened by the 
+genome based assignment via GTDB-TK that placed the genome at the domain of Bacteria 
+suggesting that the strain represents a novel phylum.
+
 
 Genome completeness is ;75.86
 Genome contamination is ;3.36
-Genome based assignment via GTDB-TK placed the genome as; d__Bacteria;p__;c__;o__;f__;g__;s__
-No POCP values >50% were identified, indicating the input genome represents a novel genus
+
 
 
 ## Description of candidatus class nov
