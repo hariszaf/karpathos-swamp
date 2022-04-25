@@ -1,20 +1,23 @@
-## Description of the ** sp. nov (MAG_109)
+## Description of Salinivenus ... sp. nov  (MAG_201)
 
+Etymology:
 
-Inconsistency in taxonomic assignment was observed between methods
-as the highest match based on 16S rRNA gene sequence similarity was
-Lysobacter mobilis--Lysobacteraceae--JQ608331 (Valid) (77.1%)
-while the genome based assignment via GTDB-TK placed the genome 
-at the SLFT01 genus of the Hydrogenedentiales order. 
-The 16S rRNA gene was determined to be 44.51 complete compared to its closest relative.
+Based on 16S rRNA gene sequence similarity, 
+multiple representatives of the Salinibacteraceae family 
+were found among its closest relatives, suggesting that the genome represents a novel species.
+Among them, *Salinivenus lutea* had a similarity score of	81.70%. 
+POCP analysis returned a value of 54.06%  between the genome and the 
+*Salinivenus* genus indicating that the genome is part of it. 
+GTDB-Tk supported the creation of a novel species, placing 
+the genome under the JAAAPH01 genus of the Salinibacteraceae family,
+with no ANI values calculated
+due to the low similarity of the input genome to its closest relatives.
+The ANI value between the genome and MAG 181 that were placed with the exact same taxonomy
+by the GTDB-Tk was 81.20 confirming that they are distinct species. 
 
-No POCP values >50% were identified, indicating the input genome represents a novel genus.
-
-
-Within the genome, 392 CAZymes were identified along with the utilisation of 
-cellulose and starch.
-
-Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47)
-and L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-).
-
-The G+C content of genomic DNA is 51.1%.
+KEGG analysis predicted 
+L-glutamate production from ammonia via L-glutamine (EC:6.3.1.2, 1.4.1.-)
+and folate (vitamin B9) biosynthesis from 7,8-dihydrofolate (EC:1.5.1.3).
+A total of 299 CAZymes and 21 flagellar proteins were identified within the genome, 
+while starch was predicted to be utilised as carbon resource.
+The G+C content of the genomic DNA is 62.32%.
