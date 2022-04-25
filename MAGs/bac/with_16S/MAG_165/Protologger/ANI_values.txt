@@ -1,0 +1,2 @@
+bin165-contigs.fa	Marmoricola_aurantiacus--RS_GCF_003752505.1	75.2936	119	577
+bin165-contigs.fa	Saccharothrix_syringae--RS_GCF_009498035.1	74.8923	147	577
