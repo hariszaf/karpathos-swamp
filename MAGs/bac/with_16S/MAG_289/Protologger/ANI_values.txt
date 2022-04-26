@@ -1,0 +1,2 @@
+bin289-contigs.fa	Anaeromyxobacter_dehalogenans--RS_GCF_000013385.1	74.9525	245	1167
+bin289-contigs.fa	Allostreptomyces_psammosilenae--RS_GCF_013407765.1	74.8183	299	1167

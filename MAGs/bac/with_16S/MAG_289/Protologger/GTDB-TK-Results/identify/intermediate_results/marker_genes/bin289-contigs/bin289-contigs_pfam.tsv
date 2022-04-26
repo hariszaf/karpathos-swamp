@@ -1,0 +1,40 @@
+####################################################################################
+#               '||'''|,          '||'''|,  .|';                                   #
+#                ||   ||           ||   ||  ||                                     #
+#                ||...|' '||  ||`  ||...|' '||'   '''|.  '||),,(|,                 #
+#                ||       `|..||   ||       ||   .|''||   || || ||                 #
+#               .||           ||  .||      .||.  `|..||. .||    ||.                #
+#                          ,  |'                                                   #
+#                           ''                                                     #
+#                                                                                  #
+#       This program is free software: you can redistribute it and/or modify       #
+#       it under the terms of the GNU General Public License as published by       #
+#        the Free Software Foundation, either version 3 of the License, or         #
+#                       (at your option) any later version.                        #
+#         This program is distributed in the hope that it will be useful,          #
+#          but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#                   GNU General Public License for more details.                   #
+#        You should have received a copy of the GNU General Public License         #
+#       along with this program. If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                                  #
+#    PyPfam is a Python (lite) port of the PfamSearch scripts written in Perl.     #
+#  Perl authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),   #
+#                           Rob Finn (rdf@sanger.ac.uk)                            #
+#                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
+# ================================================================================ #
+# Execution time:           2022-04-26 10:13:00.653743
+# Query sequence file:      /home1/christina/Elos_meta/Curtain3/MAGs/bac/with_16S/200/MAG_289/Protologger/GTDB-TK-Results/identify/intermediate_results/marker_genes/bin289-contigs/bin289-contigs_protein.faa
+# CPU threads:              20
+# Searching against:        /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/markers/pfam/Pfam-A.hmm
+# Resolve clan overlaps:    on
+# ================================================================================ #
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan> 
+c_000000000133_218     67    163     61    190 PF01000.27  RNA_pol_A_bac     Domain    15   110   112     46.8   5.9e-13   1 No_clan  
+c_000000000133_231      5    132      5    132 PF00410.20  Ribosomal_S8      Domain     1   126   126    157.3   2.9e-47   1 No_clan  
+c_000000000791_4      338    435    337    435 PF02978.20  SRP_SPB           Domain     2   100   100    104.9     5e-31   1 CL0123   
+c_000000000832_4        8     85      7     85 PF02576.18  DUF150            Domain     2    73    73     39.5   9.7e-11   1 No_clan  
+c_000000001564_73      19    245     18    271 PF13685.7   Fe-ADH_2          Family     2   210   251     50.5   4.1e-14   1 CL0224   
+c_000000002377_7      241    318    240    318 PF03726.15  PNPase            Domain     2    83    83     58.1   1.6e-16   1 No_clan  
+c_000000006583_5       47    205     41    206 PF01025.20  GrpE              Family     8   165   166    141.3   3.9e-42   1 No_clan  
+c_000000008567_19      17    137     17    137 PF00380.20  Ribosomal_S9      Family     1   121   121    157.6   3.3e-47   1 CL0329   
