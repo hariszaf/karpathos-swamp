@@ -3,8 +3,8 @@
 Etymology:
 
 The 16S rRNA gene sequence similarity supported that the closest relatives to the genome
-are members of the Spirochaetaceae family (88.34%) indicating the presence of a novel genus within the family. 
-
+are members of the Spirochaetaceae family, with a best hit of 88.34% (*Alkalispirochaeta odontotermitis*), 
+indicating the presence of a novel genus within the family. 
 Genome based assignment via GTDB-TK placed the genome under the PXBQ01 family of the Spirochaetales C order.
 No POCP values >50% were identified, indicating the input genome represents a novel genus too. 
 
