@@ -22,8 +22,8 @@ Etymology:
 
 Etymology: 
 
-Functional analysis identified multiple flagellar proteins(FlhA, FlhB, FlgB, FlgC, FlgD, FlgE, FlgG, FlgH, FlgI, FlgJ, FlgK, FlgL, FliC, FliD, FliE, FliF, FliG, FliK, FliM, FliN, MotA).
-59 CAZymes were identified too. 
+A total of 21 flagellar proteins
+and 59 CAZymes were identified within the genome.
 The genome size is 1.31Mbp base pairs and the G+C content of the genomic DNA is 51.88%.
 
 
