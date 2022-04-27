@@ -1,7 +1,7 @@
 ## Description of   (MAG 76)
 <!-- 
-Genome completeness is ;91.46
-Genome contamination is ;1.3
+Genome completeness is ;95.75
+Genome contamination is ;1.01
  -->
 
 Based on 16S rRNA gene sequence similarity, 
