@@ -11,6 +11,12 @@ GTDB-Tk suggested the creation of a novel genus within the Fermentibacteraceae f
 POCP analysis confirmed that it consists a distinct genus as 
 no POCP values >50% were identified with any of its close relatives.
 
+MAGs 38 and 277 had the exact same assignment by GTDB-Tk 
+suggesting novel genera of the 
+Fermentibacteraceae family. 
+To make sure they are not representatives of the same species, their ANI values was calculated and found 81.24%. 
+To make sure whether they represent 1 or 2 genera.... 
+
 
 ## Description of  sp. nov (MAG 38)
 
