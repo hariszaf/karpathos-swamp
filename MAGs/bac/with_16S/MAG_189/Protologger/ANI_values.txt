@@ -1,0 +1,13 @@
+bin189-contigs.fa	Altererythrobacter_xiamenensis--RS_GCF_900177715.1	79.3074	429	992
+bin189-contigs.fa	Altererythrobacter_rhizovicinus--RS_GCF_004135625.1	78.8078	434	992
+bin189-contigs.fa	Erythrobacter_litoralis--RS_GCF_000013005.1	78.7615	409	992
+bin189-contigs.fa	Altererythrobacter_salegens--RS_GCF_009827435.1	78.3525	359	992
+bin189-contigs.fa	Qipengyuania_sediminis--RS_GCF_004358425.1	78.27	335	992
+bin189-contigs.fa	Croceicoccus_marinus--RS_GCF_001661675.2	78.0568	329	992
+bin189-contigs.fa	Altererythrobacter_soli--RS_GCF_009828065.1	78.0513	330	992
+bin189-contigs.fa	Parapontixanthobacter_aurantiacus--RS_GCF_009827635.1	77.9138	300	992
+bin189-contigs.fa	Novosphingobium_malaysiense--RS_GCF_000802225.1	77.657	290	992
+bin189-contigs.fa	Altererythrobacter_atlanticus--RS_GCF_001008165.2	77.4673	273	992
+bin189-contigs.fa	Erythrobacter_longus--RS_GCF_000715015.1	76.9464	247	992
+bin189-contigs.fa	Erythrobacter_insulae--RS_GCF_007004095.1	76.9335	245	992
+bin189-contigs.fa	Altererythrobacter_ishigakiensis--RS_GCF_001663155.1	76.8431	211	992
