@@ -13,6 +13,8 @@ Genome based assignment via GTDB-Tk further supported the creation of a novel ge
 by placing it within the 
 JABSRG01 family of the 
 Opitutales order; Puniceicoccaceae is part of this order. 
+MAGs 215 and 100 that had the exact same assignment by GTDB-Tk had a ANI value <50% 
+indicating they are distinct species. 
 
 ## Description of  sp. nov (MAG_100)
 
