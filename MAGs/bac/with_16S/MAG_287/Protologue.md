@@ -1,12 +1,21 @@
-## Description of .sp nov (MAG 287) 
+## Description of gen. nov  (MAKE SURE IT'S NOT THE SAME WITH 234)
 
 Etymology: 
 
 
 Based on 16S rRNA gene sequence similarity, 
+its closest relatives are members of the Prolixibacteraceae and Marinilabiliaceae families of the 
+Bacteroidales order, 
+with 
+*Puteibacter caeruleilacunae* having a top score of	86.13% suggesting for the creation of 
+a novel genus as 
+POCP analysis returned values <50% for all of its closest relatives. 
+GTDB-Tk supported the creation of a novel genus by placing it 
+within the 
+GCA-2748055 family of the Bacteroidales order. 
 
-
-MAGs 287, 84 and 238 could be 1 or 2 or even 3 novel genera. 
+MAGs 287, 84 and 238 had the exact same placement by GTDB-Tk meaning they could 
+be represent 1, 2 or even 3 novel genera. 
 To make sure of that we built trees, we got POCP among the. 
 The ANI values among them are: 
 MAG 287 - MAG 84: <75%
@@ -14,7 +23,7 @@ MAG 287 - MAG 234: <75%
 MAG 238 - MAG 84:	77.6257
 confirming they are distinct species. 
 
-
+## Description of .sp nov (MAG 287) 
 
 KEGG analysis predicted
 acetate production from acetyl-CoA (EC:2.3.1.8, 2.7.2.1),
