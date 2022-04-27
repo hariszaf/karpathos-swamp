@@ -4,10 +4,11 @@ Genome completeness is ;77.06
 Genome contamination is ;1.1
  -->
 
+Etymology:
+
 The 16S rRNA gene sequence similarity returned 
 relatives with especially low scores; 
 *Hippea alviniae* of the Desulfurellaceae family with a score of 82.03% was the top hit. 
-
 GTDB-Tk placed it within the QNDG01 family of the homonymous phylum 
 suggesting the creation of a novel genus.
 
