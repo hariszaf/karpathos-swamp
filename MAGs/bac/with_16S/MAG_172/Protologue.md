@@ -6,7 +6,6 @@ Etymology:
 The 16S rRNA gene sequence similarity returned assignments of low scores with the best hits being members of the
 Bacillaceae and the 
 Desulfovibrionaceae families; in all cases the score was < 78.56%.
-
 Genome based assignment via GTDB-TK placed the genome as member of the UBA6099 family.
 As no POCP values >50% were identified, POCP analysis supported the assignment of the genus as a novel genus 
 within the UBA6099 family. 
