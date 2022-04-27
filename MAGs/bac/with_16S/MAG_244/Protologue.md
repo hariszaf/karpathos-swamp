@@ -2,12 +2,14 @@
 
 Etymology:
 
-Inconsistency was observed between the
-highest match based on 16S rRNA gene sequence similarity
+Based on 16S rRNA gene sequence similarity, its closest relatives are 
 *Calorithrix insularis* of the Calditrichaeota incertae sedis family (88.34%)
-and the Genome based assignment via GTDB-TK 
-that placed it 
-under the JAABVY01 family of the Zixibacteria phylum.
+and 
+*Rhodanobacter aciditrophus* of the Rhodanobacteraceae (88.14%)
+suggesting it represents a a novel genus. 
+As no POCP values >50% were identified, this was further supported. 
+Genome based assignment via GTDB-TK placed it 
+within the JAABVY01 family of the Zixibacteria phylum suggesting it represents a novel genus too. 
 
 The Calditrichaeota NCBI phylum has been associated with multiple phyla on GTDB. 
 (Calditrichota, KSB1, JdFR-76, AABM5-125-24, Zixibacteria).
