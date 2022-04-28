@@ -1,0 +1,37 @@
+[2022-04-24 18:55:52] INFO: GTDB-Tk v1.5.0
+[2022-04-24 18:55:52] INFO: gtdbtk classify_wf --genome_dir /home1/christina/Elos_meta/Curtain3/MAGs/arc/with_16S/MAG_12/Protologger --out_dir /home1/christina/Elos_meta/Curtain3/MAGs/arc/with_16S/MAG_12/Protologger/GTDB-TK-Results --cpus 20
+[2022-04-24 18:55:52] INFO: Using GTDB-Tk reference data version r202: /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/
+[2022-04-24 18:55:52] INFO: Identifying markers in 1 genomes with 20 threads.
+[2022-04-24 18:55:52] TASK: Running Prodigal V2.6.3 to identify genes.
+[2022-04-24 18:55:56] INFO: Completed 1 genome in 3.69 seconds (3.69 seconds/genome).
+[2022-04-24 18:55:56] TASK: Identifying TIGRFAM protein families.
+[2022-04-24 18:56:01] INFO: Completed 1 genome in 4.61 seconds (4.61 seconds/genome).
+[2022-04-24 18:56:01] TASK: Identifying Pfam protein families.
+[2022-04-24 18:56:02] INFO: Completed 1 genome in 0.89 seconds (1.13 genomes/second).
+[2022-04-24 18:56:02] INFO: Annotations done using HMMER 3.1b2 (February 2015).
+[2022-04-24 18:56:02] TASK: Summarising identified marker genes.
+[2022-04-24 18:56:02] INFO: Completed 1 genome in 0.01 seconds (76.82 genomes/second).
+[2022-04-24 18:56:02] INFO: Done.
+[2022-04-24 18:56:02] INFO: Aligning markers in 1 genomes with 20 CPUs.
+[2022-04-24 18:56:02] INFO: Processing 1 genomes identified as archaeal.
+[2022-04-24 18:56:02] INFO: Read concatenated alignment for 2,339 GTDB genomes.
+[2022-04-24 18:56:02] TASK: Generating concatenated alignment for each marker.
+[2022-04-24 18:56:03] INFO: Completed 1 genome in 0.30 seconds (3.28 genomes/second).
+[2022-04-24 18:56:03] TASK: Aligning 71 identified markers using hmmalign 3.1b2 (February 2015).
+[2022-04-24 18:56:03] INFO: Completed 71 markers in 0.42 seconds (168.65 markers/second).
+[2022-04-24 18:56:03] TASK: Masking columns of archaeal multiple sequence alignment using canonical mask.
+[2022-04-24 18:56:06] INFO: Completed 2,340 sequences in 2.62 seconds (893.00 sequences/second).
+[2022-04-24 18:56:06] INFO: Masked archaeal alignment from 32,754 to 5,124 AAs.
+[2022-04-24 18:56:06] INFO: 0 archaeal user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2022-04-24 18:56:06] INFO: Creating concatenated alignment for 2,340 archaeal GTDB and user genomes.
+[2022-04-24 18:56:06] INFO: Creating concatenated alignment for 1 archaeal user genomes.
+[2022-04-24 18:56:06] INFO: Done.
+[2022-04-24 18:56:06] TASK: Placing 1 archaeal genomes into reference tree with pplacer using 20 CPUs (be patient).
+[2022-04-24 18:56:06] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2022-04-24 18:56:47] INFO: Calculating RED values based on reference tree.
+[2022-04-24 18:56:48] TASK: Traversing tree to determine classification method.
+[2022-04-24 18:56:48] INFO: Completed 1 genome in 0.00 seconds (682.56 genomes/second).
+[2022-04-24 18:56:48] TASK: Calculating average nucleotide identity using FastANI (v1.33).
+[2022-04-24 18:56:48] INFO: Completed 2 comparisons in 0.24 seconds (8.46 comparisons/second).
+[2022-04-24 18:56:48] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2022-04-24 18:56:48] INFO: Done.
