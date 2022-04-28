@@ -17,7 +17,7 @@ All their paired combinations ANI values were calculated to confirm they represe
 MAG_20 - MAG_110 : 79.00, MAG_20 - MAG_192: 76.7193 and 
 all the rest of the pairs had an ANI <75%. To identify if they represent 1 or more genera further analysis is required.
 
-## Description ** sp. nov (MAG 255)
+## Description ** sp. nov (MAG 192)
 
 Based on KEGG analysis, 
 Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47).
