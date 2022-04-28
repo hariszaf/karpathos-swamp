@@ -1,0 +1,62 @@
+####################################################################################
+#               '||'''|,          '||'''|,  .|';                                   #
+#                ||   ||           ||   ||  ||                                     #
+#                ||...|' '||  ||`  ||...|' '||'   '''|.  '||),,(|,                 #
+#                ||       `|..||   ||       ||   .|''||   || || ||                 #
+#               .||           ||  .||      .||.  `|..||. .||    ||.                #
+#                          ,  |'                                                   #
+#                           ''                                                     #
+#                                                                                  #
+#       This program is free software: you can redistribute it and/or modify       #
+#       it under the terms of the GNU General Public License as published by       #
+#        the Free Software Foundation, either version 3 of the License, or         #
+#                       (at your option) any later version.                        #
+#         This program is distributed in the hope that it will be useful,          #
+#          but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#                   GNU General Public License for more details.                   #
+#        You should have received a copy of the GNU General Public License         #
+#       along with this program. If not, see <http://www.gnu.org/licenses/>.       #
+#                                                                                  #
+#    PyPfam is a Python (lite) port of the PfamSearch scripts written in Perl.     #
+#  Perl authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),   #
+#                           Rob Finn (rdf@sanger.ac.uk)                            #
+#                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
+# ================================================================================ #
+# Execution time:           2022-04-26 21:52:23.048625
+# Query sequence file:      /home1/christina/Elos_meta/Curtain3/MAGs/arc/with_16S/MAG_191/Protologger/GTDB-TK-Results/identify/intermediate_results/marker_genes/bin.191/bin.191_protein.faa
+# CPU threads:              20
+# Searching against:        /mnt/big/miniconda3/envs/protologger/share/gtdbtk-1.5.0/db/markers/pfam/Pfam-A.hmm
+# Resolve clan overlaps:    on
+# ================================================================================ #
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan> 
+k141_1907693_length_733870_cov_320.6286_110    266    426    252    428 PF04104.15  DNA_primase_lrg   Family    62   228   266     22.8   2.4e-06   1 CL0242   
+k141_1907693_length_733870_cov_320.6286_245      6    120      4    123 PF01092.20  Ribosomal_S6e     Family     3   120   125    104.8   1.4e-31   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_269     10     78      7     78 PF01191.20  RNA_pol_Rpb5_C    Domain     5    73    73     88.1   1.2e-26   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_284      1     95      1     96 PF01157.19  Ribosomal_L21e    Family     1    99   101     94.3   1.5e-28   1 CL0107   
+k141_1907693_length_733870_cov_320.6286_286      9    182      8    183 PF04919.13  DUF655            Family     2   180   181    199.5   2.1e-60   1 CL0198   
+k141_1907693_length_733870_cov_320.6286_287      3    167      2    168 PF00827.18  Ribosomal_L15e    Family     2   172   189    151.7   8.7e-46   1 CL0652   
+k141_1907693_length_733870_cov_320.6286_288      4     71      2     76 PF01198.20  Ribosomal_L31e    Family     4    69    82     56.5   1.1e-16   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_290     30    155     26    161 PF01090.20  Ribosomal_S19e    Family     7   131   137    135.9   3.3e-41   1 CL0123   
+k141_1907693_length_733870_cov_320.6286_309     13     75     12     75 PF01200.19  Ribosomal_S28e    Family     2    64    64     94.8     1e-28   1 CL0021   
+k141_1907693_length_733870_cov_320.6286_332     11    170      3    171 PF01025.20  GrpE              Family     3   165   166    117.3   2.5e-35   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_339      2    220      1    225 PF01866.18  Diphthamide_syn   Family    64   285   302    116.6   6.7e-35   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_388    130    222    109    225 PF07541.13  EIF_2_alpha       Family    13   111   114     57.3   7.2e-17   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_392    326    425    325    425 PF02978.20  SRP_SPB           Domain     2   100   100    104.5   1.8e-31   1 CL0123   
+k141_1907693_length_733870_cov_320.6286_421     19    211     13    212 PF00687.22  Ribosomal_L1      Domain     6   203   204    119.9   5.6e-36   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_422     11    106      9    107 PF00466.21  Ribosomal_L10     Family     4    98   100     82.8   6.9e-25   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_547     83    153     74    160 PF01864.18  CarS-like         Family    89   159   175     29.2   3.8e-08   1 CL0234   
+k141_1907693_length_733870_cov_320.6286_554     14     84     12     85 PF13656.7   RNA_pol_L_2       Domain     3    74    75     62.0   1.6e-18   1 CL0509   
+k141_1907693_length_733870_cov_320.6286_577      1     57      1     59 PF01194.18  RNA_pol_N         Domain     1    57    59    101.2   1.3e-30   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_578      8    131      8    131 PF00380.20  Ribosomal_S9      Family     1   121   121    107.0   3.9e-32   1 CL0329   
+k141_1907693_length_733870_cov_320.6286_581     44    148     44    158 PF01000.27  RNA_pol_A_bac     Domain     1   111   112     74.4   4.2e-22   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_613      3     68      3     90 PF01990.18  ATP-synt_F        Family     2    64    91     32.8   3.1e-09   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_617    194    352    175    367 PF01496.20  V_ATPase_I        Family   250   410   812     46.0     9e-14   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_735      6    183      2    184 PF01015.19  Ribosomal_S3Ae    Family    10   191   195    107.4   3.1e-32   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_736     29     84     29     87 PF01866.18  Diphthamide_syn   Family     1    56   302     46.9   1.1e-13   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_82       1    142      1    143 PF01280.21  Ribosomal_L19e    Family     2   143   144    158.4   5.2e-48   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_83       3    105      2    105 PF01655.19  Ribosomal_L32e    Family     2   108   108     65.8   1.8e-19   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_85       5    128      5    128 PF00410.20  Ribosomal_S8      Domain     1   126   126     92.4   9.3e-28   1 No_clan  
+k141_1907693_length_733870_cov_320.6286_88      96    164     93    164 PF00900.21  Ribosomal_S4e     Family     7    75    75     31.1   7.7e-09   1 CL0021   
+k141_1907693_length_733870_cov_320.6286_92       5     77      3     78 PF01868.17  UPF0086           Family     5    86    87     52.4   1.8e-15   1 CL0639   
+k141_2317870_length_33222_cov_320.2986_21       19     93     19     96 PF01282.20  Ribosomal_S24e    Family     1    76    79     42.9   1.6e-12   1 No_clan  
