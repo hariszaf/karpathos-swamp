@@ -1,20 +1,29 @@
-## Description of the ** sp. nov (MAG_109)
+## Description of 
+<!-- 
+Genome completeness is ;94.18
+Genome contamination is ;2.38
+ -->
+Etymology:
 
+Based on 16S rRNA sequence similarity its closest relative is 
+*Calditerricola satsumensis* of the Bacillaceae family 
+with a score of 80.42%. 
+POCP analysis returned no values >50% with any of its closest relatives confirming it represents a distinct genus. 
+Genome based assignment via GTDB-TK placed the genome as; SM23-32 family of the Planctomycetota phylum, 
+suggesting the creation of a novel genus.
 
-Inconsistency in taxonomic assignment was observed between methods
-as the highest match based on 16S rRNA gene sequence similarity was
-Lysobacter mobilis--Lysobacteraceae--JQ608331 (Valid) (77.1%)
-while the genome based assignment via GTDB-TK placed the genome 
-at the SLFT01 genus of the Hydrogenedentiales order. 
-The 16S rRNA gene was determined to be 44.51 complete compared to its closest relative.
+Based on GTDB-Tk had the exact same placement, supporting the creation of a novel genus. 
+All their paired combinations ANI values were calculated to confirm they represent distinct species; 
+MAG_20 - MAG_110 : 79.00, MAG_20 - MAG_192: 76.7193 and 
+all the rest of the pairs had an ANI <75%. To identify if they represent 1 or more genera further analysis is required.
 
-No POCP values >50% were identified, indicating the input genome represents a novel genus.
+## Description ** sp. nov (MAG 192)
 
+Based on KEGG analysis, 
+Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47).
+L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-)
+and 
+riboflavin (vitamin B2) biosynthesis was predicted from GTP (EC:3.5.4.25, 3.5.4.26, 1.1.1.193, 3.1.3.104, 4.1.99.12, 2.5.1.78, 2.5.1.9, 2.7.1.26, 2.7.7.2).
+A total of 330 CAZymes and 18 flagellar proteins were identified within the genome, while cellulose was predicted to be utilised as carbon source. 
+The G+C content of the genomic DNA is 60.55%.
 
-Within the genome, 392 CAZymes were identified along with the utilisation of 
-cellulose and starch.
-
-Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47)
-and L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-).
-
-The G+C content of genomic DNA is 51.1%.

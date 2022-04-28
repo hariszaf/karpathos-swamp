@@ -1,14 +1,16 @@
+## Description of sp. nov
+
 ## Description of   (MAG 76)
 <!-- 
-Genome completeness is ;95.75
-Genome contamination is ;1.01
+Genome completeness is ;91.46
+Genome contamination is ;1.3
  -->
 
 Based on 16S rRNA gene sequence similarity, 
 its closest relative is 
-*Roseospirillum parvum* of the Rhodospirillaceae family 
-with a similarity score of 86.05% suggesting a novel genus.
-POCP analysis confirmed that it represents a distinct genus; a POCP value of 31.03% with *R. parvum*.
+*Oleisolibacter albus* of the Rhodospirillaceae family 
+with a similarity score of 87.72% suggesting a novel genus.
+POCP analysis confirmed that it represents a distinct genus; a POCP value of 27.34% with *O. albus*.
 GTDB-Tk supported further the creation of a novel genus 
 by placing it  within the Micavibrionaceae family. 
 A set of the MAGs retrieved in our study, had the exact same placement by the GTDB-Tk
@@ -23,10 +25,10 @@ To investigate whether they represent 1 or multipla genera, further analysis is 
 
 Etymology:
 
-Based on KEGG analysis
-sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47).
+KEGG analysis predicted 
+acetate production from acetyl-CoA (EC:2.3.1.8, 2.7.2.1)
+and
+propionate production from propanoyl-CoA (EC:2.3.1.8, 2.7.2.1)
 Folate (vitamin B9) biosynthesis was predicted from 7,8-dihydrofolate (EC:1.5.1.3).
-A total of 109 CAZymes and 20 flagellar proteins were identified within the genome.
-The G+C content of the genomic DNA is 48.07%.
-
-
+A total of 79 CAZymes and 20 flagellar proteins were identified within the genome.
+The G+C content of the genomic DNA is 46.18%.

@@ -1,16 +1,16 @@
 ## Description of  gen. nov
 <!-- 
-Genome completeness is ;96.02
-Genome contamination is ;0.0
+Genome completeness is ;96.59
+Genome contamination is ;3.51
 -->
 
 Based on 16S rRNA gene sequence similarity, 
 its closest relatives are 
-*Phycisphaera mikurensis* 
+*Algisphaera agarilytica* 
 and 
-*Algisphaera agarilytica*
+*Phycisphaera mikurensis*
 of the Lewinellaceae family, with similarity scores of 
-84.72% and 84.23% respectively. 
+88.75% and 86.83% respectively. 
 GTDB-Tk however, placed it within the 
 Phycisphaeraceae family 
 (Phycisphaerales phylum) 
@@ -42,16 +42,16 @@ representative members of the closest branches of the GTDB tree was built.
 Etymology:
 
 
-
 Based on KEGG analysis,
-acetate production was predicted from acetyl-CoA (EC:2.3.1.8, 2.7.2.1)
+anoxygenic photosystem II was predicted from the genome (pufL, pufM).
+Acetate production was predicted from acetyl-CoA (EC:2.3.1.8, 2.7.2.1)
 and 
 propionate production from propanoyl-CoA (EC:2.3.1.8, 2.7.2.1).
 Sulfide and L-serine were predicted to be utilised to produce L-cysteine and acetate (EC:2.3.1.30, 2.5.1.47).
 L-glutamate production from ammonia was predicted via L-glutamine (EC:6.3.1.2, 1.4.1.-).
-Biotin (vitamin B7) biosynthesis was predicted from pimeloyl-ACP/CoA (EC:2.3.1.47, 2.6.1.62, 6.3.3.3, 2.8.1.6)
-and
-folate (vitamin B9) biosynthesis from 7,8-dihydrofolate (EC:1.5.1.3).
-A total of 220 CAZymes and 20 flagellar proteins were identified within the genome
+Folate (vitamin B9) biosynthesis predicted from 7,8-dihydrofolate (EC:1.5.1.3)
+and 
+Riboflavin (vitamin B2) biosynthesis predicted from GTP (EC:3.5.4.25, 3.5.4.26, 1.1.1.193, 3.1.3.104, 4.1.99.12, 2.5.1.78, 2.5.1.9, 2.7.1.26, 2.7.7.2).
+A total of 274 CAZymes and 19 flagellar proteins were identified within the genome
 while starch was predicted to be utilised as carbon source.
 The G+C content of the genomic DNA is 68.45%.
