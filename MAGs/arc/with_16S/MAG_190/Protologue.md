@@ -1,4 +1,4 @@
-## Description of ** sp. nov (MAG 190) 
+## Description of ** gen. nov 
 <!-- 
 Genome completeness is ;79.91
 Genome contamination is ;1.4
