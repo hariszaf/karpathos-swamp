@@ -1,0 +1,5 @@
+accession	ncbi_organism_name	ncbi_taxonomy	gtdb_taxonomy	gtdb_species_representative	ncbi_type_material
+GCA_003598175.1	Candidatus Omnitrophica bacterium	d__Bacteria; p__Candidatus Omnitrophica; c__; o__; f__; g__; s__	d__Bacteria; p__OLB16; c__OLB16; o__SURF-12; f__SURF-12; g__SURF-12; s__SURF-12 sp003598175	True	False
+GCA_013177805.1	Candidatus Omnitrophica bacterium	d__Bacteria; p__Candidatus Omnitrophica; c__; o__; f__; g__; s__	d__Bacteria; p__OLB16; c__OLB16; o__SURF-12; f__SURF-12; g__JABLXU01; s__JABLXU01 sp013177805	True	False
+GCA_016125385.1	bacterium	d__Bacteria; p__; c__; o__; f__; g__; s__	d__Bacteria; p__OLB16; c__OLB16; o__SURF-12; f__SURF-12; g__WGLV01; s__WGLV01 sp016125385	True	False
+GCA_016934335.1	Candidatus Omnitrophica bacterium	d__Bacteria; p__Candidatus Omnitrophica; c__; o__; f__; g__; s__	d__Bacteria; p__OLB16; c__OLB16; o__SURF-12; f__SURF-12; g__JAFGTC01; s__JAFGTC01 sp016934335	True	False

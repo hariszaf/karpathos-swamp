@@ -1,0 +1,6 @@
+accession	ncbi_organism_name	ncbi_taxonomy	gtdb_taxonomy	gtdb_species_representative	ncbi_type_material
+GCA_003552565.1	Lentisphaerae bacterium	d__Bacteria; p__Lentisphaerae; c__; o__; f__; g__; s__	d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__UBA1407; f__PUNB01; g__PUNB01; s__PUNB01 sp003552565	True	False
+GCA_003557425.1	Lentisphaerae bacterium	d__Bacteria; p__Lentisphaerae; c__; o__; f__; g__; s__	d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__UBA1407; f__PUNB01; g__SLSR01; s__SLSR01 sp007130365	False	False
+GCA_003557695.1	Lentisphaerae bacterium	d__Bacteria; p__Lentisphaerae; c__; o__; f__; g__; s__	d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__UBA1407; f__PUNB01; g__SLNM01; s__SLNM01 sp007133055	False	False
+GCA_007130365.1	Lentisphaeria bacterium	d__Bacteria; p__Lentisphaerae; c__Lentisphaeria; o__; f__; g__; s__	d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__UBA1407; f__PUNB01; g__SLSR01; s__SLSR01 sp007130365	True	False
+GCA_007133055.1	Lentisphaeria bacterium	d__Bacteria; p__Lentisphaerae; c__Lentisphaeria; o__; f__; g__; s__	d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__UBA1407; f__PUNB01; g__SLNM01; s__SLNM01 sp007133055	True	False

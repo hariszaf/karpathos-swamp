@@ -1,0 +1,5 @@
+#Matching species	POCP (%)
+POCP suggests the input genome and GCA_009908745.1--GCA_009908745.1 belong to the same genus with a POCP was;	83.78742359888118%
+POCP suggests the input genome and GCF_000759025.1--GCF_000759025.1 belong to the same genus with a POCP was;	71.1032967032967%
+POCP suggests the input genome and GCF_007993045.1--GCF_007993045.1 belong to the same genus with a POCP was;	82.8433883027758%
+POCP suggests the input genome and Isolate_bin117-contigs.fa.faa belong to the same genus with a POCP was;	87.08947991816518%

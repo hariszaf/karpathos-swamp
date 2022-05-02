@@ -1,0 +1,4 @@
+#Matching species	POCP (%)
+POCP suggests the input genome and GCA_002388665.1--GCA_002388665.1 belong to the same genus with a POCP was;	53.092277486911%
+POCP suggests seperate genus between the input genome and GCF_014230055.1--GCF_014230055.1 as POCP was;	49.825199272828975%
+POCP suggests seperate genus between the input genome and Isolate_bin63-contigs.fa.faa as POCP was;	33.43480466768138%

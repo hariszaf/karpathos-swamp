@@ -1,0 +1,12 @@
+#Matching species	POCP (%)
+POCP suggests the input genome and Isolate_bin286-contigs.fa.faa belong to the same genus with a POCP was;	83.64568948510555%
+POCP suggests the input genome and GCA_001618605.1--GCA_001618605.1 belong to the same genus with a POCP was;	55.895196506550214%
+POCP suggests the input genome and GCA_001875255.1--GCA_001875255.1 belong to the same genus with a POCP was;	53.36356764928194%
+POCP suggests the input genome and GCA_002030045.1--GCA_002030045.1 belong to the same genus with a POCP was;	62.49268578115858%
+POCP suggests the input genome and GCA_002414865.1--GCA_002414865.1 belong to the same genus with a POCP was;	54.3733681462141%
+POCP suggests the input genome and GCA_002436025.1--GCA_002436025.1 belong to the same genus with a POCP was;	55.848240613328095%
+POCP suggests the input genome and GCA_002748705.1--GCA_002748705.1 belong to the same genus with a POCP was;	52.55172413793103%
+POCP suggests seperate genus between the input genome and GCA_003644925.1--GCA_003644925.1 as POCP was;	47.04893223474021%
+POCP suggests the input genome and GCA_003646025.1--GCA_003646025.1 belong to the same genus with a POCP was;	53.08146897425073%
+POCP suggests the input genome and GCA_012523605.1--GCA_012523605.1 belong to the same genus with a POCP was;	59.10733262486716%
+POCP suggests the input genome and GCA_013138965.1--GCA_013138965.1 belong to the same genus with a POCP was;	51.05444785276073%

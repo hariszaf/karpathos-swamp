@@ -1,0 +1,6 @@
+accession	ncbi_organism_name	ncbi_taxonomy	gtdb_taxonomy	gtdb_species_representative	ncbi_type_material
+GCA_003558735.1	Candidatus Sumerlaeota bacterium	d__Bacteria; p__Candidatus Sumerlaeota; c__; o__; f__; g__; s__	d__Bacteria; p__Sumerlaeota; c__Sumerlaeia; o__SLMS01; f__SLMS01; g__SLMS01; s__SLMS01 sp007132505	False	False
+GCA_007124295.1	Candidatus Sumerlaeota bacterium	d__Bacteria; p__Candidatus Sumerlaeota; c__; o__; f__; g__; s__	d__Bacteria; p__Sumerlaeota; c__Sumerlaeia; o__SLMS01; f__SLMS01; g__SLMS01; s__SLMS01 sp007133495	False	False
+GCA_007132505.1	Candidatus Sumerlaeota bacterium	d__Bacteria; p__Candidatus Sumerlaeota; c__; o__; f__; g__; s__	d__Bacteria; p__Sumerlaeota; c__Sumerlaeia; o__SLMS01; f__SLMS01; g__SLMS01; s__SLMS01 sp007132505	True	False
+GCA_007133495.1	Candidatus Sumerlaeota bacterium	d__Bacteria; p__Candidatus Sumerlaeota; c__; o__; f__; g__; s__	d__Bacteria; p__Sumerlaeota; c__Sumerlaeia; o__SLMS01; f__SLMS01; g__SLMS01; s__SLMS01 sp007133495	True	False
+GCA_016125005.1	bacterium	d__Bacteria; p__; c__; o__; f__; g__; s__	d__Bacteria; p__Sumerlaeota; c__Sumerlaeia; o__SLMS01; f__SLMS01; g__WGMQ01; s__WGMQ01 sp016125005	True	False

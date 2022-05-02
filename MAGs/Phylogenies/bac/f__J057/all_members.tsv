@@ -1,0 +1,7 @@
+accession	ncbi_organism_name	ncbi_taxonomy	gtdb_taxonomy	gtdb_species_representative	ncbi_type_material
+GCA_003696835.1	Bacteroidetes bacterium	d__Bacteria; p__Bacteroidetes; c__; o__; f__; g__; s__	d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__J057; f__J057; g__J057; s__J057 sp003696835	True	False
+GCA_009924095.1	Sphingobacteriia bacterium	d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__; f__; g__; s__	d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__J057; f__RFSG01; g__RFSG01; s__RFSG01 sp009924095	True	False
+GCA_013298365.1	Bacteroidetes bacterium	d__Bacteria; p__Bacteroidetes; c__; o__; f__; g__; s__	d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__J057; f__J057; g__JAAFHL01; s__JAAFHL01 sp013298365	True	False
+GCA_016718825.1	Bacteroidetes bacterium	d__Bacteria; p__Bacteroidetes; c__; o__; f__; g__; s__	d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__J057; f__JADKCL01; g__JADKCL01; s__JADKCL01 sp016718825	True	False
+GCA_016722005.1	Bacteroidetes bacterium	d__Bacteria; p__Bacteroidetes; c__; o__; f__; g__; s__	d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__J057; f__JADKCL01; g__JADKCL01; s__JADKCL01 sp016718825	False	False
+GCA_017990045.1	Bacteroidia bacterium	d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__; f__; g__; s__	d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__J057; f__JADKCL01; g__JADKCL01; s__JADKCL01 sp016718825	False	False

@@ -1,0 +1,5 @@
+#Matching species	POCP (%)
+POCP suggests the input genome and Isolate_bin52-contigs.fa.faa belong to the same genus with a POCP was;	67.73608845386985%
+POCP suggests seperate genus between the input genome and GCA_013298365.1--GCA_013298365.1 as POCP was;	25.735887096774196%
+POCP suggests seperate genus between the input genome and GCA_003696835.1--GCA_003696835.1 as POCP was;	36.564164875221984%
+POCP suggests seperate genus between the input genome and GCA_009924095.1--GCA_009924095.1 as POCP was;	22.88009888751545%

@@ -1,0 +1,40 @@
+#Matching species	POCP (%)
+POCP suggests seperate genus between the input genome and GCA_001512435.1--GCA_001512435.1 as POCP was;	39.65906242165956%
+POCP suggests seperate genus between the input genome and GCA_003070825.1--GCA_003070825.1 as POCP was;	48.19687003855749%
+POCP suggests seperate genus between the input genome and GCA_003550445.1--GCA_003550445.1 as POCP was;	28.430353430353428%
+POCP suggests seperate genus between the input genome and GCA_003551665.1--GCA_003551665.1 as POCP was;	32.795698924731184%
+POCP suggests seperate genus between the input genome and GCA_003551905.1--GCA_003551905.1 as POCP was;	30.77966101694915%
+POCP suggests seperate genus between the input genome and GCA_003553225.1--GCA_003553225.1 as POCP was;	35.813751087902524%
+POCP suggests seperate genus between the input genome and GCA_003553485.1--GCA_003553485.1 as POCP was;	45.1715374841169%
+POCP suggests seperate genus between the input genome and GCA_003554145.1--GCA_003554145.1 as POCP was;	32.96487349545566%
+POCP suggests seperate genus between the input genome and GCA_003554225.1--GCA_003554225.1 as POCP was;	36.79393305439331%
+POCP suggests seperate genus between the input genome and GCA_003554585.1--GCA_003554585.1 as POCP was;	32.51949117767747%
+POCP suggests seperate genus between the input genome and GCA_003554685.1--GCA_003554685.1 as POCP was;	37.343241987923825%
+POCP suggests seperate genus between the input genome and GCA_003557445.1--GCA_003557445.1 as POCP was;	29.142275388139478%
+POCP suggests seperate genus between the input genome and GCA_007130465.1--GCA_007130465.1 as POCP was;	46.85944536620052%
+POCP suggests seperate genus between the input genome and GCA_007134885.1--GCA_007134885.1 as POCP was;	43.23080649067571%
+POCP suggests seperate genus between the input genome and GCA_012518635.1--GCA_012518635.1 as POCP was;	39.299719887955185%
+POCP suggests seperate genus between the input genome and GCA_012521855.1--GCA_012521855.1 as POCP was;	38.086560364464695%
+POCP suggests seperate genus between the input genome and GCF_000020485.1--GCF_000020485.1 as POCP was;	45.031666302686176%
+POCP suggests seperate genus between the input genome and GCF_000144695.1--GCF_000144695.1 as POCP was;	39.68535342344339%
+POCP suggests seperate genus between the input genome and GCF_000165465.1--GCF_000165465.1 as POCP was;	49.98831502687544%
+POCP suggests seperate genus between the input genome and GCF_000166415.1--GCF_000166415.1 as POCP was;	44.003488879197555%
+POCP suggests seperate genus between the input genome and GCF_000328625.1--GCF_000328625.1 as POCP was;	37.86366532172436%
+POCP suggests the input genome and GCF_000350165.1--GCF_000350165.1 belong to the same genus with a POCP was;	50.33347228011672%
+POCP suggests seperate genus between the input genome and GCF_000379025.1--GCF_000379025.1 as POCP was;	35.58339566192969%
+POCP suggests seperate genus between the input genome and GCF_000517025.1--GCF_000517025.1 as POCP was;	34.97822931785196%
+POCP suggests seperate genus between the input genome and GCF_001693735.1--GCF_001693735.1 as POCP was;	35.42783219367954%
+POCP suggests seperate genus between the input genome and GCF_003001995.1--GCF_003001995.1 as POCP was;	33.895705521472394%
+POCP suggests seperate genus between the input genome and GCF_003053565.1--GCF_003053565.1 as POCP was;	47.196718109005666%
+POCP suggests seperate genus between the input genome and GCF_003259895.1--GCF_003259895.1 as POCP was;	46.42925890279114%
+POCP suggests the input genome and GCF_003337245.1--GCF_003337245.1 belong to the same genus with a POCP was;	52.80572322825844%
+POCP suggests seperate genus between the input genome and GCF_003953885.1--GCF_003953885.1 as POCP was;	38.834630028141035%
+POCP suggests seperate genus between the input genome and GCF_003991135.1--GCF_003991135.1 as POCP was;	37.158367652564586%
+POCP suggests seperate genus between the input genome and GCF_004362045.1--GCF_004362045.1 as POCP was;	46.859721699887174%
+POCP suggests seperate genus between the input genome and GCF_004366375.1--GCF_004366375.1 as POCP was;	46.69850498338871%
+POCP suggests seperate genus between the input genome and GCF_900103135.1--GCF_900103135.1 as POCP was;	42.13662481379017%
+POCP suggests seperate genus between the input genome and GCF_900114545.1--GCF_900114545.1 as POCP was;	43.79979570990807%
+POCP suggests seperate genus between the input genome and GCF_900114655.1--GCF_900114655.1 as POCP was;	37.15415019762846%
+POCP suggests seperate genus between the input genome and GCF_900156285.1--GCF_900156285.1 as POCP was;	47.46426473467789%
+POCP suggests seperate genus between the input genome and GCF_900167185.1--GCF_900167185.1 as POCP was;	38.55446355446355%
+POCP suggests the input genome and Isolate_bin133-contigs.fa.faa belong to the same genus with a POCP was;	51.32378472222222%

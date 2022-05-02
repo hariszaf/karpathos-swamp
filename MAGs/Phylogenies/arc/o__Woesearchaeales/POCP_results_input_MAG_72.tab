@@ -1,0 +1,6 @@
+#Matching species	POCP (%)
+POCP suggests seperate genus between the input genome and Isolate_bin.14.fa.faa as POCP was;	22.09962168978562%
+POCP suggests seperate genus between the input genome and GCA_011329125.1--GCA_011329125.1 as POCP was;	15.052631578947368%
+POCP suggests seperate genus between the input genome and GCA_002867475.1--GCA_002867475.1 as POCP was;	25.762991476491614%
+POCP suggests seperate genus between the input genome and GCA_003599145.1--GCA_003599145.1 as POCP was;	21.805392731535754%
+POCP suggests seperate genus between the input genome and GCA_013330595.1--GCA_013330595.1 as POCP was;	19.264448336252187%

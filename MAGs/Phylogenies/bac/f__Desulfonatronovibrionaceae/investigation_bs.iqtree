@@ -1,0 +1,223 @@
+IQ-TREE 2.0-rc1 built Nov 21 2019
+
+Input file name: all.aln
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 349189
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 5037 amino-acid sites
+Number of constant sites: 2130 (= 42.2871% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2130 (= 42.2871% of all sites)
+Number of parsimony informative sites: 1902
+Number of distinct site patterns: 3573
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+R4            -55195.162  110456.323 - 1.81e-22  110456.772 - 2.51e-22  110671.634 +        1
+LG+R5            -55195.019  110460.039 - 2.82e-23  110460.543 - 3.82e-23  110688.399 - 0.000229
+LG+R3            -55213.444  110488.888 - 1.54e-29  110489.285 - 2.19e-29  110691.150 - 5.78e-05
+LG+F+R4          -55126.098  110356.196 +        1  110357.302 +        1  110695.473 - 6.66e-06
+LG+I+G4          -55265.933  110589.866 - 1.82e-51  110590.214 - 2.65e-51  110779.079 - 4.66e-24
+LG+G4            -55274.285  110604.569 - 1.17e-54  110604.894 - 1.72e-54  110787.257 - 7.81e-26
+LG+R2            -55399.579  110857.157 - 1.65e-109  110857.505 - 2.41e-109  111046.370 - 4.24e-82
+JTTDCMut+F+R4    -55315.998  110735.996 - 3.37e-83  110737.102 - 3.37e-83  111075.273 - 2.24e-88
+JTT+F+R4         -55323.073  110750.147 - 2.85e-86  110751.253 - 2.85e-86  111089.424 -  1.9e-91
+rtREV+F+R4       -55384.125  110872.250 - 8.72e-113  110873.355 - 8.72e-113  111211.527 - 5.8e-118
+WAG+F+R4         -55441.990  110987.981 - 6.45e-138  110989.086 - 6.45e-138  111327.258 - 4.29e-143
+JTT+R4           -55559.740  111185.481 - 8.38e-181  111185.929 - 1.16e-180  111400.792 - 4.63e-159
+JTTDCMut+R4      -55561.221  111188.443 - 1.9e-181  111188.891 - 2.65e-181  111403.754 - 1.05e-159
+Dayhoff+F+R4     -55514.716  111133.433 - 1.68e-169  111134.539 - 1.68e-169  111472.710 - 1.12e-174
+DCMut+F+R4       -55520.365  111144.729 - 5.92e-172  111145.835 - 5.92e-172  111484.007 - 3.94e-177
+mtInv+F+R4       -55553.129  111210.258 - 3.49e-186  111211.364 - 3.49e-186  111549.536 - 2.32e-191
+cpREV+F+R4       -55583.403  111270.805 - 2.48e-199  111271.911 - 2.48e-199  111610.083 - 1.65e-204
+mtZOA+F+R4       -55592.420  111288.840 - 3.01e-203  111289.946 - 3.01e-203  111628.117 - 2.01e-208
+WAG+R4           -55718.771  111503.542 - 7.19e-250  111503.991 - 9.99e-250  111718.853 - 3.97e-228
+cpREV+R4         -55745.800  111557.600 - 1.31e-261  111558.049 - 1.82e-261  111772.911 - 7.26e-240
+VT+F+R4          -55741.388  111586.777 - 6.06e-268  111587.882 - 6.06e-268  111926.054 - 4.04e-273
+mtMet+F+R4       -55817.704  111739.408 - 4.36e-301  111740.514 - 4.36e-301  112078.686 - 2.9e-306
+VT+R4            -55898.732  111863.464 -        0  111863.912 -        0  112078.774 - 2.77e-306
+FLU+F+R4         -55819.010  111742.019 - 1.18e-301  111743.125 - 1.18e-301  112081.296 - 7.86e-307
+rtREV+R4         -55903.140  111872.280 -        0  111872.728 -        0  112087.591 - 3.38e-308
+HIVb+F+R4        -55987.395  112078.791 -        0  112079.896 -        0  112418.068 -        0
+mtREV+F+R4       -56018.936  112141.872 -        0  112142.978 -        0  112481.150 -        0
+LG+I             -56121.980  112299.960 -        0  112300.284 -        0  112482.647 -        0
+Dayhoff+R4       -56107.023  112280.046 -        0  112280.494 -        0  112495.356 -        0
+DCMut+R4         -56113.851  112293.703 -        0  112294.152 -        0  112509.014 -        0
+mtART+F+R4       -56177.996  112459.993 -        0  112461.099 -        0  112799.270 -        0
+Blosum62+F+R4    -56199.422  112502.843 -        0  112503.949 -        0  112842.121 -        0
+PMB+F+R4         -56225.978  112555.957 -        0  112557.063 -        0  112895.234 -        0
+FLU+R4           -56324.114  112714.227 -        0  112714.676 -        0  112929.538 -        0
+Blosum62+R4      -56326.186  112718.373 -        0  112718.821 -        0  112933.683 -        0
+HIVb+R4          -56350.681  112767.362 -        0  112767.811 -        0  112982.673 -        0
+PMB+R4           -56468.003  113002.005 -        0  113002.454 -        0  113217.316 -        0
+mtVer+F+R4       -56399.342  112902.684 -        0  112903.790 -        0  113241.961 -        0
+mtMAM+F+R4       -56795.717  113695.434 -        0  113696.540 -        0  114034.712 -        0
+HIVw+F+R4        -57338.587  114781.174 -        0  114782.279 -        0  115120.451 -        0
+mtZOA+R4         -57658.739  115383.478 -        0  115383.926 -        0  115598.788 -        0
+LG               -57732.192  115518.383 -        0  115518.685 -        0  115694.547 -        0
+HIVw+R4          -58458.511  116983.023 -        0  116983.471 -        0  117198.333 -        0
+mtMet+R4         -58671.101  117408.201 -        0  117408.650 -        0  117623.512 -        0
+mtART+R4         -58820.274  117706.548 -        0  117706.997 -        0  117921.859 -        0
+mtREV+R4         -58859.828  117785.657 -        0  117786.105 -        0  118000.967 -        0
+mtInv+R4         -58953.967  117973.934 -        0  117974.382 -        0  118189.245 -        0
+mtVer+R4         -59227.887  118521.773 -        0  118522.222 -        0  118737.084 -        0
+mtMAM+R4         -59546.991  119159.983 -        0  119160.431 -        0  119375.293 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.3535,0.0588) (0.3920,0.5998) (0.2103,2.2152) (0.0441,6.3038)
+
+ Category  Relative_rate  Proportion
+  1         0.0588         0.3535
+  2         0.5998         0.3920
+  3         2.2152         0.2103
+  4         6.3038         0.0441
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -55194.7003 (s.e. 622.7659)
+Unconstrained log-likelihood (without tree): -39369.3070
+Number of free parameters (#branches + #model parameters): 33
+Akaike information criterion (AIC) score: 110455.4006
+Corrected Akaike information criterion (AICc) score: 110455.8491
+Bayesian information criterion (BIC) score: 110670.7113
+
+Total tree length (sum of branch lengths): 2.7298
+Sum of internal branch lengths: 0.7990 (29.2709% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GB_GCA_003551155.1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-------GB_GCA_003551155.1
+|
+|              +--GB_GCA_003553695.1
+|           +--| (48.6/62)
+|           |  +--GB_GCA_003554505.1
+|        +--| (100/100)
+|        |  +--RS_GCF_000174435.1
+|  +-----| (100/100)
+|  |     +-----GB_GCA_003563255.1
++--| (100/100)
+|  |                     +-------GB_GCA_003557865.1
+|  |                  +--| (99.7/98)
+|  |                  |  |  +----GB_GCA_003566455.1
+|  |                  |  +--| (99.5/99)
+|  |                  |     +-----GB_GCA_007121655.1
+|  |               +--| (1.9/41)
+|  |               |  |  +-------GB_GCA_003558575.1
+|  |               |  +--| (99.9/99)
+|  |               |     +----------RS_GCF_000934755.1
+|  |        +------| (100/100)
+|  |        |      +-------RS_GCF_000686525.1
+|  +--------| (100/100)
+|           |          +------------------------bin.248
+|           +----------| (100/100)
+|                      +-----------------------------------bin.268
+|
+|       +--GB_GCA_007125075.1
++-------| (100/100)
+        +--GB_GCA_007127015.1
+
+Tree in newick format:
+
+(GB_GCA_003551155.1:0.1237903444,((((GB_GCA_003553695.1:0.0426213928,GB_GCA_003554505.1:0.0355123529)48.6/62:0.0094812116,RS_GCF_000174435.1:0.0317971019)100/100:0.0387775036,GB_GCA_003563255.1:0.0828075323)100/100:0.0906979897,((((GB_GCA_003557865.1:0.1234129800,(GB_GCA_003566455.1:0.0787839743,GB_GCA_007121655.1:0.0860610105)99.5/99:0.0243666865)99.7/98:0.0303566959,(GB_GCA_003558575.1:0.1188615421,RS_GCF_000934755.1:0.1637877817)99.9/99:0.0395615109)1.9/41:0.0222426415,RS_GCF_000686525.1:0.1223071796)100/100:0.1046645067,(bin.248:0.3531139692,bin.268:0.4990495422)100/100:0.1516074993)100/100:0.1330629809)100/100:0.0429340940,(GB_GCA_007125075.1:0.0296703946,GB_GCA_007127015.1:0.0391732951)100/100:0.1112769401);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -55194.812019
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------GB_GCA_003551155.1
+|
+|              +--GB_GCA_003553695.1
+|           +--| (62)
+|           |  +--GB_GCA_003554505.1
+|        +--| (100)
+|        |  +--RS_GCF_000174435.1
+|  +-----| (100)
+|  |     +----GB_GCA_003563255.1
++--| (100)
+|  |                   +-------GB_GCA_003557865.1
+|  |                +--| (98)
+|  |                |  |  +----GB_GCA_003566455.1
+|  |                |  +--| (99)
+|  |                |     +-----GB_GCA_007121655.1
+|  |        +-------| (100)
+|  |        |       |     +-------GB_GCA_003558575.1
+|  |        |       |  +--| (99)
+|  |        |       |  |  +----------RS_GCF_000934755.1
+|  |        |       +--| (41)
+|  |        |          +--------RS_GCF_000686525.1
+|  +--------| (100)
+|           |          +------------------------bin.248
+|           +----------| (100)
+|                      +-----------------------------------bin.268
+|
+|       +--GB_GCA_007125075.1
++-------| (100)
+        +--GB_GCA_007127015.1
+
+
+Consensus tree in newick format: 
+
+(GB_GCA_003551155.1:0.1237114403,((((GB_GCA_003553695.1:0.0426699684,GB_GCA_003554505.1:0.0356120137)62:0.0095844914,RS_GCF_000174435.1:0.0317864957)100:0.0391581222,GB_GCA_003563255.1:0.0826812645)100:0.0905548520,(((GB_GCA_003557865.1:0.1221173495,(GB_GCA_003566455.1:0.0788594812,GB_GCA_007121655.1:0.0865074460)99:0.0250875881)98:0.0267871105,((GB_GCA_003558575.1:0.1193291869,RS_GCF_000934755.1:0.1623783406)99:0.0371254051,RS_GCF_000686525.1:0.1317102726)41:0.0172584090)100:0.1109619484,(bin.248:0.3553437771,bin.268:0.5010497961)100:0.1526818949)100:0.1339891382)100:0.0432854973,(GB_GCA_007125075.1:0.0296717058,GB_GCA_007127015.1:0.0393228006)100:0.1122072868);
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 29 18:12:02 2022
+Total CPU time used: 195.525668 seconds (0h:3m:15s)
+Total wall-clock time used: 71.18423009 seconds (0h:1m:11s)
+
