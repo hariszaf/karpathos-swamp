@@ -179,7 +179,7 @@ div_indices <- data.frame(N, S, Shannon, Simpson, Pielou, Margalef) # join them 
 head(div_indices) # have a look at them
 
 
-set.seed(19172022)
+set.seed(5000)
 
 # square root transformation
 biotic_trans <- dist_matrix_transp %>% sqrt() %>% sqrt() 
@@ -196,7 +196,9 @@ mds_log <- metaMDS(biotic_trans_logx, autotransform = FALSE)
 # extract scores and then convert them into a dataframe
 mdsScores <- mds_log$points %>% as.data.frame %>% as.data.frame
 mdsScores$station <- mdsScores %>% rownames
-
+sd <- as.data.frame(lapply(mdsScores, sub, pattern = "profile", replacement = ""))
+rownames(sd) <- rownames(mdsScores)
+mdsScores <- sd
 
 mdsScores  %>%          # take the mdsScores object and send it to the ggplot function
   ggplot() +            # call the ggplot function
@@ -209,36 +211,43 @@ mdsScores  %>%          # take the mdsScores object and send it to the ggplot fu
   ggtitle("Species abundances") # add a title to the plot
 
 
-#mdsScores <- left_join(mdsScores, factors, by="station") %>% distinct # join data with factors and keep only unique values
-mdsScores['salinity'] <- c("gamma", "alpha", "gamma", "gamma", "gamma", "gamma")
+mdsScores['salinity'] <- c("γ-hypersaline", "α-hypersaline", "γ-hypersaline", "γ-hypersaline", "γ-hypersaline", "γ-hypersaline")
+mdsScores["month"] <- c("July", "November", "November", "July", "July", "July")
+
 mdsScores['TOC'] <- c()
 
 mdsScores  %>%          # take the mdsScores object and send it to the ggplot function
   ggplot() +            # call the ggplot function
   aes(MDS1, MDS2) +   # define the data for x and y (x = NMDS1, y= NMDS2) - these are two columns in the mdsScores object
-  geom_point(aes(colour = salinity), size = 4) + # add the actual points, in size 4 and blue colour. The values for these two parameters can be changed. 
-  geom_text(aes(label = station), size = 3, nudge_y = -0.05) + # add the column "station" of the mdsScores object as annotation to the points, in size 3 and slightly offset below the dots (nudge_y). Play around with the size and the nudge_y value to position the text where you want it, in the size you want it.
+  geom_point(aes(colour = salinity, shape = month), size = 7) + # add the actual points, in size 4 and blue colour. The values for these two parameters can be changed. 
+  geom_text(aes(label = station), size = 4.5,  nudge_y = -0.20) + # add the column "station" of the mdsScores object as annotation to the points, in size 3 and slightly offset below the dots (nudge_y). Play around with the size and the nudge_y value to position the text where you want it, in the size you want it.
   theme_void() +        # remove all axes, axis labels, ticks on the axis, background, etc. 
-  theme(panel.border = element_rect(fill = NA))+ # add a border around this empty plot
+  theme(panel.border = element_rect(fill = NA), legend.text = element_text(size = 12))+ # add a border around this empty plot
   annotate("text", x = Inf, y = Inf, label = stress,  vjust = 1.3, hjust = 1.1, size = 3) + # add the stress value in the upper right corner
   ggtitle("Species abundances") # add a title to the plot
 
 
+# Hierarchical clustering
 
-library("ggdendro")     # for converting dendrogram into ggplot object
+# for converting dendrogram into ggplot object
+library("ggdendro")
 
-dis <- vegdist(dist_matrix_transp, method = "bray")
 
+new <- c("Elos1", "Elos10", "Elos12", "Elos2", "Elos3", "Elos7")
+rownames(dist_matrix_transp) <- new
+dis    <- vegdist(dist_matrix_transp, method = "bray")
 dendro <- hclust(dis, method="average") 
-dendro2 <- dendro %>% as.dendrogram # convert into dendrogram object
+
+
+dendro2   <- dendro %>% as.dendrogram # convert into dendrogram object
 dend_data <- dendro_data(dendro2, type = "rectangle") # convert into object that can be used by ggplot
 
 ggplot(dend_data$segments) + # segments = branches of the cluster
   geom_segment(aes(x = x, y = y, xend = xend, yend = yend)) + # add the branches to the plot
   geom_text(data = dend_data$labels, aes(x, y, label = label), hjust = "right", angle = 90, size = 3, nudge_y=-0.05) + # add the labels
   theme_classic() +  # use a simplified theme, and in the next command also remove the x axis and all its labels
-  theme(axis.line.x =element_blank(),
-        axis.text.x =element_blank(),
+  theme(axis.line.x = element_blank(),
+        axis.text.x = element_blank(),
         axis.ticks.x = element_blank(),
         axis.title.x = element_blank(),
         plot.margin = unit(c(1, 1, 3, 1), "lines"))+ # need to increase margin of the plot so that labels are not clipped
@@ -248,15 +257,13 @@ ggplot(dend_data$segments) + # segments = branches of the cluster
   ylab("Dissimilarity") # add a title for the y axis
 
 
-dend_data
-
-dd <- dend_data$labels %>% as.data.frame() %>% mutate(salinity = c("gamma", "gamma", "gamma", "gamma", "alpha", "gamma"))
+dd <- dend_data$labels %>% as.data.frame() %>% mutate(salinity = c("γ-hypersaline", "γ-hypersaline", "γ-hypersaline", "γ-hypersaline", "α-hypersaline", "γ-hypersaline"))
 
 
 ggplot(dend_data$segments) + 
   geom_segment(aes(x = x, y = y, xend = xend, yend = yend)) +
-  geom_text(data = dend_data$labels, aes(x, y, label = label), hjust = "right", angle = 90, size = 3, nudge_y=-0.05) +
-  geom_point(data = dd, aes(x, y, colour = salinity), size=4) + # add dots at the end of the nodes and display them in colour depending on a factor
+  geom_text(data = dend_data$labels, aes(x, y, label = label), hjust = "right", angle = 90, size = 4.5, nudge_y=-0.05) +
+  geom_point(data = dd, aes(x, y, colour = salinity), size=6) + # add dots at the end of the nodes and display them in colour depending on a factor
   theme_classic() +
   theme(axis.line.x =element_blank(),
         axis.text.x =element_blank(),
@@ -267,6 +274,4 @@ ggplot(dend_data$segments) +
   ggtitle("Cluster diagram") + 
   coord_cartesian(clip="off") + 
   scale_y_continuous(labels = scales::percent)
-
-
 
