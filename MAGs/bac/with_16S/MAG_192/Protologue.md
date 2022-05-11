@@ -1,4 +1,4 @@
-## Description of 
+## Description of **  nov. gen.
 <!-- 
 Genome completeness is ;94.18
 Genome contamination is ;2.38
@@ -12,10 +12,12 @@ POCP analysis returned no values >50% with any of its closest relatives confirmi
 Genome based assignment via GTDB-TK placed the genome as; SM23-32 family of the Planctomycetota phylum, 
 suggesting the creation of a novel genus.
 
-Based on GTDB-Tk had the exact same placement, supporting the creation of a novel genus. 
+Based on GTDB-Tk MAGs 20, 110 and 125 had the exact same placement too, supporting the creation of a novel genus. 
 All their paired combinations ANI values were calculated to confirm they represent distinct species; 
 MAG_20 - MAG_110 : 79.00, MAG_20 - MAG_192: 76.7193 and 
-all the rest of the pairs had an ANI <75%. To identify if they represent 1 or more genera further analysis is required.
+all the rest of the pairs had an ANI <75%. 
+POCP analysis confirmed that MAG 192 represents a distinct genus from the rest,
+as all its POCP values with this set of MAGs are <50%.
 
 ## Description ** sp. nov (MAG 192)
 
