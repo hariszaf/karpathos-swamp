@@ -1,4 +1,4 @@
-## Description of 
+## Description of nov. gen.
 
 Etymology:
 
@@ -12,7 +12,9 @@ suggesting the creation of a novel genus.
 Based on GTDB-Tk had the exact same placement, supporting the creation of a novel genus. 
 All their paired combinations ANI values were calculated to confirm they represent distinct species; 
 MAG_20 - MAG_110 : 79.00, MAG_20 - MAG_192: 76.7193 and 
-all the rest of the pairs had an ANI <75%. To identify if they represent 1 or more genera further analysis is required.
+all the rest of the pairs had an ANI <75%. POCP analysis confirmed that 
+MAG 125 is a distinct genus as 
+its POCP values against MAG 20, MAG 110 and MAG 192 are all <50%.
 
 ## Description ** sp. nov (MAG 255)
 
