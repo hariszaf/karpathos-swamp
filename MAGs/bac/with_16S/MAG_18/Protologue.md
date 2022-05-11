@@ -1,4 +1,4 @@
-## Description of the ** sp. nov (MAG_18)
+## Description of the ** gen. nov. (the same genus with MAG 142)
 <!-- 
 Genome completeness is ;91.46
 Genome contamination is ;1.3
@@ -16,10 +16,9 @@ GTDB-Tk supported further the creation of a novel genus
 by placing it  within the Micavibrionaceae family. 
 A set of the MAGs retrieved in our study, had the exact same placement by the GTDB-Tk
 (MAGs: 142, 18, 113, 76, 276). 
-To make sure these represent distinct species, the ANI score among all the paired combinations was calculated 
-and all were <75%. 
 
-To investigate whether they represent 1 or multipla genera, further analysis is required. 
+As described in the protologue of MAG 142, both MAG 42 and MAG 18 are representatives
+of the same novel genus. 
 
 
 ## Description of sp. 
