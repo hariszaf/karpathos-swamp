@@ -32,7 +32,7 @@ for all the pair-combinations of them was calculater:
 |MAG_98  -	MAG_208 | 76.70 |
 
 All the rest are <75%. Therefore each of them represents a distinct species. 
-To make sure whether they represent 1 or more genera, a phylogenetic tree of all of them with their 
+To make sure whether they represent 1 or more genera, a [phylogenetic tree](https://github.com/hariszaf/karpathos-swamp/blob/main/MAGs/Phylogenies/bac/f__Phycisphaeraceae/investigation_bs.iqtree) of all of them with their 
 representative members of the closest branches of the GTDB tree was built. 
 
 

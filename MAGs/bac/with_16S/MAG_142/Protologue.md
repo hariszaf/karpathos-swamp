@@ -1,4 +1,4 @@
-## Description of   (MAG 76)
+## Description of   (MAG 142)
 <!-- 
 Genome completeness is ;95.75
 Genome contamination is ;1.01
@@ -15,9 +15,9 @@ A set of the MAGs retrieved in our study, had the exact same placement by the GT
 (MAGs: 142, 18, 113, 76, 276). 
 To make sure these represent distinct species, the ANI score among all the paired combinations was calculated 
 and all were <75%. 
-
-To investigate whether they represent 1 or multipla genera, further analysis is required. 
-
+POCP analysis confirmed that these MAG 142 along with MAG 18 and MAG 113. 
+The [phylogeny](https://github.com/hariszaf/karpathos-swamp/blob/main/MAGs/Phylogenies/bac/f__Micavibrionaceae/investigation_bs.iqtree) of the MAGs and of representative genomes of the 
+Micavibrionaceae family supported they all belong to a monophyletic group. 
 
 ## Description of sp. 
 

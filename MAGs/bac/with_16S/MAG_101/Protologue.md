@@ -23,8 +23,10 @@ reprenting the same species as
 MAG 86 - MAG 13:	79.89%
 MAG 86 - MAG 101: <75%
 MAG 101 - MAG 13: <75%
-A phylogenomic tree was built for a thorough overview of their 
-
+A [phylogenomic tree](https://github.com/hariszaf/karpathos-swamp/blob/main/MAGs/Phylogenies/bac/c__Bipolaricaulia/investigation_bs.iqtree) usign these 3 MAGs and 
+the representative genomes of the Bipolaricaulia class
+was built indicating that the 3 MAGs are a monophyletic group.
+POCP analysis suggested that all the 3 MAGs are representatives of the same genus. 
 
 
 ## Description of  sp. nov (MAG_101)

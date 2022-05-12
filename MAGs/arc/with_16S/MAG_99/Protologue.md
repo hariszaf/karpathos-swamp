@@ -13,8 +13,7 @@ suggesting it represents a novel family.
 However, genome based assignment via GTDB-TK placed the genome as 
 a member of the UBA583 family of 
 Nanoarchaeota, suggesting a novel genus within it. 
-POCP analysis confirmed it represents a novel genus as no POCP values 
->50% were returned for any of its closest relatives. 
+POCP analysis confirmed it represents a novel genus as no POCP values >50% were returned for any of its closest relatives. 
 
 ## Description of .sp nov
 
