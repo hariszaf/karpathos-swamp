@@ -1,0 +1,6 @@
+##gff-version 3
+k141_1206140_length_4708_cov_24.0423	barrnap:0.9	rRNA	4574	4685	1.4e-16	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+k141_1231486_length_75410_cov_40.1249	barrnap:0.9	rRNA	75276	75387	1.4e-16	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+k141_2393898_length_142572_cov_45.0951	barrnap:0.9	rRNA	204	315	3.9e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+k141_5297173_length_20254_cov_27.2292	barrnap:0.9	rRNA	22	133	3.9e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+k141_5310874_length_31311_cov_36.8475	barrnap:0.9	rRNA	22	133	3.9e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA

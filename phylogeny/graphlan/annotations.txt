@@ -39,7 +39,7 @@ ring_label	7	combined
 ring_label_color	7	#696969
 ring_internal_separator_thickness	8	0.5
 ring_separator_color	8	#696969
-ring_label	8	orange carpet
+ring_label	8	orange layer
 ring_label_color	8	#696969
 bin_126	ring_color	1	#7FC97F
 bin_126	ring_width	1	1.0
@@ -1714,7 +1714,7 @@ bin_202	annotation	bin_202
 bin_202	annotation_rotation	90
 bin_202	annotation_background_color	#f3f6f4
 bin_202	annotation_background_edge_color	#f3f6f4
-bin_202	annotation	bin_202|p__Afoulota
+bin_202	annotation	bin_202
 bin_202	annotation_rotation	90
 bin_202	annotation_background_color	grey
 bin_202	annotation_background_edge_color	grey
@@ -8824,9 +8824,9 @@ p__Krumholzibacteriota	clade_marker_size	75
 p__Patescibacteria	annotation	p__Patescibacteria
 p__Patescibacteria	clade_marker_color	#B3CDE3
 p__Patescibacteria	clade_marker_size	75
-p__Afoulota	annotation	p__Afoulota
-p__Afoulota	clade_marker_color	#CCEBC5
-p__Afoulota	clade_marker_size	75
+Cand. non. phyl.	annotation	p__Afoulota
+Cand. non. phyl.	clade_marker_color	#CCEBC5
+Cand. non. phyl.	clade_marker_size	75
 p__Campylobacterota	annotation	p__Campylobacterota
 p__Campylobacterota	clade_marker_color	#DECBE4
 p__Campylobacterota	clade_marker_size	75

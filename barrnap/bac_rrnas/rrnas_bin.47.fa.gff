@@ -1,0 +1,5 @@
+##gff-version 3
+k141_117020_length_63772_cov_47.0813	barrnap:0.9	rRNA	1	999	8.8e-303	+	.	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 30 percent of the 23S ribosomal RNA
+k141_117020_length_63772_cov_47.0813	barrnap:0.9	rRNA	1304	1413	4e-10	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+k141_3133622_length_409882_cov_50.2514	barrnap:0.9	rRNA	405861	407352	0	+	.	Name=16S_rRNA;product=16S ribosomal RNA
+k141_3133622_length_409882_cov_50.2514	barrnap:0.9	rRNA	407980	409882	0	+	.	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 58 percent of the 23S ribosomal RNA

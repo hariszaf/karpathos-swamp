@@ -1,0 +1,4 @@
+##gff-version 3
+k141_1907693_length_733870_cov_320.6286	barrnap:0.9	rRNA	127551	127653	4.9e-12	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+k141_1907693_length_733870_cov_320.6286	barrnap:0.9	rRNA	634398	637286	0	-	.	Name=23S_rRNA;product=23S ribosomal RNA
+k141_1907693_length_733870_cov_320.6286	barrnap:0.9	rRNA	637599	639024	1.4e-211	-	.	Name=16S_rRNA;product=16S ribosomal RNA
