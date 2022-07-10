@@ -1,0 +1,7 @@
+Sample,Type,Date,O2_mg/lt,temp_oC,salinity_psu,TOC_ug/g,Chl-a_ug/g,Phaeopigments_ug/g,CPE_ug/g,Year,Name,Sampling_month
+Elos01,top sediment layer,8/7/2018,9.10,32.10,169.80,59715.10,55.99,20.69,76.68,2018,Elos01,July
+Elos02,bottom sediment layer,8/7/2018,9.10,32.10,169.80,72110.36,92.54,65.00,157.54,2018,Elos02,July
+Elos03,orange aggregate,8/7/2018,9.10,32.10,169.80,,,,,2018,Elos03,July
+Elos07,pink aggregate,13/7/2018,9.10,32.10,169.80,,,,,2018,Elos07,July
+Elos10,sediment (combined layers - black upper layer),12/11/2019,14.74,24.20,63.90,61256.23,73.34,24.14,97.48,2019,Elos10,November
+Elos12,sediment (combined layers - orange upper layer),12/11/2019,9.72,24.30,166.50,45000.00,16.04,56.74,72.78,2019,Elos12,November
