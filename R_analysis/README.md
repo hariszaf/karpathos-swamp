@@ -1,0 +1,1 @@
+This folder contains the R script and the input files to (re)produce the analysis and graphs included in the manuscript Pavloudi, C & Zafeiropoulos, H (2022). Deciphering the community structure and the functional potential of a hypersaline marsh microbial mat community. Submitted to FEMS Microbiology Ecology (Under review). 
