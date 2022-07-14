@@ -807,117 +807,6 @@ p1 <- plot_ordination(physeq_bins, ord.nmds.bray, color="Type", shape = "Samplin
 ggsave("bins_mds.png", width = 8, height = 8, dpi = 600)
 
 ########################################################################################
-############ Comparison 16S rRNA and Shotgun metagenomics ##############################
-########################################################################################
-
-
-#retrieve the OTU table with the 16S rRNA data
-# Extract abundance matrix from the phyloseq object
-OTU_merged_16S = as(otu_table(physeq), "matrix")
-# Coerce to data.frame
-OTU_merged_df_16S = as.data.frame(OTU_merged_16S)
-OTU_merged_df_16S <- tibble::rownames_to_column(OTU_merged_df_16S, "OTU")
-# Extract taxonomy matrix from the phyloseq object
-TAX_merged_16S = as(tax_table(physeq), "matrix")
-# Coerce to data.frame
-TAX_merged_df_16S = as.data.frame(TAX_merged_16S)
-TAX_merged_df_16S <- tibble::rownames_to_column(TAX_merged_df_16S, "OTU")
-#Merge OTU and taxonomy data frames
-OTU_TAX_merged_16S <- merge(OTU_merged_df_16S,TAX_merged_df_16S,by = "OTU")
-#convert the OTU column into the rowname of the data frame
-OTU_TAX_merged_16S <- OTU_TAX_merged_16S %>% remove_rownames %>% column_to_rownames(var="OTU")
-#remove the samples that were not sequenced using shotgun metagenomics
-OTU_TAX_merged_16S <- select(OTU_TAX_merged_16S, -Elos04, -Elos13, -Elos09, -Elos06, -Elos05)
-
-#select the columns that contain numeric data
-OTU_TAX_merged_16S_without_taxonomy <- select_if(OTU_TAX_merged_16S, is.numeric)
-
-#Remove OTUs that have total zero counts
-amplicon_nozeros <- OTU_TAX_merged_16S_without_taxonomy[rowSums(OTU_TAX_merged_16S_without_taxonomy[])>0,]
-
-#retrieve the OTU table with the kraken data
-# Extract abundance matrix from the phyloseq object
-OTU_merged_kraken = as(otu_table(physeq_kraken_clean), "matrix")
-# Coerce to data.frame
-OTU_merged_df_kraken = as.data.frame(OTU_merged_kraken)
-OTU_merged_df_kraken <- tibble::rownames_to_column(OTU_merged_df_kraken, "OTU")
-# Extract taxonomy matrix from the phyloseq object
-TAX_merged_kraken = as(tax_table(physeq_kraken_clean), "matrix")
-# Coerce to data.frame
-TAX_merged_df_kraken = as.data.frame(TAX_merged_kraken)
-TAX_merged_df_kraken <- tibble::rownames_to_column(TAX_merged_df_kraken, "OTU")
-#Merge OTU and taxonomy data frames
-OTU_TAX_merged_kraken <- merge(OTU_merged_df_kraken,TAX_merged_df_kraken,by = "OTU")
-#convert the OTU column into the rowname of the data frame
-OTU_TAX_merged_kraken <- OTU_TAX_merged_kraken %>% remove_rownames %>% column_to_rownames(var="OTU")
-
-#select the columns that contain numeric data
-OTU_TAX_merged_kraken_without_taxonomy <- select_if(OTU_TAX_merged_kraken, is.numeric)
-
-#retrieve the OTU table with the GTDB bin data
-# Extract abundance matrix from the phyloseq object
-OTU_merged_bins = as(otu_table(physeq_bins), "matrix")
-# Coerce to data.frame
-OTU_merged_df_bins = as.data.frame(OTU_merged_bins)
-OTU_merged_df_bins <- tibble::rownames_to_column(OTU_merged_df_bins, "OTU")
-# Extract taxonomy matrix from the phyloseq object
-TAX_merged_bins = as(tax_table(physeq_bins), "matrix")
-# Coerce to data.frame
-TAX_merged_df_bins = as.data.frame(TAX_merged_bins)
-TAX_merged_df_bins <- tibble::rownames_to_column(TAX_merged_df_bins, "OTU")
-#Merge OTU and taxonomy data frames
-OTU_TAX_merged_bins <- merge(OTU_merged_df_bins,TAX_merged_df_bins,by = "OTU")
-#convert the OTU column into the rowname of the data frame
-OTU_TAX_merged_bins <- OTU_TAX_merged_bins %>% remove_rownames %>% column_to_rownames(var="OTU")
-
-#select the columns that contain numeric data
-OTU_TAX_merged_bins_without_taxonomy <- select_if(OTU_TAX_merged_bins, is.numeric)
-
-#retrieve the OTU table with the Diting bin data
-# Extract abundance matrix from the phyloseq object
-OTU_merged_diting = as(otu_table(physeq_diting), "matrix")
-# Coerce to data.frame
-OTU_merged_df_diting = as.data.frame(OTU_merged_diting)
-OTU_merged_df_diting <- tibble::rownames_to_column(OTU_merged_df_diting, "KO")
-#convert the OTU column into the rowname of the data frame
-OTU_merged_df_diting  <- OTU_merged_df_diting  %>% remove_rownames %>% column_to_rownames(var="KO")
-
-#Just a check to ensure that the samples are in the same order in all the matrices
-amplicon_nozeros <- amplicon_nozeros[,colnames(OTU_TAX_merged_kraken_without_taxonomy)]
-OTU_TAX_merged_bins_without_taxonomy <- OTU_TAX_merged_bins_without_taxonomy[,colnames(OTU_TAX_merged_kraken_without_taxonomy)]
-OTU_merged_df_diting <- OTU_merged_df_diting[,colnames(OTU_TAX_merged_kraken_without_taxonomy)]
-
-#transpose the data
-amplicon <- t(amplicon_nozeros)
-write.csv(amplicon, "amplicon.csv")
-kraken <- t(OTU_TAX_merged_kraken_without_taxonomy)
-write.csv(kraken, "kraken.csv")
-bins <- t(OTU_TAX_merged_bins_without_taxonomy)
-write.csv(bins, "bins.csv")
-diting <- t(OTU_merged_df_diting)
-write.csv(diting, "diting.csv")
-
-#creation of distance matrices
-dist1 <- vegdist(amplicon, method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
-dist2 <- vegdist(kraken, method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
-dist3 <- vegdist(bins, method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
-dist4 <- vegdist(diting,method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
-
-#correlation of matrices
-mantel_16S_kraken <- mantel(dist1, dist2, method="spearman", permutations=999)
-
-mantel_16S_bins <- mantel(dist1, dist3, method="spearman", permutations=999)
-
-mantel_16S_diting <- mantel(dist1, dist4, method="spearman", permutations=999)
-
-mantel_kraken_bins <- mantel(dist2, dist3, method="spearman", permutations=999)
-
-mantel_kraken_diting <- mantel(dist2, dist4, method="spearman", permutations=999)
-
-mantel_bins_diting <- mantel(dist3, dist4, method="spearman", permutations=999)
-
-
-########################################################################################
 ############################### Functional annotation ##################################
 ########################################################################################
 
@@ -1307,7 +1196,7 @@ mdsScores <- mds %>% scores %>% as.data.frame # extract scores and then convert 
 mdsScores$pathway <- mdsScores %>% rownames(bcs)
 head(mdsScores)
 
-#To plot the stress value it also needs to be extracted from the mds object
+#To plot the stress value it also needs to be extracted from the mds object
 stress <- paste("Stress:", round(mds$stress, 2))
 
 
@@ -1675,3 +1564,116 @@ barchart_palette <- ggplot(pd_SRM_kraken, aes(x = Sample, y = Abundance, factor(
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5), axis.text=element_text(size=13), axis.title=element_text(size=15,face="bold"),
         legend.title=element_text(size=15), legend.text=element_text(size=13))
 ggsave("phylum_Barchart_kraken_SRM.png", width = 22, height = 16, dpi = 600)
+
+
+########################################################################################
+############ Comparison 16S rRNA and Shotgun metagenomics ##############################
+########################################################################################
+
+
+#retrieve the OTU table with the 16S rRNA data
+# Extract abundance matrix from the phyloseq object
+OTU_merged_16S = as(otu_table(physeq), "matrix")
+# Coerce to data.frame
+OTU_merged_df_16S = as.data.frame(OTU_merged_16S)
+OTU_merged_df_16S <- tibble::rownames_to_column(OTU_merged_df_16S, "OTU")
+# Extract taxonomy matrix from the phyloseq object
+TAX_merged_16S = as(tax_table(physeq), "matrix")
+# Coerce to data.frame
+TAX_merged_df_16S = as.data.frame(TAX_merged_16S)
+TAX_merged_df_16S <- tibble::rownames_to_column(TAX_merged_df_16S, "OTU")
+#Merge OTU and taxonomy data frames
+OTU_TAX_merged_16S <- merge(OTU_merged_df_16S,TAX_merged_df_16S,by = "OTU")
+#convert the OTU column into the rowname of the data frame
+OTU_TAX_merged_16S <- OTU_TAX_merged_16S %>% remove_rownames %>% column_to_rownames(var="OTU")
+#remove the samples that were not sequenced using shotgun metagenomics
+OTU_TAX_merged_16S <- select(OTU_TAX_merged_16S, -Elos04, -Elos13, -Elos09, -Elos06, -Elos05)
+
+#select the columns that contain numeric data
+OTU_TAX_merged_16S_without_taxonomy <- select_if(OTU_TAX_merged_16S, is.numeric)
+
+#Remove OTUs that have total zero counts
+amplicon_nozeros <- OTU_TAX_merged_16S_without_taxonomy[rowSums(OTU_TAX_merged_16S_without_taxonomy[])>0,]
+
+#retrieve the OTU table with the kraken data
+# Extract abundance matrix from the phyloseq object
+OTU_merged_kraken = as(otu_table(physeq_kraken_clean), "matrix")
+# Coerce to data.frame
+OTU_merged_df_kraken = as.data.frame(OTU_merged_kraken)
+OTU_merged_df_kraken <- tibble::rownames_to_column(OTU_merged_df_kraken, "OTU")
+# Extract taxonomy matrix from the phyloseq object
+TAX_merged_kraken = as(tax_table(physeq_kraken_clean), "matrix")
+# Coerce to data.frame
+TAX_merged_df_kraken = as.data.frame(TAX_merged_kraken)
+TAX_merged_df_kraken <- tibble::rownames_to_column(TAX_merged_df_kraken, "OTU")
+#Merge OTU and taxonomy data frames
+OTU_TAX_merged_kraken <- merge(OTU_merged_df_kraken,TAX_merged_df_kraken,by = "OTU")
+#convert the OTU column into the rowname of the data frame
+OTU_TAX_merged_kraken <- OTU_TAX_merged_kraken %>% remove_rownames %>% column_to_rownames(var="OTU")
+
+#select the columns that contain numeric data
+OTU_TAX_merged_kraken_without_taxonomy <- select_if(OTU_TAX_merged_kraken, is.numeric)
+
+#retrieve the OTU table with the GTDB bin data
+# Extract abundance matrix from the phyloseq object
+OTU_merged_bins = as(otu_table(physeq_bins), "matrix")
+# Coerce to data.frame
+OTU_merged_df_bins = as.data.frame(OTU_merged_bins)
+OTU_merged_df_bins <- tibble::rownames_to_column(OTU_merged_df_bins, "OTU")
+# Extract taxonomy matrix from the phyloseq object
+TAX_merged_bins = as(tax_table(physeq_bins), "matrix")
+# Coerce to data.frame
+TAX_merged_df_bins = as.data.frame(TAX_merged_bins)
+TAX_merged_df_bins <- tibble::rownames_to_column(TAX_merged_df_bins, "OTU")
+#Merge OTU and taxonomy data frames
+OTU_TAX_merged_bins <- merge(OTU_merged_df_bins,TAX_merged_df_bins,by = "OTU")
+#convert the OTU column into the rowname of the data frame
+OTU_TAX_merged_bins <- OTU_TAX_merged_bins %>% remove_rownames %>% column_to_rownames(var="OTU")
+
+#select the columns that contain numeric data
+OTU_TAX_merged_bins_without_taxonomy <- select_if(OTU_TAX_merged_bins, is.numeric)
+
+#retrieve the OTU table with the Diting bin data
+# Extract abundance matrix from the phyloseq object
+OTU_merged_diting = as(otu_table(physeq_diting), "matrix")
+# Coerce to data.frame
+OTU_merged_df_diting = as.data.frame(OTU_merged_diting)
+OTU_merged_df_diting <- tibble::rownames_to_column(OTU_merged_df_diting, "KO")
+#convert the OTU column into the rowname of the data frame
+OTU_merged_df_diting  <- OTU_merged_df_diting  %>% remove_rownames %>% column_to_rownames(var="KO")
+
+#Just a check to ensure that the samples are in the same order in all the matrices
+amplicon_nozeros <- amplicon_nozeros[,colnames(OTU_TAX_merged_kraken_without_taxonomy)]
+OTU_TAX_merged_bins_without_taxonomy <- OTU_TAX_merged_bins_without_taxonomy[,colnames(OTU_TAX_merged_kraken_without_taxonomy)]
+OTU_merged_df_diting <- OTU_merged_df_diting[,colnames(OTU_TAX_merged_kraken_without_taxonomy)]
+
+#transpose the data
+amplicon <- t(amplicon_nozeros)
+write.csv(amplicon, "amplicon.csv")
+kraken <- t(OTU_TAX_merged_kraken_without_taxonomy)
+write.csv(kraken, "kraken.csv")
+bins <- t(OTU_TAX_merged_bins_without_taxonomy)
+write.csv(bins, "bins.csv")
+diting <- t(OTU_merged_df_diting)
+write.csv(diting, "diting.csv")
+
+#creation of distance matrices
+dist1 <- vegdist(amplicon, method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
+dist2 <- vegdist(kraken, method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
+dist3 <- vegdist(bins, method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
+dist4 <- vegdist(diting,method="bray", binary=FALSE, diag=FALSE, upper=FALSE)
+
+#correlation of matrices
+
+mantel_16S_kraken <- mantel(dist1 ~ dist2, mrank=TRUE, nperm=999)
+mantel_16S_kraken
+mantel_16S_bins <- mantel(dist1 ~ dist3, mrank=TRUE, nperm=999)
+mantel_16S_bins
+mantel_16S_diting <- mantel(dist1 ~ dist4, mrank=TRUE, nperm=999)
+mantel_16S_diting
+mantel_kraken_bins <- mantel(dist2 ~ dist3, mrank=TRUE, nperm=999)
+mantel_kraken_bins
+mantel_kraken_diting <- mantel(dist2 ~ dist4, mrank=TRUE, nperm=999)
+mantel_kraken_diting
+mantel_bins_diting <- mantel(dist3 ~ dist4, mrank=TRUE, nperm=999)
+mantel_bins_diting
