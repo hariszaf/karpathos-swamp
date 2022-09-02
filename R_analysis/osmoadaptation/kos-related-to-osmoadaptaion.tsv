@@ -1,0 +1,215 @@
+ko:K00228    CPOX, hemF; coproporphyrinogen III oxidase [EC:1.3.3.3]
+ko:K00287    DHFR, folA; dihydrofolate reductase [EC:1.5.1.3]
+ko:K00691    mapA; maltose phosphorylase [EC:2.4.1.8]
+ko:K00697    otsA; trehalose 6-phosphate synthase [EC:2.4.1.15 2.4.1.347]
+ko:K00754    bshA; L-malate glycosyltransferase [EC:2.4.1.-]
+ko:K00836    ectB, dat; diaminobutyrate-2-oxoglutarate transaminase [EC:2.6.1.76]
+ko:K00898    PDK2_3_4; pyruvate dehydrogenase kinase 2/3/4 [EC:2.7.11.2]
+ko:K01087    otsB; trehalose 6-phosphate phosphatase [EC:3.1.3.12]
+ko:K01194    TREH, treA, treF; alpha,alpha-trehalase [EC:3.2.1.28]
+ko:K01444    AGA, aspG; N4-(beta-N-acetylglucosaminyl)-L-asparaginase [EC:3.5.1.26]
+ko:K01536    ENA; P-type Na+/K+ transporter [EC:7.2.2.3 7.2.2.-]
+ko:K01539    ATP1A; sodium/potassium-transporting ATPase subunit alpha [EC:7.2.2.13]
+ko:K01540    ATP1B, CD298; sodium/potassium-transporting ATPase subunit beta
+ko:K01543    ATP4B; H+/K+-exchanging ATPase subunit beta [EC:7.2.2.19]
+ko:K01544    ATP12A; non-gastric H+/K+-exchanging ATPase [EC:7.2.2.19]
+ko:K01545    kdpF; potassium-transporting ATPase KdpF subunit
+ko:K01546    kdpA; potassium-transporting ATPase potassium-binding subunit
+ko:K01547    kdpB; potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]
+ko:K01548    kdpC; potassium-transporting ATPase KdpC subunit
+ko:K01752    E4.3.1.17, sdaA, sdaB, tdcG; L-serine dehydratase [EC:4.3.1.17]
+ko:K01838    pgmB; beta-phosphoglucomutase [EC:5.4.2.6]
+ko:K02000    proV; glycine betaine/proline transport system ATP-binding protein [EC:7.6.2.9]
+ko:K02001    proW; glycine betaine/proline transport system permease protein
+ko:K02030    ABC.PA.S; polar amino acid transport system substrate-binding protein
+ko:K02150    ATPeV1E, ATP6E; V-type H+-transporting ATPase subunit E
+ko:K02168    betT, betS; choline/glycine/proline betaine transport protein
+ko:K02480    K02480; two-component system, NarL family, sensor kinase [EC:2.7.13.3]
+ko:K02482    flgS; two-component system, NtrC family, sensor kinase [EC:2.7.13.3]
+ko:K02484    K02484; two-component system, OmpR family, sensor kinase [EC:2.7.13.3]
+ko:K02486    K02486; two-component system, sensor kinase [EC:2.7.13.3]
+ko:K02755    bglFa; beta-glucoside PTS system EIIA component [EC:2.7.1.-]
+ko:K03062    PSMC1, RPT2; 26S proteasome regulatory subunit T2
+ko:K03297    emrE, qac, mmr, smr; small multidrug resistance pump
+ko:K03455    TC.KEF; monovalent cation:H+ antiporter-2, CPA2 family
+ko:K03498    trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein
+ko:K03549    kup; KUP system potassium uptake protein
+ko:K03692    E2.4.1.213; glucosylglycerol-phosphate synthase [EC:2.4.1.213]
+ko:K03731    E2.4.1.216; trehalose 6-phosphate phosphorylase [EC:2.4.1.216]
+ko:K03789    rimI; [ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]
+ko:K03826    yiaC; putative acetyltransferase [EC:2.3.1.-]
+ko:K03827    yjaB; putative acetyltransferase [EC:2.3.1.-]
+ko:K04008    CD59; CD59 antigen
+ko:K04344    CACNA1A, CAV2.1; voltage-dependent calcium channel P/Q type alpha-1A
+ko:K04498    EP300, CREBBP, KAT3; E1A/CREB-binding protein [EC:2.3.1.48]
+ko:K04659    THBS2S; thrombospondin 2/3/4/5
+ko:K04828    ASIC2, ACCN1, BNAC1; acid-sensing ion channel 2
+ko:K04829    ASIC1, ACCN2, BNAC2; acid-sensing ion channel 1
+ko:K04831    ASIC4, ACCN4, BNAC4; acid-sensing ion channel 4
+ko:K04833    SCN1A, NAV1.1; voltage-gated sodium channel type I alpha
+ko:K04834    SCN2A, NAV1.2; voltage-gated sodium channel type II alpha
+ko:K04836    SCN3A, NAV1.3; voltage-gated sodium channel type III alpha
+ko:K04837    SCN4A, NAV1.4; voltage-gated sodium channel type IV alpha
+ko:K04838    SCN5A, NAV1.5; voltage-gated sodium channel type V alpha
+ko:K04839    SCN7A, SCN6A; voltage-gated sodium channel type VII alpha
+ko:K04840    SCN8A, NAV1.6; voltage-gated sodium channel type VIII alpha
+ko:K04841    SCN9A, NAV1.7; voltage-gated sodium channel type IX alpha
+ko:K04842    SCN10A, NAV1.8; voltage-gated sodium channel type X alpha
+ko:K04843    SCN11A, NAV1.9; voltage-gated sodium channel type XI alpha
+ko:K04845    SCN1B; voltage-gated sodium channel type I beta
+ko:K04846    SCN2B; voltage-gated sodium channel type II beta
+ko:K04848    SCN4B; voltage-gated sodium channel type IV beta
+ko:K04854    CACNA1G, CAV3.1; voltage-dependent calcium channel T type alpha-1G
+ko:K04855    CACNA1H, CAV3.2; voltage-dependent calcium channel T type alpha-1H
+ko:K04856    CACNA1I, CAV3.3; voltage-dependent calcium channel T type alpha-1I
+ko:K04874    KCNA1, KV1.1; potassium voltage-gated channel Shaker-related subfamily A member 1
+ko:K04875    KCNA2, KV1.2; potassium voltage-gated channel Shaker-related subfamily A member 2
+ko:K04877    KCNA4, KV1.4; potassium voltage-gated channel Shaker-related subfamily A member 4
+ko:K04890    KCNC4, KV3.4; potassium voltage-gated channel Shaw-related subfamily C member 4
+ko:K04892    KCND2, KV4.2; potassium voltage-gated channel Shal-related subfamily D member 2
+ko:K04893    KCND3, KV4.3; potassium voltage-gated channel Shal-related subfamily D member 3
+ko:K04897    KCNE3; potassium voltage-gated channel Isk-related subfamily E member 3
+ko:K04898    KCNE4; potassium voltage-gated channel Isk-related subfamily E member 4
+ko:K04899    KCNF1, KV5.1; potassium voltage-gated channel subfamily F member 1
+ko:K04900    KCNG1, KV6.1; potassium voltage-gated channel subfamily G member 1
+ko:K04905    KCNH2, KV11.1; potassium voltage-gated channel Eag-related subfamily H member 2
+ko:K04908    KCNH5, KV10.2; potassium voltage-gated channel Eag-related subfamily H member 5
+ko:K04909    KCNH6, KV11.2; potassium voltage-gated channel Eag-related subfamily H member 6
+ko:K04910    KCNH7, KV11.3; potassium voltage-gated channel Eag-related subfamily H member 7
+ko:K04912    KCNK1, K2P1.1; potassium channel subfamily K member 1
+ko:K04913    KCNK2, K2P2.1; potassium channel subfamily K member 2
+ko:K04914    KCNK3, K2P3.1; potassium channel subfamily K member 3
+ko:K04915    KCNK4, K2P4.1; potassium channel subfamily K member 4
+ko:K04916    KCNK5, K2P5.1; potassium channel subfamily K member 5
+ko:K04917    KCNK6, K2P6.1; potassium channel subfamily K member 6
+ko:K04918    KCNK7, K2P7.1; potassium channel subfamily K member 7
+ko:K04919    KCNK9, K2P9.1; potassium channel subfamily K member 9
+ko:K04920    KCNK10, K2P10.1; potassium channel subfamily K member 10
+ko:K04921    KCNK12, K2P12.1; potassium channel subfamily K member 12
+ko:K04922    KCNK13, K2P13.1; potassium channel subfamily K member 13
+ko:K04923    KCNK15, K2P15.1; potassium channel subfamily K member 15
+ko:K04924    KCNK16, K2P16.1; potassium channel subfamily K member 16
+ko:K04925    KCNK17, K2P17.1; potassium channel subfamily K member 17
+ko:K04926    KCNQ1, KV7.1; potassium voltage-gated channel KQT-like subfamily member 1
+ko:K04928    KCNQ3, KV7.3; potassium voltage-gated channel KQT-like subfamily member 3
+ko:K04929    KCNQ4, KV7.4; potassium voltage-gated channel KQT-like subfamily member 4
+ko:K04930    KCNQ5, KV7.5; potassium voltage-gated channel KQT-like subfamily member 5
+ko:K04934    KCNV1, KV8.1; potassium channel subfamily V member 1
+ko:K04936    KCNMA1, KCA1.1; potassium large conductance calcium-activated channel subfamily M alpha member 1
+ko:K04938    KCNMB2; potassium large conductance calcium-activated channel subfamily M beta member 2
+ko:K04941    KCNMB4; potassium large conductance calcium-activated channel subfamily M beta member 4
+ko:K04945    KCNN4, KCA3.1; potassium intermediate/small conductance calcium-activated channel subfamily N member 4
+ko:K04946    KCNT1, KNA1.1; potassium channel subfamily T member 1
+ko:K04947    KCNT2, KNA1.2; potassium channel subfamily T member 2
+ko:K04954    HCN1; hyperpolarization activated cyclic nucleotide-gated potassium channel 1
+ko:K04955    HCN2; hyperpolarization activated cyclic nucleotide-gated potassium channel 2
+ko:K04956    HCN3; hyperpolarization activated cyclic nucleotide-gated potassium channel 3
+ko:K04957    HCN4; hyperpolarization activated cyclic nucleotide-gated potassium channel 4
+ko:K04980    TRPM5; transient receptor potential cation channel subfamily M member 5
+ko:K04986    PKD2; polycystin 2
+ko:K05003    KCNJ10, KIR4.1; potassium inwardly-rectifying channel subfamily J member 10
+ko:K05004    KCNJ11, KIR6.2; potassium inwardly-rectifying channel subfamily J member 11
+ko:K05008    KCNJ15, KIR4.2; potassium inwardly-rectifying channel subfamily J member 15
+ko:K05019    CLNS1A; chloride channel, nucleotide-sensitive, 1A
+ko:K05032    ABCC8, SUR1; ATP-binding cassette subfamily C (CFTR/MRP) member 8
+ko:K05033    ABCC9, SUR2; ATP-binding cassette subfamily C (CFTR/MRP) member 9
+ko:K05034    SLC6A1, GAT1; solute carrier family 6 (neurotransmitter transporter, GABA) member 1
+ko:K05035    SLC6A2, NET; solute carrier family 6 (neurotransmitter transporter, noradrenalin) member 2
+ko:K05038    SLC6A5_9, GLYT; solute carrier family 6 (neurotransmitter transporter, glycine) member 5/9
+ko:K05040    SLC6A7, PROT; solute carrier family 6 (neurotransmitter transporter, L-proline) member 7
+ko:K05048    SLC6A15S; solute carrier family 6 (neurotransmitter transporter, amino acid/orphan) member 15/16/17/18/20
+ko:K05274    KCNMA3, KCNU1, KCA5.1; potassium large conductance calcium-activated channel subfamily M alpha member 3
+ko:K05323    KCNKN; potassium channel subfamily K, invertebrate
+ko:K05342    treP; alpha,alpha-trehalose phosphorylase [EC:2.4.1.64]
+ko:K05387    GRIP; glutamate receptor, ionotropic, plant
+ko:K05389    KCNKF; potassium channel subfamily K, other eukaryote
+ko:K05847    opuA; osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]
+ko:K05978    stpA; glucosylglycerol 3-phosphatase [EC:3.1.3.69]
+ko:K06062    PCAF, KAT2, GCN5; histone acetyltransferase [EC:2.3.1.48]
+ko:K06720    ectC; L-ectoine synthase [EC:4.2.1.108]
+ko:K06995    K06995; uncharacterized protein
+ko:K07636    phoR; two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]
+ko:K07646    kdpD; two-component system, OmpR family, sensor histidine kinase KdpD [EC:2.7.13.3]
+ko:K07651    resE; two-component system, OmpR family, sensor histidine kinase ResE [EC:2.7.13.3]
+ko:K07676    rcsD; two-component system, NarL family, sensor histidine kinase RcsD [EC:2.7.13.3]
+ko:K07678    barA, gacS, varS; two-component system, NarL family, sensor histidine kinase BarA [EC:2.7.13.3]
+ko:K07700    dpiB, citA; two-component system, CitB family, cit operon sensor histidine kinase CitA [EC:2.7.13.3]
+ko:K08141    MAL; MFS transporter, SP family, general alpha glucoside:H+ symporter
+ko:K08145    SLC2A8, GLUT8; MFS transporter, SP family, solute carrier family 2 (facilitated glucose transporter), member 8
+ko:K08150    SLC2A13, ITR; MFS transporter, SP family, solute carrier family 2 (myo-inositol transporter), member 13
+ko:K08155    SLC18A1_2, VMAT; MFS transporter, DHA1 family, solute carrier family 18 (vesicular amine transporter), member 1/2
+ko:K08173    ydfJ; MFS transporter, MHS family, metabolite:H+ symporter
+ko:K08202    SLC22A4_5, OCTN; MFS transporter, OCT family, solute carrier family 22 (organic cation transporter), member 4/5
+ko:K08479    sasA; two-component system, OmpR family, clock-associated histidine kinase SasA [EC:2.7.13.3]
+ko:K08714    VGSC; voltage-gated sodium channel
+ko:K09181    yfiQ; acetyltransferase
+ko:K09864    AQP1; aquaporin-1
+ko:K09994    phnO; (aminoalkyl)phosphonate N-acetyltransferase [EC:2.3.1.280]
+ko:K10674    ectD; ectoine hydroxylase [EC:1.14.11.55]
+ko:K10716    kch, trkA, mthK, pch; voltage-gated potassium channel
+ko:K10819    E2.7.13.3; histidine kinase [EC:2.7.13.3]
+ko:K10951    SLC12A2, NKCC1; solute carrier family 12 (sodium/potassium/chloride transporter), member 2
+ko:K11231    SLN1; osomolarity two-component system, sensor histidine kinase SLN1 [EC:2.7.13.3]
+ko:K11232    YPD1; osomolarity two-component system, phosphorelay intermediate protein YPD1
+ko:K11268    ESCO, ECO1; N-acetyltransferase [EC:2.3.1.-]
+ko:K11304    TIP60, KAT5, ESA1; histone acetyltransferase HTATIP [EC:2.3.1.48]
+ko:K11308    MYST1, MOF, KAT8; histone acetyltransferase MYST1 [EC:2.3.1.48]
+ko:K11356    cikA; two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]
+ko:K11527    K11527; two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]
+ko:K11737    cycA; D-serine/D-alanine/glycine transporter
+ko:K11742    mdtI; spermidine export protein MdtI
+ko:K11743    mdtJ; spermidine export protein MdtJ
+ko:K11745    kefC; glutathione-regulated potassium-efflux system ancillary protein KefC
+ko:K11747    kefB; glutathione-regulated potassium-efflux system protein KefB
+ko:K12336    NPPC; natriuretic peptide C
+ko:K13040    ttrS; two-component system, LuxR family, sensor histidine kinase TtrS [EC:2.7.13.3]
+ko:K13057    treT; trehalose synthase [EC:2.4.1.245]
+ko:K13359    FXYD4, CHIF; FXYD domain containing ion transport regulator 4
+ko:K13598    ntrY; two-component system, NtrC family, nitrogen regulation sensor histidine kinase NtrY [EC:2.7.13.3]
+ko:K13627    SLC12A7, KCC4; solute carrier family 12 (potassium/chloride transporter), member 7
+ko:K13781    SLC7A8, LAT2; solute carrier family 7 (L-type amino acid transporter), member 8
+ko:K13782    SLC7A10, ASC1; solute carrier family 7 (D/L-type amino acid transporter), member 10
+ko:K14158    SLC5A1, SGLT1; solute carrier family 5 (sodium/glucose cotransporter), member 1
+ko:K14207    SLC38A2, SNAT2; solute carrier family 38 (sodium-coupled neutral amino acid transporter), member 2
+ko:K14209    SLC36A, PAT; solute carrier family 36 (proton-coupled amino acid transporter)
+ko:K14258    TRET1; facilitated trehalose transporter
+ko:K14383    SLC5A3, SMIT; solute carrier family 5 (sodium/myo-inositol cotransporter), member 3
+ko:K14426    SLC12A3, TSC; solute carrier family 12 (sodium/chloride transporter), member 3
+ko:K14427    SLC12A4_6, KCC1_3; solute carrier family 12 (potassium/chloride transporter), member 4/6
+ko:K14428    SLC12A8, CCC9; solute carrier family 12 (potassium/chloride transporters), member 8
+ko:K14429    SLC12A9, CCC6; solute carrier family 12 (potassium/chloride transporters), member 9
+ko:K14490    AHP; histidine-containing phosphotransfer peotein
+ko:K14497    PP2C; protein phosphatase 2C [EC:3.1.3.16]
+ko:K14509    ETR, ERS; ethylene receptor [EC:2.7.13.-]
+ko:K14802    DRS2, ATP8A; phospholipid-transporting ATPase [EC:7.6.2.1]
+ko:K14978    ssrA; two-component system, LuxR family, secretion system sensor histidine kinase SsrA
+ko:K14986    fixL; two-component system, LuxR family, sensor kinase FixL [EC:2.7.13.3]
+ko:K14990    SLC38A1, SNAT1, GLNT; solute carrier family 38 (sodium-coupled neutral amino acid transporter), member 1
+ko:K14991    SLC38A4, SNAT4; solute carrier family 38 (sodium-coupled neutral amino acid transporter), member 4
+ko:K14992    SLC38A5, SNAT5; solute carrier family 38 (sodium-coupled neutral amino acid transporter), member 5
+ko:K15015    SLC32A, VGAT; solute carrier family 32 (vesicular inhibitory amino acid transporter)
+ko:K15109    SLC25A20_29, CACT, CACL, CRC1; solute carrier family 25 (mitochondrial carnitine/acylcarnitine transporter), member 20/29
+ko:K15118    SLC25A38; solute carrier family 25, member 38
+ko:K16055    TPS; trehalose 6-phosphate synthase/phosphatase [EC:2.4.1.15 3.1.3.12]
+ko:K16894    CATSPERG; cation channel sperm-associated protein subunit gamma
+ko:K16896    TPCN1; two pore calcium channel protein 1
+ko:K16897    TPCN3; two pore calcium channel protein 3
+ko:K18854    LYC1; acetyl-CoA:lysine N6-acetyltransferase [EC:2.3.1.306]
+ko:K18940    arlS; two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]
+ko:K19573    ATAT1, MEC17; alpha-tubulin N-acetyltransferase 1 [EC:2.3.1.108]
+ko:K19910    SYT10; synaptotagmin-10
+ko:K20007    KCNK18, K2P18.1; potassium channel subfamily K member 18
+ko:K20436    valL, salC; validamine 7-phosphate valienyltransferase [EC:2.5.1.135]
+ko:K20440    salE; salbostatin 6'-phosphate phosphatase [EC:3.1.3.-]
+ko:K20838    NAT8; N-acetyltransferase 8 [EC:2.3.1.80 2.3.1.-]
+ko:K20971    ladS; two-component system, sensor histidine kinase LadS
+ko:K20973    sagS; two-component system, sensor histidine kinase SagS [EC:2.7.13.3]
+ko:K20974    K20974; two-component system, sensor histidine kinase [EC:2.7.13.3]
+ko:K21302    sapM; phosphatidylinositol-3-phosphatase [EC:3.1.3.64]
+ko:K21355    ggp; 1,2-alpha-glucosylglycerol phosphorylase [EC:2.4.1.332]
+ko:K21862    DSC1, NaCP60E; voltage-gated cation channel
+ko:K21867    AKT, KAT, GORK, SKOR; potassium channel
+ko:K22337    TSL1, TPS3; trehalose 6-phosphate synthase complex regulatory subunit
+ko:K22450    SNAT; aralkylamine N-acetyltransferase [EC:2.3.1.87]
+ko:K22934    E3.2.1.28; alpha,alpha-trehalase [EC:3.2.1.28]
+ko:K23855    KCNIP; Kv channel-interacting protein

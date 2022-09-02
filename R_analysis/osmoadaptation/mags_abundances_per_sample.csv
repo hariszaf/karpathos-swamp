@@ -1,4 +1,4 @@
-MAG, Elos01_top_sed, Elos02_bottom_sed, Elos03_orange_aggreg, Elos07_pink_aggreg, Elos10_combined, Elos12_orange_layer
+MAG, Elos01, Elos02, Elos03, Elos07, Elos10, Elos12, Domain, Phylum, Class, Order, Family, genus, species, 
 bin_126,0.087554,0.697359,0.354542,0.002123,0.067524,0.285715,d__Bacteria,p__Bacteroidota,c__Bacteroidia,o__Cytophagales,f__Cyclobacteriaceae,g__,s__,
 bin_267,0.378993,0.169663,0.002214,1.739169,2.023587,0.046612,d__Bacteria,p__Marinisomatota,c__UBA2242,o__UBA2242,f__,g__,s__,1
 bin_89,0.032201,0.899783,0.007339,2.167024,2.874833,0.01139,d__Bacteria,p__Chloroflexota,c__Anaerolineae,o__Anaerolineales,f__UBA11858,g__B10-G9,s__,1
