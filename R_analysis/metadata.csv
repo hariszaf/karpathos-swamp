@@ -1,14 +1,14 @@
 Sample,Type,Category,Date,O2_mg/lt,temp_oC,salinity_psu,TOC_ug/g,Chl-a_ug/g,Phaeopigments_ug/g,CPE_ug/g,Year,Name,Sampling_month
 Elos01,top sediment layer,mat,8/7/2018,9.1,32.1,169.8,59715.1,55.99,20.69,76.68,2018,Elos01,July
-Elos02,bottom sediment layer,combined,8/7/2018,9.1,32.1,169.8,72110.36,92.54,65,157.54,2018,Elos02,July
+Elos02,bottom sediment layer,sediment,8/7/2018,9.1,32.1,169.8,72110.36,92.54,65,157.54,2018,Elos02,July
 Elos03,orange aggregate,aggregate,8/7/2018,9.1,32.1,169.8,,,,,2018,Elos03,July
 Elos04,top sediment layer,mat,13/7/2018,9.1,32.1,169.8,54933.96,29.64,14.62,44.26,2018,Elos04,July
-Elos05,bottom sediment layer,deep,13/7/2018,9.1,32.1,169.8,67992.39,72.91,9.66,82.57,2018,Elos05,July
+Elos05,bottom sediment layer,sediment,13/7/2018,9.1,32.1,169.8,67992.39,72.91,9.66,82.57,2018,Elos05,July
 Elos06,orange aggregate,aggregate,13/7/2018,9.1,32.1,169.8,,,,,2018,Elos06,July
 Elos07,pink aggregate,aggregate,13/7/2018,9.1,32.1,169.8,,,,,2018,Elos07,July
 Elos08,top sediment layer,mat,9/7/2018,9.1,32.1,169.8,44755.04,35.11,27.02,62.14,2018,Elos08,July
-Elos09,bottom sediment layer,deep,9/7/2018,9.1,32.1,169.8,58128.71,33.34,41.53,74.87,2018,Elos09,July
-Elos10,sediment (combined layers - black upper layer),combined,12/11/2019,14.74,24.2,63.9,61256.23,73.34,24.14,97.48,2019,Elos10,November
-Elos11,sediment (combined layers - black upper layer),combined,12/11/2019,10.7,24.3,63.9,66970.84,7.31,9.01,16.33,2019,Elos11,November
-Elos12,sediment (combined layers - orange upper layer),combined,12/11/2019,9.72,24.3,166.5,45000,16.04,56.74,72.78,2019,Elos12,November
-Elos13,sediment (combined layers - purple upper layer),combined,12/11/2019,13.33,24.7,169.2,55528.85,48.63,30.03,78.66,2019,Elos13,November
+Elos09,bottom sediment layer,sediment,9/7/2018,9.1,32.1,169.8,58128.71,33.34,41.53,74.87,2018,Elos09,July
+Elos10,sediment (combined layers - black upper layer),sediment,12/11/2019,14.74,24.2,63.9,61256.23,73.34,24.14,97.48,2019,Elos10,November
+Elos11,sediment (combined layers - black upper layer),sediment,12/11/2019,10.7,24.3,63.9,66970.84,7.31,9.01,16.33,2019,Elos11,November
+Elos12,sediment (combined layers - orange upper layer),sediment,12/11/2019,9.72,24.3,166.5,45000,16.04,56.74,72.78,2019,Elos12,November
+Elos13,sediment (combined layers - purple upper layer),sediment,12/11/2019,13.33,24.7,169.2,55528.85,48.63,30.03,78.66,2019,Elos13,November
