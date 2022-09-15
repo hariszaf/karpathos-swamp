@@ -415,11 +415,12 @@ ggsave("ballon_pathway.png", width = 24, height = 10, dpi = 600)
 
 
 
-
-
-
-
-
-
-
+datam <- read_delim("m_of_osmo_kos_in_n_mags_sorted.tsv", col_names = FALSE)
+df <- as.data.frame(datam)
+p <- ggplot(data=df, aes(x=X1, y=X3)) +
+          geom_bar(stat="identity", fill="aquamarine3") + 
+          ggtitle("Osmoadaptation") + 
+          labs(y = "number of MAGs having a certain number of \n osmoadaptation - related terms", 
+               x = "number of osmoadaptation -  related KO terms present")
+ggsave("osmoadaptation_kos_per_mag.png", width = 10, height = 10, dpi = 300)
 
