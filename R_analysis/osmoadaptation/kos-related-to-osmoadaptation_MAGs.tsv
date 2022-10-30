@@ -1,0 +1,61 @@
+ko:K00228	CPOX, hemF; coproporphyrinogen III oxidase [EC:1.3.3.3]
+ko:K00287	DHFR, folA; dihydrofolate reductase [EC:1.5.1.3]
+ko:K00691	mapA; maltose phosphorylase [EC:2.4.1.8]
+ko:K00697	otsA; trehalose 6-phosphate synthase [EC:2.4.1.15 2.4.1.347]
+ko:K00754	bshA; L-malate glycosyltransferase [EC:2.4.1.-]
+ko:K00836	ectB, dat; diaminobutyrate-2-oxoglutarate transaminase [EC:2.6.1.76]
+ko:K00898	PDK2_3_4; pyruvate dehydrogenase kinase 2/3/4 [EC:2.7.11.2]
+ko:K01087	otsB; trehalose 6-phosphate phosphatase [EC:3.1.3.12]
+ko:K01194	TREH, treA, treF; alpha,alpha-trehalase [EC:3.2.1.28]
+ko:K01444	AGA, aspG; N4-(beta-N-acetylglucosaminyl)-L-asparaginase [EC:3.5.1.26]
+ko:K01546	kdpA; potassium-transporting ATPase potassium-binding subunit
+ko:K01547	kdpB; potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]
+ko:K01548	kdpC; potassium-transporting ATPase KdpC subunit
+ko:K01752	E4.3.1.17, sdaA, sdaB, tdcG; L-serine dehydratase [EC:4.3.1.17]
+ko:K01838	pgmB; beta-phosphoglucomutase [EC:5.4.2.6]
+ko:K02000	proV; glycine betaine/proline transport system ATP-binding protein [EC:7.6.2.9]
+ko:K02001	proW; glycine betaine/proline transport system permease protein
+ko:K02030	ABC.PA.S; polar amino acid transport system substrate-binding protein
+ko:K02168	betT, betS; choline/glycine/proline betaine transport protein
+ko:K02480	K02480; two-component system, NarL family, sensor kinase [EC:2.7.13.3]
+ko:K02482	flgS; two-component system, NtrC family, sensor kinase [EC:2.7.13.3]
+ko:K02484	K02484; two-component system, OmpR family, sensor kinase [EC:2.7.13.3]
+ko:K03297	emrE, qac, mmr, smr; small multidrug resistance pump
+ko:K03455	TC.KEF; monovalent cation:H+ antiporter-2, CPA2 family
+ko:K03498	trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein
+ko:K03549	kup; KUP system potassium uptake protein
+ko:K03692	E2.4.1.213; glucosylglycerol-phosphate synthase [EC:2.4.1.213]
+ko:K03789	rimI; [ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]
+ko:K03826	yiaC; putative acetyltransferase [EC:2.3.1.-]
+ko:K05342	treP; alpha,alpha-trehalose phosphorylase [EC:2.4.1.64]
+ko:K05847	opuA; osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]
+ko:K05978	stpA; glucosylglycerol 3-phosphatase [EC:3.1.3.69]
+ko:K06720	ectC; L-ectoine synthase [EC:4.2.1.108]
+ko:K06995	K06995; uncharacterized protein
+ko:K07636	phoR; two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]
+ko:K07646	kdpD; two-component system, OmpR family, sensor histidine kinase KdpD [EC:2.7.13.3]
+ko:K07678	barA, gacS, varS; two-component system, NarL family, sensor histidine kinase BarA [EC:2.7.13.3]
+ko:K08150	SLC2A13, ITR; MFS transporter, SP family, solute carrier family 2 (myo-inositol transporter), member 13
+ko:K08479	sasA; two-component system, OmpR family, clock-associated histidine kinase SasA [EC:2.7.13.3]
+ko:K08714	VGSC; voltage-gated sodium channel
+ko:K09181	yfiQ; acetyltransferase
+ko:K09994	phnO; (aminoalkyl)phosphonate N-acetyltransferase [EC:2.3.1.280]
+ko:K10674	ectD; ectoine hydroxylase [EC:1.14.11.55]
+ko:K10716	kch, trkA, mthK, pch; voltage-gated potassium channel
+ko:K10819	E2.7.13.3; histidine kinase [EC:2.7.13.3]
+ko:K11356	cikA; two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]
+ko:K11527	K11527; two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]
+ko:K11745	kefC; glutathione-regulated potassium-efflux system ancillary protein KefC
+ko:K11747	kefB; glutathione-regulated potassium-efflux system protein KefB
+ko:K13040	ttrS; two-component system, LuxR family, sensor histidine kinase TtrS [EC:2.7.13.3]
+ko:K13057	treT; trehalose synthase [EC:2.4.1.245]
+ko:K13598	ntrY; two-component system, NtrC family, nitrogen regulation sensor histidine kinase NtrY [EC:2.7.13.3]
+ko:K14429	SLC12A9, CCC6; solute carrier family 12 (potassium/chloride transporters), member 9
+ko:K14986	fixL; two-component system, LuxR family, sensor kinase FixL [EC:2.7.13.3]
+ko:K16055	TPS; trehalose 6-phosphate synthase/phosphatase [EC:2.4.1.15 3.1.3.12]
+ko:K18940	arlS; two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]
+ko:K20971	ladS; two-component system, sensor histidine kinase LadS
+ko:K20974	K20974; two-component system, sensor histidine kinase [EC:2.7.13.3]
+ko:K21355	ggp; 1,2-alpha-glucosylglycerol phosphorylase [EC:2.4.1.332]
+ko:K22450	SNAT; aralkylamine N-acetyltransferase [EC:2.3.1.87]
+ko:K22934	E3.2.1.28; alpha,alpha-trehalase [EC:3.2.1.28]
