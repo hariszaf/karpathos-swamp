@@ -1,0 +1,60 @@
+k_number	Elos01	Elos02	Elos03	Elos07	Elos10	Elos12	Description	Category
+K02030	327.7863888	459.7814118	268.5136405	398.9449318	451.8759794	249.9347508	ABC.PA.S; polar amino acid transport system substrate-binding protein	alkali metal–cation transporters
+K03455	326.7349229	244.6895796	371.8117983	401.6694375	313.4955795	319.8873521	TC.KEF; monovalent cation:H+ antiporter-2, CPA2 family	alkali metal–cation transporters
+K03498	326.1856146	303.6697219	306.6980266	306.1381739	250.7474157	308.234507	trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein	alkali metal–cation transporters
+K02482	81.84564513	289.4884022	129.4734461	122.4258575	312.5202053	184.2780162	flgS; two-component system, NtrC family, sensor kinase [EC:2.7.13.3]	osmosensors 
+K00287	256.7827198	88.36541789	226.1322911	201.1397816	95.48674067	156.7276236	DHFR, folA; dihydrofolate reductase [EC:1.5.1.3]	other
+K20974	121.7103853	90.49723915	143.7460582	153.452446	119.4988192	68.51650889	K20974; two-component system, sensor histidine kinase [EC:2.7.13.3]	osmosensors 
+K13598	57.74192645	81.08920898	142.3322101	146.2103027	106.8164609	105.8386986	ntrY; two-component system, NtrC family, nitrogen regulation sensor histidine kinase NtrY [EC:2.7.13.3]	osmosensors 
+K07636	69.87352728	171.6952524	66.67844551	101.4879298	100.7744759	105.5952351	phoR; two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]	osmosensors 
+K02001	89.10393837	101.0693353	102.6578413	119.4769699	83.63615305	97.37126691	proW; glycine betaine/proline transport system permease protein	compatible solutes
+K03789	117.1596899	101.1063866	95.1474232	105.2205783	67.36335654	91.85988309	rimI; [ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]	other
+K02000	85.15370917	95.40685657	94.32051665	109.709038	82.41931918	92.36169128	proV; glycine betaine/proline transport system ATP-binding protein [EC:7.6.2.9]	compatible solutes
+K00228	68.66793756	34.96220875	139.9256049	143.9829693	69.56304759	85.60878901	CPOX, hemF; coproporphyrinogen III oxidase [EC:1.3.3.3]	other
+K01752	37.10662144	82.59049495	136.6954007	122.9550929	82.57495817	47.09513121	E4.3.1.17, sdaA, sdaB, tdcG; L-serine dehydratase [EC:4.3.1.17]	other
+K00754	42.84925136	76.27400501	71.13107153	63.96270222	65.37128173	97.41835598	bshA; L-malate glycosyltransferase [EC:2.4.1.-]	other
+K02168	72.00746006	60.32255785	83.04176199	97.2636977	54.3439073	49.71609071	betT, betS; choline/glycine/proline betaine transport protein	compatible solutes
+K01838	33.58392766	117.3715832	50.20388702	46.2563464	95.17805951	59.15145116	pgmB; beta-phosphoglucomutase [EC:5.4.2.6]	other
+K11527	94.80136204	41.79305861	51.56018764	68.81016475	64.9127788	39.22059763	K11527; two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]	osmosensors 
+K09181	46.96986698	52.18957598	64.6770324	85.92368444	46.70714527	62.00900026	yfiQ; acetyltransferase	other
+K01087	43.00679921	58.1254669	65.19252568	67.15333038	43.49794969	70.50669329	otsB; trehalose 6-phosphate phosphatase [EC:3.1.3.12]	compatible solutes
+K00697	35.52793935	49.6463757	61.78761857	48.40278367	42.17036921	60.0224996	otsA; trehalose 6-phosphate synthase [EC:2.4.1.15 2.4.1.347]	compatible solutes
+K10716	31.96606509	31.38744001	76.21241292	65.40132201	48.23392503	38.25808148	kch, trkA, mthK, pch; voltage-gated potassium channel	alkali metal–cation transporters
+K05847	30.9632054	58.08714949	44.57114497	47.07577622	48.74781006	51.80523715	opuA; osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]	alkali metal–cation transporters
+K22934	28.60475981	36.20910845	46.08650227	40.70230657	31.24352688	50.0593738	E3.2.1.28; alpha,alpha-trehalase [EC:3.2.1.28]	other
+K14986	21.81037884	49.18520953	29.34507782	44.54582682	56.61696491	26.84824492	fixL; two-component system, LuxR family, sensor kinase FixL [EC:2.7.13.3]	osmosensors 
+K08714	29.69706907	11.17696667	50.43752966	73.85665855	32.51909497	15.20754843	VGSC; voltage-gated sodium channel	alkali metal–cation transporters
+K20971	19.36799278	8.934560053	84.42513114	71.36251641	20.22635526	4.476058561	ladS; two-component system, sensor histidine kinase LadS	osmosensors 
+K13057	8.444313094	51.6573221	15.37580226	9.484795355	32.52266669	79.33045839	treT; trehalose synthase [EC:2.4.1.245]	compatible solutes
+K02484	9.840344269	40.80424684	12.21291849	12.65330367	17.76701509	59.44770309	K02484; two-component system, OmpR family, sensor kinase [EC:2.7.13.3]	osmosensors 
+K03297	34.91412162	21.25824322	29.44527743	30.00789242	18.39110512	13.06450241	emrE, qac, mmr, smr; small multidrug resistance pump	other
+K06995	16.47391266	43.02537971	4.566958832	15.48655434	38.93806288	21.6827912	K06995; uncharacterized protein	other
+K00836	26.0299123	22.02603449	14.75851592	25.70043589	9.198301612	23.32863095	ectB, dat; diaminobutyrate-2-oxoglutarate transaminase [EC:2.6.1.76]	other
+K01194	18.97661755	7.904236197	35.00414196	23.57181141	13.25839119	20.79985606	TREH, treA, treF; alpha,alpha-trehalase [EC:3.2.1.28]	other
+K02480	4.274865392	26.55475515	18.62600841	11.13607655	29.31326617	22.71644002	K02480; two-component system, NarL family, sensor kinase [EC:2.7.13.3]	osmosensors 
+K16055	2.724521474	16.24440567	23.39609521	13.74546271	28.53230755	11.28983361	TPS; trehalose 6-phosphate synthase/phosphatase [EC:2.4.1.15 3.1.3.12]	compatible solutes
+K06720	21.19391858	10.64882751	15.78276664	23.54613492	10.2954947	13.12886592	ectC; L-ectoine synthase [EC:4.2.1.108]	compatible solutes
+K01444	2.741341417	7.345394838	15.09727931	8.941625718	10.94896356	46.44646955	AGA, aspG; N4-(beta-N-acetylglucosaminyl)-L-asparaginase [EC:3.5.1.26]	other
+K05342	11.65490184	19.71343339	10.32221549	22.21328993	12.52136174	6.814919323	treP; alpha,alpha-trehalose phosphorylase [EC:2.4.1.64]	compatible solutes
+K00691	6.539191159	15.85143564	14.8850689	11.97583507	20.84403083	3.324463736	mapA; maltose phosphorylase [EC:2.4.1.8]	other
+K03549	0.626074824	2.597053873	1.410160564	3.421682962	2.477722788	35.11020036	kup; KUP system potassium uptake protein	alkali metal–cation transporters
+K03692	2.400688966	1.234783507	18.99775376	7.354561406	8.180028811	1.630862136	E2.4.1.213; glucosylglycerol-phosphate synthase [EC:2.4.1.213]	compatible solutes
+K07646	0.209392825	23.49679261	0	0.192642759	3.737812471	9.53872037	kdpD; two-component system, OmpR family, sensor histidine kinase KdpD [EC:2.7.13.3]	osmosensors 
+K13040	3.223051392	7.17068516	1.94199062	8.426875577	9.310280763	5.194796847	ttrS; two-component system, LuxR family, sensor histidine kinase TtrS [EC:2.7.13.3]	osmosensors 
+K22450	5.516996776	4.085732792	10.08358913	2.85105556	8.667093764	3.49649406	SNAT; aralkylamine N-acetyltransferase [EC:2.3.1.87]	other
+K21355	7.591651438	6.415125419	5.582368481	7.130710717	2.890938121	0.731344633	ggp; 1,2-alpha-glucosylglycerol phosphorylase [EC:2.4.1.332]	compatible solutes
+K08150	4.626036094	9.949350404	0.700147963	1.217727364	3.038681274	1.67799256	SLC2A13, ITR; MFS transporter, SP family, solute carrier family 2 (myo-inositol transporter), member 13	compatible solutes
+K10819	2.729393572	6.8728394	0	0.885246303	7.128363393	3.3673562	E2.7.13.3; histidine kinase [EC:2.7.13.3]	osmosensors 
+K03826	0.0704908	5.775741056	0.240686897	0.231777577	4.78411446	5.220053659	yiaC; putative acetyltransferase [EC:2.3.1.-]	other
+K18940	4.739351732	10.0899942	0.649564314	0.160328935	0	0	arlS; two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]	osmosensors 
+K05978	2.01674132	0.861952578	4.933047766	2.197377505	2.337688101	1.530609687	stpA; glucosylglycerol 3-phosphatase [EC:3.1.3.69]	compatible solutes
+K08479	2.290888054	0.954745887	5.20193403	1.143434995	1.992396851	1.596820585	sasA; two-component system, OmpR family, clock-associated histidine kinase SasA [EC:2.7.13.3]	osmosensors 
+K11745	0.21422048	0.4363249	4.805598604	3.272721035	2.89919991	0.377958818	kefC; glutathione-regulated potassium-efflux system ancillary protein KefC	alkali metal–cation transporters
+K01546	0.14328895	3.814453053	0	0	0.518996679	4.383636827	kdpA; potassium-transporting ATPase potassium-binding subunit	alkali metal–cation transporters
+K07678	1.081844718	0	0	1.451888537	2.294499614	2.01746507	barA, gacS, varS; two-component system, NarL family, sensor histidine kinase BarA [EC:2.7.13.3]	osmosensors 
+K10674	0.875129603	1.04427209	1.010758921	2.606722138	0.711160853	0.589470833	ectD; ectoine hydroxylase [EC:1.14.11.55]	compatible solutes
+K01548	0.057874455	2.73567786	0	0	0.425007851	2.95152595	kdpC; potassium-transporting ATPase KdpC subunit	alkali metal–cation transporters
+K11356	0	1.045511337	2.121791199	0.94481251	1.996516035	0	cikA; two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]	osmosensors 
+K11747	0.304592256	0.84484185	0	2.170666219	0	2.302897377	kefB; glutathione-regulated potassium-efflux system protein KefB	alkali metal–cation transporters
+K01547	0	2.165956878	0	0	0.391606452	2.949480038	kdpB; potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]	alkali metal–cation transporters
+K00898	0	0	0	0.194888118	0	0.210968828	PDK2_3_4; pyruvate dehydrogenase kinase 2/3/4 [EC:2.7.11.2]	other
